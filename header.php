@@ -13,7 +13,7 @@
 <html class="no-js">
 <head charset="UTF-8">
   <link rel="shortcut icon" href="https://www.segurodeautobancomer.com/wp-content/uploads/2016/10/favicon.png">
-  <link rel="stylesheet" href="<?php echo bloginfo('template_url'); ?>/css/bootstrap.css">
+  <link rel="stylesheet" href="<?php echo bloginfo('template_url'); ?>/css/bootstrap.min.css">
   <link rel="stylesheet" href="<?php echo bloginfo('template_url'); ?>/css/custom.css">
   <link rel="stylesheet" href="<?php echo bloginfo('template_url'); ?>/css/menu.css">
   <?php wp_head(); ?>
