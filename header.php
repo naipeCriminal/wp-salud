@@ -13,9 +13,10 @@
 <html class="no-js">
 <head charset="UTF-8">
   <link rel="shortcut icon" href="https://www.segurodeautobancomer.com/wp-content/uploads/2016/10/favicon.png">
-  <link rel="stylesheet" href="<?php echo bloginfo('template_url'); ?>/css/bootstrap.min.css">
+  <link rel="stylesheet" href="<?php echo bloginfo('template_url'); ?>/css/bootstrap.css">
   <link rel="stylesheet" href="<?php echo bloginfo('template_url'); ?>/css/custom.css">
   <link rel="stylesheet" href="<?php echo bloginfo('template_url'); ?>/css/menu.css">
+  
   <?php wp_head(); ?>
 <body>
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9M4QL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -56,7 +57,7 @@
       <input type="search" id="q_head" name="q" class="form-control input-search ui-autocomplete-input" autocomplete="off"><span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
     </form>   
     
-    </div>    
+</div>    
   
     
     
@@ -199,43 +200,3 @@
           </ul>
         </li>
 </nav>
-
-
-</body>
-<div style="background: #f2f2f2;width: 100%;padding-top: 20px;padding-bottom: 15px;">
-  <div class="container">
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner" role="listbox" style="margin-bottom: -20px;">
-        <div class="item active">
-          <img src="img/bancomerSalud.jpg">
-        </div>
-
-        <div class="item">
-          <img src="img/bancomerSalud.jpg">
-        </div>
-
-        <div class="item">
-          <img src="img/bancomerSalud.jpg">
-        </div>
-      </div>
-</div>
-<div class="" style="background:url('https://www.segurodeautobancomer.com/wp-content/uploads/2016/10/img_bar_index_.png');background-repeat: no-repeat;background-position: center;margin-top:20px;">
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="col-md-4 col-md-offset-2">
-            <h1 class="titlebottomslider">Seguro salud Bancomer</h1>
-          </div>
-          <div class="col-md-4 col-md-offset-2">
-            <button class="botonIndex">Contactanos</button>
-          </div>
-        </div>
-    </div>
-</div>
