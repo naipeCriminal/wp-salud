@@ -12,6 +12,11 @@ get_header(); ?>
 		<?php
 		// Start the loop.
 		while ( have_posts() ) : the_post();
+
+    // Ruta de la imagen destacada (tamaño completo)
+    global $post;
+    $thumbID = get_post_thumbnail_id( $post->ID );
+    $imgDestacada = wp_get_attachment_url( $thumbID );    
 ?>
 <div class="container" style="background: #f2f2f2; width: 100%; padding-top: 20px; padding-bottom: 15px;">
  <div class="container">
@@ -30,7 +35,7 @@ get_header(); ?>
 
     </div>
     <div class="col-md-8 col-xs-12">
-      <img src="img/474645676.png" class="img-responsive">
+      <img src="<?php echo $imgDestacada; ?>" class="img-responsive">
     </div>
   </div>
  </div>
