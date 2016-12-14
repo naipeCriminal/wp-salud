@@ -800,3 +800,22 @@ button{
 button{
 	border:none;
 }
+/* mision vision*/
+span.tituloMision{
+	padding-left: 10px;
+	font-size: 18px;
+	font-family: arial,sans-serif;
+	color: #094fa4;
+}
+.backmision{
+	background: url('http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/img_mv.png') no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.separadortop{
+	margin-bottom: 25px;
+}
+.mision{
+	margin-bottom: 35px;
+	margin-top: 20px;
+}
