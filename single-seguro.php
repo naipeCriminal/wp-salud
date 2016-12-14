@@ -46,36 +46,47 @@ get_header(); ?>
 
 <div class="container">
   <div class="row">
-  <div class="col-md-12">
-    <h1 class="sumasAseguradas">Sumas Aseguradas</h1>
-  </div>
+<?php if( get_field('descripcion_resumida_de_ayuda') ) { ?>
   <div class="row planesGMM">
     <div class="col-md-10 col-md-offset-1">
-<?php if( get_field('descripcion_resumida_de_ayuda') ): the_field('descripcion_resumida_de_ayuda'); endif; ?>
+      <div class="col-md-12">
+        <h1 class="sumasAseguradas">Sumas Aseguradas</h1>
+      </div> 
+      <?php the_field('descripcion_resumida_de_ayuda'); ?>
 
 
+    </div>
   </div>
-  </div>
+  <?php } ?>
 
+<?php if( get_field('planes_y_coberturas') ){ ?>
   <div class="col-md-12">
     <div class="col-md-12">
       <h1>Planes y Coberturas</h1>
     </div>
     <div class="col-md-12">
-<?php if( get_field('planes_y_coberturas') ): the_field('planes_y_coberturas'); endif; ?>
-
+      <?php the_field('planes_y_coberturas'); ?>
     </div>      
   </div>
+<?php } ?>  
+
+
+<?php if( get_field('requerimientos_y_modalidades_para_contratar') ) { ?>
    <div class="col-md-6">
       <p>Requerimientos y modalidades para contratar</p>
-<?php if( get_field('requerimientos_y_modalidades_para_contratar') ): the_field('requerimientos_y_modalidades_para_contratar'); endif; ?>
-    </div>
+      <?php the_field('requerimientos_y_modalidades_para_contratar'); ?>
+  </div>
+<?php } ?>
+
+<?php if( get_field('contacto_para_cotizaciones') ){ ?>
     <div class="col-md-6">
     	<p>Contacto para cotizaciones:</p>
-<?php if( get_field('contacto_para_cotizaciones') ): the_field('contacto_para_cotizaciones'); endif; ?>
+      <?php the_field('contacto_para_cotizaciones'); ?>
+    </div>
+<?php } ?>
 
-    </div> 
  </div>
 </div>
+<?php endwhile ?>
 
 <?php get_footer(); ?>
