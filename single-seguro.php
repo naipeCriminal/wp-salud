@@ -73,7 +73,7 @@ get_header(); ?>
 
 <?php if( get_field('requerimientos_y_modalidades_para_contratar') ) { ?>
    <div class="col-md-6">
-      <p>Requerimientos y modalidades para contratar</p>
+      <p>Requerimientos y modalidades para contratar:</p>
       <?php the_field('requerimientos_y_modalidades_para_contratar'); ?>
   </div>
 <?php } ?>
