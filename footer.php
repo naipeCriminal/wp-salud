@@ -20,16 +20,17 @@
         <li><a target="_BLANK" href="https://www.segurosbancomer.com.mx/seguros/tleu/segurosban/servicios/cambios/index.jsp">Solicitud de cambios</a></li>
         <li><a target="_BLANK" href="https://www.segurosbancomer.com.mx/seguros/tleu/segurosban/servicios/une/index.jsp">UNE</a></li>
         <li><a target="_BLANK" href="https://www.segurosbancomer.com.mx/seguros/tleu/segurosban/servicios/cancelacion-polizas/index.jsp">Cancelación de Póliza</a></li>
-        <li><a target="_BLANK" href="https://www.segurosbancomer.com.mx/seguros/tleu/segurosban/buro-ef.jsp">Buró de Entidades Financieras</a></li>
+        <li><a target="_BLANK" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/Buró-EF.pdf">Buró de Entidades Financieras</a></li>
+        <li><a target="_BLANK" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/Buro_de_Entidades-SegurosSalud.pdf">Buró de Entidades Financieras SegurosSalud</a></li>
       </ul>
     </div>
     <div class="col-md-4 col-xs-6 infoAyuda">
       <h4>INFORMACIÓN RELEVANTE</h4>
       <ul>
         <li><a target="_BLANK" href="https://www.segurosbancomer.com.mx/seguros/tleu/segurosban/legal.jsp">Legal</a></li>
-        <li><a target="_BLANK" href="https://www.segurosbancomer.com.mx/seguros/tleu/segurosban/privacidad.jsp">Aviso de Privacidad</a></li>
+        <li><a target="_BLANK" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/Aviso-de-Privacidad-Seguro-Salud.pdf">Aviso de Privacidad</a></li>
         <li><a data-toggle="modal" data-target="#condicionesgrales">Condiciones legales</a></li>
-        <li><a target="_BLANK" href="https://www.segurosbancomer.com.mx/seguros/tleu/segurosban/derechos.jsp">Derechos ARCO</a></li>
+        <li><a target="_BLANK" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/Derechos-ARCO.pdf">Derechos ARCO</a></li>
         <li><a target="_BLANK" href="https://www.segurosbancomer.com.mx/seguros/tleu/segurosban/seguridad.jsp">Seguridad</a></li>
         <li><a target="_BLANK" href="#">Términos y condiciones</a></li>
         <li><a target="_BLANK" href="#">Mapa del sitio</a></li>
@@ -41,8 +42,8 @@
       <ul>
         <li><a target="_BLANK" href="https://www.segurosbancomer.com.mx/seguros/tleu/segurosban/informacion-corporativa/index.jsp">Información Financiera</a></li>
         <li><a target="_BLANK" href="http://www.bancomer.com/nuestrom/index.jsp?nivel1=">Acerca del Grupo BBVA Bancomer</a></li>
-        <li><a target="_BLANK" href="http://www.bancomer.com/index.jsp">BBVA.com</a></li>
-        <li><a target="_BLANK" href="http://ec2-52-49-166-51.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/10/CG-ASD-26OCt-.pdf">Condiciones generales</a></li>
+        <li><a target="_BLANK" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/modulos.pdf">Modulos</a></li>
+        <li><a target="_BLANK" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/oficinasRegionales.pdf">Oficinas regionales</a></li>
       </ul>
     </div>   
     </div>
