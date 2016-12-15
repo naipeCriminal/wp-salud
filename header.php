@@ -90,6 +90,11 @@
                 Misión - Visión 
               </a>
             </li>
+            <li class="">
+              <a href="#">
+                Directorio Médico
+              </a>
+            </li>
             <li class="with-sub-menu">
               <a href="#" data-original-title="" title="">
                 <i class="icon-24 white sprite-PrestamoPersonal-24x"></i>
@@ -99,22 +104,16 @@
                 <div class="col-lg-12">
                   <ul>
                     <li>
-                      <a href="#" data-original-title="" title="">Salud Asegurada</a>
-                    </li>
-                    <li>
-                      <a href="#" data-original-title="" title="">Gastos Médicos Mayores Indemnizatorio</a>
-                    </li>
-                    <li>
                       <a href="#" data-original-title="" title="">CirugíaSegura Bancomer</a>
                     </li>
                     <li>
-                      <a href="#">Gastos Médicos Individual Básico</a>
+                      <a href="#" data-original-title="" title="">Gasto médico familiar Bancomer</a>
                     </li>
                     <li>
-                      <a href="#">Salud Dental</a>
+                      <a href="#" data-original-title="" title="">Gastos médicos mayores indemnizatorio</a>
                     </li>
                     <li>
-                      <a href="#">Seguro Individual o Familiar</a>
+                      <a href="#">Salud Asegurada (SMB plan 25, 10, 5)</a>
                     </li>
                   </ul>
                 </div>
@@ -129,19 +128,14 @@
                 <div class="col-lg-12">
                   <ul>
                     <li>
-                      <a href="#" data-original-title="" title="">Gastos Médicos Mayores</a>
+                      <a href="#" data-original-title="" title="">Gastos Médicos Empresarial BancomerSalud</a>
                     </li>
                     <li>
-                      <a href="#" data-original-title="" title="">Salud</a>
+                      <a href="#" data-original-title="" title="">Salud Empresarial</a>
                     </li>                    
                   </ul>
                 </div>
               </div>              
-            </li>
-            <li class="">
-              <a href="#">
-                Acceso Agentes
-              </a>
             </li>
         </ul>
 </div>
