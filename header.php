@@ -171,25 +171,24 @@
       <ul class="nav navbar-nav col-md-11">
         <li class="col-md-1 text-center sp"><a href="#"><img src="https://www.segurodeautobancomer.com/wp-content/uploads/2016/10/icon_home.png"> </a></li>
         <li class="col-md-3 text-center sp"><a href="#">Misión - Visión</a></li>
+        <li class="col-md-3 text-center sp"><a href="#">Directorio Médico</a></li>
         <li class="col-md-3 text-center dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Seguro para personas<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a class="text-center" href="#">Salud asegurada</a>
+            <li><a class="text-center" href="#">CirugíaSegura Bancomer</a>
             </li>
-            <li><a class="text-center" href="#">Gastos Médicos Mayores Indemnizatorio</a>
+            <li><a class="text-center" href="#">Gasto médico familiar Bancomer</a>
             </li>
-            <li><a class="text-center" href="#">CirugíaSegura Bancomer</a></li>
-            <li><a class="text-center" href="#">Gastos Médicos Individual Básico</a></li>
-            <li><a class="text-center" href="#">Salud Dental</a></li>
-            <li><a class="text-center" href="#">Seguro Individual o Familiar</a></li>
+            <li><a class="text-center" href="#">Gastos médicos mayores indemnizatorio</a></li>
+            <li><a class="text-center" href="#">Salud Asegurada (SMB plan 25, 10, 5)</a></li>
           </ul>
         </li>
 
     <!-- <li class="col-md-3 text-center sp"><a href="#">Siniestros</a></li> -->
     <li class="col-md-3 text-center dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Seguro Empresas<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a class="text-center" href="#">Gastos Médicos Mayores</a>
+            <li><a class="text-center" href="#">Gastos Médicos Empresarial BancomerSalud</a>
             </li>
-            <li><a class="text-center" href="#">Salud</a>
+            <li><a class="text-center" href="#">Salud Empresarial</a>
             </li>
           </ul>
         </li>
