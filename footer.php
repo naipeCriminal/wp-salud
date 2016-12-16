@@ -16,27 +16,34 @@
     <div class="col-md-4 col-xs-6 infoAyuda">
       <h4>SERVICIOS</h4>
       <ul>
-        <li><a target="_BLANK" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/Buró-EF.pdf">Buró de Entidades Financieras</a></li>
-        <li><a target="_BLANK" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/Buro_de_Entidades-SegurosSalud.pdf">Buró de Entidades Financieras SegurosSalud</a></li>
+        
         <li><a target="_BLANK" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/Comprobantes-Fiscales.pdf">Comprobantes Fiscales</a></li>
         <li><a target="_BLANK" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/Cancelación-de-Póliza.pdf">Cancelación de Póliza</a></li>
         <li><a target="_BLANK" href="#">Contactos</a></li>
         <li><a target="_BLANK" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/Oficinas-de-Atención-GMM-y-Salud.pdf">Oficinas de Atención (GMM y Salud)</a></li>
         <li><a target="_BLANK" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/Solicitud-de-Alta-GMM-Familiar.pdf">Solicitud de Alta GMM Familiar</a></li>
         <li><a target="_BLANK" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/Solicitud-de-Cambios.pdf">Solicitud de cambios</a></li>
-        <li><a target="_BLANK" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/UNE.pdf">UNE</a></li>
+        <li><a target="_BLANK" href="#">Lista de medicamentos</a></li>
       </ul>
     </div>
     <div class="col-md-4 col-xs-6 infoAyuda">
       <h4>INFORMACIÓN RELEVANTE</h4>
       <ul>
         <li><a target="_BLANK" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/Aviso-de-Privacidad-Seguro-Salud.pdf">Aviso de Privacidad</a></li>
+        <li><a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/seguro/seguro-individual-o-familiar-de-salud-basico-estandarizado-2">Básicos Estandarizados</a></li>
+        <li><a target="_BLANK" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/Buró-EF.pdf">Buró de Entidades Financieras</a></li>
+        <li><a target="_BLANK" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/Buro_de_Entidades-SegurosSalud.pdf">Buró de Entidades Financieras SegurosSalud</a></li>
+        <li><a target="_BLANK" href="#">Condiciones Generales</a></li>
         <li><a target="_BLANK" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/Derechos-ARCO.pdf">Derechos ARCO</a></li>
+        <li><a target="_BLANK" href="#">Glosario de términos</a></li>
+        <li><a target="_BLANK" href="#">Legal</a></li>
+        <li><a target="_BLANK" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/UNE.pdf">UNE</a></li>
       </ul>
     </div>
     <div class="col-md-4 col-xs-6 infoAyuda">
       <h4>INFORMACIÓN CORPORATIVA</h4>
       <ul>
+        <li><a target="_BLANK" href="#">Información Financiera</a></li>
         <li><a target="_BLANK" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/modulos.pdf">Modulos</a></li>
         <li><a target="_BLANK" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/oficinasRegionales.pdf">Oficinas regionales</a></li>
       </ul>
