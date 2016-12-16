@@ -48,7 +48,7 @@ get_header(); ?>
   <div class="row">
 <?php if( get_field('descripcion_resumida_de_ayuda') ) { ?>
   <div class="row planesGMM">
-    <div class="col-md-10 col-md-offset-1">
+    <div class="col-md-12">
       <div class="col-md-12">
         <h1 class="sumasAseguradas">Sumas Aseguradas</h1>
       </div> 
