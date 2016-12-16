@@ -232,8 +232,8 @@ li.icon-contacto{
 	font-family: 'bbva-regular';
 	position: relative;	
 }
-.bnt-slider{
-	background: url('https://www.segurodeautobancomer.com/wp-content/uploads/2016/10/bg_btn_green.png');
+.boton-verde{
+	background: url('http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/bg_btn_green.png');
 	padding: 5px;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -242,7 +242,21 @@ li.icon-contacto{
 	color: #ffffff;	
 	border: none;
 	font-family: 'bbva-regular';
--webkit-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;		
+}
+.boton-azul{
+	background: url('http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/pattern_bg.png');
+	padding: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-shadow: none;
+	font-size: 17px;
+	color: #ffffff;	
+	border: none;
+	font-family: 'bbva-regular';
+	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;		
 }
