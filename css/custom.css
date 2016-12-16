@@ -375,7 +375,6 @@ ul.listcobertura li{
 }
 .infoAyuda{
 	border-left: 1px solid #ccc;
-	height: 200px;
     margin-top: 2px;
 }
 .avisos{
@@ -752,7 +751,7 @@ h1.sumasAseguradas{
 /*Estilos del nuevoindex*/
 .botonIndex{
 	margin-top: 15px;
-	background-image: url('../img/bg_btn_green.png');
+	background-image: url('http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/bg_btn_green.png');
 	color: #FFF;
     padding: 5px 10px 5px 10px;
     border-radius: 5px;
@@ -795,6 +794,9 @@ button{
 .bordeIndex{
 	border-left: 1px solid #ccc;
 	padding: 1px 0px 1px 15px;
+}
+ul li{
+	list-style-image: url('http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/icono_ok.png');
 }
 /*Termina estilos index 2*/
 button{
