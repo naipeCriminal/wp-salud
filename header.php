@@ -80,7 +80,7 @@
 
   <ul id="submenu-Personas" aria-labelledby="Personas" class="sub-menu with-levels active">
             <li class="home">
-              <a href="#">
+              <a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/">
                 <img src="https://www.segurodeautobancomer.com/wp-content/uploads/2016/10/icon_home.png">
                 <span class="text">Inicio</span>
               </a>
@@ -104,16 +104,16 @@
                 <div class="col-lg-12">
                   <ul>
                     <li>
-                      <a href="#" data-original-title="" title="">CirugíaSegura Bancomer</a>
+                      <a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/seguro/cirugiasegura-bancomer/" data-original-title="" title="">CirugíaSegura Bancomer</a>
                     </li>
                     <li>
-                      <a href="#" data-original-title="" title="">Gasto médico familiar Bancomer</a>
+                      <a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/seguro/seguro-individual-o-familiar-de-salud-basico-estandarizado/" data-original-title="" title="">Gasto médico familiar Bancomer</a>
                     </li>
                     <li>
-                      <a href="#" data-original-title="" title="">Gastos médicos mayores indemnizatorio</a>
+                      <a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/seguro/gastos-medicos-mayores-indemnizatorio/" data-original-title="" title="">Gastos médicos mayores indemnizatorio</a>
                     </li>
                     <li>
-                      <a href="#">Salud Asegurada (SMB plan 25, 10, 5)</a>
+                      <a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/seguro/salud-asegurada-smb-plan-5-10-y-25/">Salud Asegurada (SMB plan 25, 10, 5)</a>
                     </li>
                   </ul>
                 </div>
@@ -128,10 +128,10 @@
                 <div class="col-lg-12">
                   <ul>
                     <li>
-                      <a href="#" data-original-title="" title="">Gastos Médicos Empresarial BancomerSalud</a>
+                      <a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/seguro/gasto-medico-empresarial-bancomer/" data-original-title="" title="">Gastos Médicos Empresarial BancomerSalud</a>
                     </li>
                     <li>
-                      <a href="#" data-original-title="" title="">Salud Empresarial</a>
+                      <a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/seguro/salud-empresarial-bancomer/" data-original-title="" title="">Salud Empresarial</a>
                     </li>                    
                   </ul>
                 </div>
@@ -169,26 +169,26 @@
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav col-md-11">
-        <li class="col-md-1 text-center sp"><a href="#"><img src="https://www.segurodeautobancomer.com/wp-content/uploads/2016/10/icon_home.png"> </a></li>
+        <li class="col-md-1 text-center sp"><a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/"><img src="https://www.segurodeautobancomer.com/wp-content/uploads/2016/10/icon_home.png"> </a></li>
         <li class="col-md-3 text-center sp"><a href="#">Misión - Visión</a></li>
         <li class="col-md-3 text-center sp"><a href="#">Directorio Médico</a></li>
         <li class="col-md-3 text-center dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Seguro para personas<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a class="text-center" href="#">CirugíaSegura Bancomer</a>
+            <li><a class="text-center" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/seguro/cirugiasegura-bancomer/">CirugíaSegura Bancomer</a>
             </li>
-            <li><a class="text-center" href="#">Gasto médico familiar Bancomer</a>
+            <li><a class="text-center" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/seguro/seguro-individual-o-familiar-de-salud-basico-estandarizado/">Gasto médico familiar Bancomer</a>
             </li>
-            <li><a class="text-center" href="#">Gastos médicos mayores indemnizatorio</a></li>
-            <li><a class="text-center" href="#">Salud Asegurada (SMB plan 25, 10, 5)</a></li>
+            <li><a class="text-center" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/seguro/gastos-medicos-mayores-indemnizatorio/">Gastos médicos mayores indemnizatorio</a></li>
+            <li><a class="text-center" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/seguro/salud-asegurada-smb-plan-5-10-y-25/">Salud Asegurada (SMB plan 25, 10, 5)</a></li>
           </ul>
         </li>
 
     <!-- <li class="col-md-3 text-center sp"><a href="#">Siniestros</a></li> -->
     <li class="col-md-3 text-center dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Seguro Empresas<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a class="text-center" href="#">Gastos Médicos Empresarial BancomerSalud</a>
+            <li><a class="text-center" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/seguro/gasto-medico-empresarial-bancomer/">Gastos Médicos Empresarial BancomerSalud</a>
             </li>
-            <li><a class="text-center" href="#">Salud Empresarial</a>
+            <li><a class="text-center" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/seguro/salud-empresarial-bancomer/">Salud Empresarial</a>
             </li>
           </ul>
         </li>
