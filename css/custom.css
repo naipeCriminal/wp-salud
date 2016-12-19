@@ -847,4 +847,7 @@ span.tituloMision{
     padding: 5px 0px 5px 0px;
     border-radius: 0px 12px 12px 0px;
 }
+.lineaGlosa{
+	border-top: 2px solid #ccc;
+}
 /*Termina estilos para glosario*/
