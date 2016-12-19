@@ -839,3 +839,12 @@ span.tituloMision{
 .h1izq{
 	text-align: left;
 }
+/*Estilos para glosario*/
+.etiquetaGlosa{
+	background-color: #094fa4;
+    color: #FFF;
+    width: 6%;
+    padding: 5px 0px 5px 0px;
+    border-radius: 0px 12px 12px 0px;
+}
+/*Termina estilos para glosario*/
