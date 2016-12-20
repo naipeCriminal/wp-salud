@@ -856,3 +856,22 @@ span.tituloMision{
     background-size: cover;
 }
 /*Termina estilos para glosario*/
+/*Estilo para categorias preguntas frecuentes index*/
+.fondoFAQs {
+    color: #094fa4;
+    border: 1px solid #094fa4;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    padding: 15px 0px 15px 0px;
+    height: 100px;
+    margin-top: 15px;
+}
+.fondoFAQs:hover{
+	background-color: #094FA4;
+	color: white;
+}
+.h3FAQs {
+    font-size: 18px;
+    font-family: 'bbva-regular';
+}
+/*Termina estilo para categorias preguntas frecuentes index*/
