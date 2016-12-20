@@ -19,7 +19,7 @@
         
         <li><a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/comprobantes-fiscales-2/">Comprobantes Fiscales</a></li>
         <li><a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/cancelacion-de-poliza-2/">Cancelación de Póliza</a></li>
-        <li><a href="#">Contactos</a></li>
+        <li><a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/contacto/">Contactos</a></li>
         <li><a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/oficinas-de-atencion-gmm-y-salud-2/">Oficinas de Atención (GMM y Salud)</a></li>
         <li><a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/solicitud-de-alta-gmm-familiar-2/">Solicitud de Alta GMM Familiar</a></li>
         <li><a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/solicitud-de-cambios-2/">Solicitud de cambios</a></li>
@@ -35,7 +35,7 @@
         <li><a target="_BLANK" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/Buro_de_Entidades-SegurosSalud.pdf">Buró de Entidades Financieras SegurosSalud</a></li>
         <li><a target="_BLANK" href="#">Condiciones Generales</a></li>
         <li><a target="_BLANK" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/Derechos-ARCO.pdf">Derechos ARCO</a></li>
-        <li><a href="#">Glosario de términos</a></li>
+        <li><a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/glosario/">Glosario de términos</a></li>
         <li><a target="_BLANK" href="#">Legal</a></li>
         <li><a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/une-2/">UNE</a></li>
       </ul>
