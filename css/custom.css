@@ -850,4 +850,9 @@ span.tituloMision{
 .lineaGlosa{
 	border-top: 2px solid #ccc;
 }
+.backcontacto{
+	background: url('http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/img_contacto.jpg') no-repeat;
+	padding: 100px 0px 34px 0px;
+    background-size: cover;
+}
 /*Termina estilos para glosario*/
