@@ -11,7 +11,10 @@
 ?>
   <!DOCTYPE html>
 <html class="no-js">
-<head charset="UTF-8">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+</head>
   <link rel="shortcut icon" href="https://www.segurodeautobancomer.com/wp-content/uploads/2016/10/favicon.png">
   <link rel="stylesheet" href="<?php echo bloginfo('template_url'); ?>/css/bootstrap.css">
   <link rel="stylesheet" href="<?php echo bloginfo('template_url'); ?>/css/custom.css">
