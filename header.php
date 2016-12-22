@@ -140,7 +140,7 @@
                 </div>
               </div>              
             </li>
-            <li class="with-sub-menu">
+            <!-- <li class="with-sub-menu">
               <a href="#" data-original-title="" title="">
                 <i class="icon-24 white sprite-PrestamoPersonal-24x"></i>
                 Siniestros
@@ -152,12 +152,12 @@
                       <a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/siniestro-empresa/" data-original-title="" title="">Siniestros Empresa</a>
                     </li>
                     <li>
-                      <a href="#" data-original-title="" title="">Siniestros Persona</a>
+                      <a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/siniestro-persona/" data-original-title="" title="">Siniestros Persona</a>
                     </li>                    
                   </ul>
                 </div>
               </div>              
-            </li>
+            </li> -->
         </ul>
 </div>
 </div>
@@ -213,12 +213,12 @@
             </li>
           </ul>
         </li>
-      <li class="col-md-3 text-center dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Siniestro<span class="caret"></span></a>
+      <!-- <li class="col-md-3 text-center dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Siniestro<span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a class="text-center" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/siniestro-empresa/">Siniestros Empresa</a>
             </li>
-            <li><a class="text-center" href="#">Siniestros Persona</a>
+            <li><a class="text-center" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/siniestro-persona/">Siniestros Persona</a>
             </li>
           </ul>
-        </li>
+        </li> -->
 </nav>
