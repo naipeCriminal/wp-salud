@@ -493,6 +493,11 @@ h3.title-utilizar span{
 		width: 31.33% !important;
 	}
 }
+@media (min-width : 1200px) {
+	li.with-sub-menu:hover .row.siniestro{
+		width: 23% !important;
+	}
+}
 @media (max-width : 1200px) {
 li.with-sub-menu:hover .row.items-1{
 		width: 31% !important;
@@ -877,3 +882,13 @@ span.tituloMision{
     font-family: 'bbva-regular';
 }
 /*Termina estilo para categorias preguntas frecuentes index*/
+/*Etilos para pagina de siniestro*/
+.pSiniestro{
+	height: 130px;
+	border-left: 1px solid #ccc;
+    padding: 0px 10px 0px 10px;
+}
+.sinSalud{
+	margin-top: 50px;
+}
+/*Termina estilo para pagina de siniestro*/
