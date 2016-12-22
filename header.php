@@ -140,6 +140,24 @@
                 </div>
               </div>              
             </li>
+            <li class="with-sub-menu">
+              <a href="#" data-original-title="" title="">
+                <i class="icon-24 white sprite-PrestamoPersonal-24x"></i>
+                Siniestros
+              </a>
+              <div class="row siniestro">
+                <div class="col-lg-12">
+                  <ul>
+                    <li>
+                      <a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/siniestro-empresa/" data-original-title="" title="">Siniestros Empresa</a>
+                    </li>
+                    <li>
+                      <a href="#" data-original-title="" title="">Siniestros Persona</a>
+                    </li>                    
+                  </ul>
+                </div>
+              </div>              
+            </li>
         </ul>
 </div>
 </div>
@@ -192,6 +210,14 @@
             <li><a class="text-center" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/seguro/gasto-medico-empresarial-bancomer/">Gastos Médicos Empresarial BancomerSalud</a>
             </li>
             <li><a class="text-center" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/seguro/salud-empresarial-bancomer/">Salud Empresarial</a>
+            </li>
+          </ul>
+        </li>
+      <li class="col-md-3 text-center dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Siniestro<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a class="text-center" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/siniestro-empresa/">Siniestros Empresa</a>
+            </li>
+            <li><a class="text-center" href="#">Siniestros Persona</a>
             </li>
           </ul>
         </li>
