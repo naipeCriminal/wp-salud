@@ -620,7 +620,6 @@ ul.dropdown-menu{
     float: right;        /* adjust as needed */
     color: grey;         /* adjust as needed */
 	content: "\e260";    /* adjust as needed, taken from bootstrap.css */
-    top: -15px;
     position: relative;	
 }
 .panel-default{
