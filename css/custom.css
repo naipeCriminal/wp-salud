@@ -509,11 +509,7 @@ li.with-sub-menu:hover .row.items-1{
 		width: 30.3% !important;
 	}
 }
-@media (max-width : 768px) {
-li.with-sub-menu:hover .row.items-1{
-		width: 31.33% !important;
-	}
-}
+
 .navbar-header{
 	background-color: #FFF;
 }
@@ -564,7 +560,14 @@ li.with-sub-menu:hover .row.items-1{
 .navbar.navbar-default{
 	margin-bottom: 0px !important;
 }
-
+@media only screen and (max-width : 768px) {
+li.with-sub-menu:hover .row.items-1{
+		width: 31.33% !important;
+	}
+	.navbar-nav>li>a{
+		background:none;	
+	}	
+}
 
 /*Comienza estilo de menu hamburguesa*/
 
@@ -830,6 +833,8 @@ span.tituloMision{
 	font-size: 18px;
 	font-family: arial,sans-serif;
 	color: #094fa4;
+	position: relative;
+	top: -8px;
 }
 .backmision{
 	background: url('http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/img_mv.png') no-repeat;
