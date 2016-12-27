@@ -16,6 +16,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">  
 </head>
   <link rel="shortcut icon" href="https://www.segurodeautobancomer.com/wp-content/uploads/2016/10/favicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
   <link rel="stylesheet" href="<?php echo bloginfo('template_url'); ?>/css/bootstrap.css">
   <link rel="stylesheet" href="<?php echo bloginfo('template_url'); ?>/css/custom.css">
   <link rel="stylesheet" href="<?php echo bloginfo('template_url'); ?>/css/menu.css">
@@ -140,7 +141,7 @@
                 </div>
               </div>              
             </li>
-            <!-- <li class="with-sub-menu">
+            <li class="with-sub-menu">
               <a href="#" data-original-title="" title="">
                 <i class="icon-24 white sprite-PrestamoPersonal-24x"></i>
                 Siniestros
@@ -157,7 +158,7 @@
                   </ul>
                 </div>
               </div>              
-            </li> -->
+            </li>
         </ul>
 </div>
 </div>
@@ -213,12 +214,12 @@
             </li>
           </ul>
         </li>
-      <!-- <li class="col-md-3 text-center dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Siniestro<span class="caret"></span></a>
+      <li class="col-md-3 text-center dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Siniestro<span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a class="text-center" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/siniestro-empresa/">Siniestros Empresa</a>
             </li>
             <li><a class="text-center" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/siniestro-persona/">Siniestros Persona</a>
             </li>
           </ul>
-        </li> -->
+        </li>
 </nav>

@@ -21,10 +21,17 @@ $(document).on( 'ready' , function() {
 		}
 		clickEvent = false;
 	});
-	$('span').on('mouseenter' , function(){
-		$(this).popover('show')
-	})
-	$('span').on('mouseleave' , function(){
-		$(this).popover('hide')
-	})
+$('span').on('mouseenter' , function(){
+	$(this).popover('show')
+})
+$('span').on('mouseleave' , function(){
+	$(this).popover('hide')
+})
+$(".fancybox").fancybox({
+    helpers : {
+        title: {
+            type: 'outside'
+        }
+    }
+});
 });

@@ -897,3 +897,9 @@ span.tituloMision{
 	margin-top: 50px;
 }
 /*Termina estilo para pagina de siniestro*/
+/*Estilo para pagina siniestrosPersona*/
+.gallery{
+    display: inline-block;
+    margin-top: 20px;
+}
+/*Termina estilo para pagina siniestrosPersona*/
