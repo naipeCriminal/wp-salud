@@ -20,6 +20,7 @@ get_header(); ?>
 
 	<section id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
+			<h1>ok</h1>
 
 		<?php if ( have_posts() ) : ?>
 
@@ -34,13 +35,28 @@ get_header(); ?>
 			// Start the Loop.
 			while ( have_posts() ) : the_post();
 
-				/*
-				 * Include the Post-Format-specific template for the content.
-				 * If you want to override this in a child theme, then include a file
-				 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-				 */
-				get_template_part( 'content', get_post_format() );
-
+?>
+<h1>dentro del ciclo</h1>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="heading-<?php the_ID(); ?>">
+      <h4 class="panel-title">
+        <a  class="accordion-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-<?php the_ID(); ?>" aria-expanded="true" aria-controls="collapse-<?php the_ID(); ?>">
+          <li class="liPreFAQS"><?php echo the_title(); ?></li>
+        </a>
+      </h4>
+    </div>
+    <div id="collapse-<?php the_ID(); ?>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-<?php the_ID(); ?>">
+      <div class="panel-body">
+        <?php echo the_content(); ?>
+<div>
+	<p style="text-align: right;">Comparte esta respuesta:
+        <a target="_BLANK" href="https://www.facebook.com/bbvabancomerseguros/"><img style="display:inline; padding:5px;" src="http://ec2-52-49-166-51.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/11/FB.png" alt=""></a>
+        <a target="_BLANK" href="https://www.youtube.com/user/segurosbbvabancomer"><img style="display:inline; padding:5px;" src="http://ec2-52-49-166-51.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/11/GP.png" alt=""></a>
+        <a target="_BLANK" href="https://twitter.com/segurosbancomer"><img style="display:inline; padding:5px;" src="http://ec2-52-49-166-51.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/11/TW.png" alt=""></a></p>
+</div>
+      </div>
+    </div>
+<?php
 			// End the loop.
 			endwhile;
 

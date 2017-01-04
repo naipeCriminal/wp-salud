@@ -83,6 +83,9 @@ if ( have_posts() ) : ?>
     </div></a>
   </div>
 </div>
+<div class="col-md-12">
+  <hr>
+</div>
 
   </div>
 
