@@ -910,3 +910,21 @@ span.tituloMision{
     background-size: cover;
 }
 /*Termina estilos de pagina medicina preventiva*/
+/*Estilos de pagina oficinas de atencion (GMM y salud)*/
+.oficinas span.ofi {
+    border-radius: 5px;
+    border: 1px solid #094FA4;
+    margin-top: 40px;
+    width: auto;
+    padding: 10px 100px;
+}
+.oficinas span.ofi .glyOfi{
+	top: 10px;
+}
+.oficinas h2.h2Ofi{
+	font-size: 18px;
+    color: #094FA4;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+/*Termina estilos de pagina oficinas de atencion (GMM y salud)*/
