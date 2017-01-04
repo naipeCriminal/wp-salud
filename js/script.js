@@ -34,4 +34,17 @@ $(".fancybox").fancybox({
         }
     }
 });
+$('.glyphicon').on('click' , function(){
+	$('.glyphicon').not($(this)).removeClass('glyphicon-circle-arrow-up')
+	$('.glyphicon').not($(this)).addClass('glyphicon-circle-arrow-down')
+
+
+	if ($(this).hasClass('glyphicon-circle-arrow-up')) {
+		$(this).removeClass('glyphicon-circle-arrow-up');
+		$(this).addClass('glyphicon-circle-arrow-down');		
+	}else{
+		$(this).removeClass('glyphicon-circle-arrow-down');
+		$(this).addClass('glyphicon-circle-arrow-up');
+	}
+})
 });

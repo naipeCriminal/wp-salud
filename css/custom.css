@@ -903,3 +903,10 @@ span.tituloMision{
     margin-top: 20px;
 }
 /*Termina estilo para pagina siniestrosPersona*/
+/*Extilos de pagina medicina preventiva*/
+.backPreve{
+	background: url('http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/01/img_preventiva.png') no-repeat;
+	padding: 100px 0px 69px 0px;
+    background-size: cover;
+}
+/*Termina estilos de pagina medicina preventiva*/
