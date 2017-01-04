@@ -1,0 +1,899 @@
+@font-face {
+  font-family: 'bbva-regular';
+  src: url("fonts/bbvaweb-book.eot");
+  src: url("fonts/bbvaweb-book.eot?#iefix") format("embedded-opentype"), url("fonts/bbvaweb-book.woff") format("woff"), url("fonts/bbvaweb-book.ttf") format("truetype"), url("fonts/bbvaweb-book.svg#StagSansBook") format("svg");
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: 'bbva-bold';
+  src: url("fonts/bbvaweb-semibold.eot");
+  src: url("fonts/bbvaweb-semibold.eot?#iefix") format("embedded-opentype"), url("fonts/bbvaweb-semibold.woff") format("woff"), url("fonts/bbvaweb-semibold.ttf") format("truetype"), url("fonts/bbvaweb-semibold.svg#StagSansBook") format("svg");
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: normal;
+}
+.table{
+	width: 99%;
+}
+body{
+	/*margin-bottom: 125px !important;*/
+}
+.container.theme {
+  padding: 0px 15px 20px 15px;
+  /*text-align: center;*/
+}
+.navbar-inverse{
+	background: #ffffff;
+}
+.container.menu{
+	width: 100%;
+	padding: 0px;
+}
+.menuazul{
+	background: rgba(9,79,164,1);
+	background: -moz-linear-gradient(top, rgba(9,79,164,1) 0%, rgba(0,109,193,1) 51%, rgba(9,79,164,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(9,79,164,1)), color-stop(51%, rgba(0,109,193,1)), color-stop(100%, rgba(9,79,164,1)));
+	background: -webkit-linear-gradient(top, rgba(9,79,164,1) 0%, rgba(0,109,193,1) 51%, rgba(9,79,164,1) 100%);
+	background: -o-linear-gradient(top, rgba(9,79,164,1) 0%, rgba(0,109,193,1) 51%, rgba(9,79,164,1) 100%);
+	background: -ms-linear-gradient(top, rgba(9,79,164,1) 0%, rgba(0,109,193,1) 51%, rgba(9,79,164,1) 100%);
+	background: linear-gradient(to bottom, rgba(9,79,164,1) 0%, rgba(0,109,193,1) 51%, rgba(9,79,164,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#094fa4', endColorstr='#094fa4', GradientType=0 );
+}
+ul .nav.navbar-nav.navbar-right.menuright{
+	margin-top: -10px;
+}
+.borde{
+    border-right: 1px solid #ccc !important;
+    padding-right: 10px !important;	
+}
+li.icon-ayuda{
+	list-style-image: url('http://ec2-52-49-166-51.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/09/icon_header_ayuda.png');
+	position: relative;
+    display: list-item;
+    margin-right: 20px;
+}
+li.icon-ofice{
+	list-style-image: url('http://ec2-52-49-166-51.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/09/icon_header_oficinas.png');
+	position: relative;
+    display: list-item;
+    margin-right: 20px;
+}
+li.icon-contacto{
+	list-style-image: url('http://ec2-52-49-166-51.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/09/icon_header_contactanos.png');
+	position: relative;
+    display: list-item;
+    margin-right: 20px;
+    margin-left: -10px;
+}
+
+.navbar-inverse .navbar-nav>li{
+
+	padding-top: 7px;
+}
+.navbar-inverse .navbar-nav>li>a{
+	color: #ffffff;
+	text-shadow:none;
+	font-size: 17px;
+	font-weight: 200;
+	font-family: 'bbva-regular';
+	margin-left: -20px;
+    margin-right: 24px;
+}
+
+.menublanco{
+	background: #ffffff;
+}
+.menuright{
+	padding-right: 25px;
+}
+.navbar-right li a{
+	font-size: 13px;
+	text-shadow:none;
+}
+.colorfontgris{
+	color: #666666 !important;
+}
+.colorfontmagenta{
+	color:#C8175E !important;
+}
+.colorblanco{
+	color:#ffffff;
+}
+.auto-menu{
+	font-size: 35px;
+	/*padding-right: 35px;*/
+	color: #094fa4;
+	font-family: 'bbva-regular';
+}
+.navbar-inverse .navbar-nav>li>a{
+	color: #ffffff;
+	text-shadow:none;
+	font-size: 13px;
+	font-weight: 200;
+	font-family: 'bbva-regular';
+}
+/*menu abre*/
+.row.menu{
+	padding: 8px;
+}
+.row.menu .element.menunav{
+	border-right: 1px solid #fff;
+}
+.row.menu .element a{
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 300;
+
+}
+.navbar-toggle{
+	background: rgba(9,79,164,1);
+	background: -moz-linear-gradient(top, rgba(9,79,164,1) 0%, rgba(0,109,193,1) 51%, rgba(9,79,164,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(9,79,164,1)), color-stop(51%, rgba(0,109,193,1)), color-stop(100%, rgba(9,79,164,1)));
+	background: -webkit-linear-gradient(top, rgba(9,79,164,1) 0%, rgba(0,109,193,1) 51%, rgba(9,79,164,1) 100%);
+	background: -o-linear-gradient(top, rgba(9,79,164,1) 0%, rgba(0,109,193,1) 51%, rgba(9,79,164,1) 100%);
+	background: -ms-linear-gradient(top, rgba(9,79,164,1) 0%, rgba(0,109,193,1) 51%, rgba(9,79,164,1) 100%);
+	background: linear-gradient(to bottom, rgba(9,79,164,1) 0%, rgba(0,109,193,1) 51%, rgba(9,79,164,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#094fa4', endColorstr='#094fa4', GradientType=0 );
+}
+
+/*menu cierra*/
+/*footer-abre*/
+.arealink{
+	padding: 15px;
+}
+.arealinkXs{
+	padding: 70px 0px 0px 0px;
+}
+.infoAyuda ul{
+	padding: 0px;
+}
+
+.fseparador .col-xs-12{
+	margin: 0px;
+}
+.legal{
+	color: #ffffff;
+	font-size: 10px;
+	font-family: 'bbva-regular';	
+}
+/*Comienza estilo ultimo row de footer*/
+.llamanos{
+	background: #094FA4;
+    padding: 20px 0px 20px 0px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    color: #ffffff;
+    margin: 0px;
+}
+
+.llamanos a:link{
+	text-decoration: none;
+	color: #ffffff;
+}
+.llamanos a:visited{
+	text-decoration: none;
+	color: #ffffff;
+}
+.llamanos a:hover{
+	text-decoration: none;
+	color: #ffffff;
+}
+.llamanos a:active{
+	text-decoration: none;
+	color: #ffffff;
+}
+.btnVerdeFooter{
+	border: none;
+	background: url('../images/imgs/bg_btn_green.png');
+	text-align: center;
+    color: white;
+    font-family: 'bbva-regular';
+    padding: 6px 30px 6px 30px;
+    font-size: 15px;
+    border-radius: 4px;
+}
+.btnVerdeFooter:focus{
+	outline: 0;
+}
+.llamanos .pFooter{
+	font-size: 15px;
+	font-family: 'bbva-regular';
+	padding: 4px;
+	color: #ffffff;
+}
+.llamanos .pFooter a{
+	font-size: 15px;
+	font-family: 'bbva-regular';
+	color: #ffffff;
+}
+.llamanos .numFooter{
+	color: #094FA4;
+    font-size: 15px;
+    font-family: 'bbva-regular';
+}
+/*Termina estilo ultimo de footer */
+
+
+/*footer-cierra*/
+.titlebottomslider{
+	font-size: 24px;
+	color: #ffffff;
+	font-family: 'bbva-regular';
+	position: relative;
+	top: -5px;	
+}
+.subtitlebottomslider{
+	font-size: 17px;
+	color: #ffffff;
+	font-family: 'bbva-regular';
+	position: relative;	
+}
+.boton-verde{
+	background: url('http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/bg_btn_green.png');
+	padding: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-shadow: none;
+	font-size: 17px;
+	color: #ffffff;	
+	border: none;
+	font-family: 'bbva-regular';
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;		
+}
+.boton-azul{
+	background: url('http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/pattern_bg.png');
+	padding: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-shadow: none;
+	font-size: 17px;
+	color: #ffffff;	
+	border: none;
+	font-family: 'bbva-regular';
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;		
+}
+.bnt-slider:hover{
+	background: url('https://www.segurodeautobancomer.com/wp-content/uploads/2016/10/bg_btn_green.png');
+}
+.bnt-slider:focus{
+	background: url('https://www.segurodeautobancomer.com/wp-content/uploads/2016/10/bg_btn_green.png');
+}
+.bnt-slider:active{
+	background: url('https://www.segurodeautobancomer.com/wp-content/uploads/2016/10/bg_btn_green.png');
+}
+.btn{
+	font-size: 17px !important;
+-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;		
+}
+.steps .text-center{
+	padding: 15px;
+	font-family: 'bbva-regular';
+}
+.steps .titulo{
+	color: #006ec1;
+	font-size: 17px;
+	font-family: 'bbva-regular';
+	height: 10px;
+}
+.steps p.contenido{
+	color: #363636 !important;
+	font-size: 15px !important;
+	font-family: 'bbva-regular';
+}
+.btn-transparente{
+	border: 1px solid #094FA4;
+	text-shadow: none;
+	background: none;
+	padding: 10px;
+	padding-left: 15px;
+	font-size: 17px;
+	padding-right: 15px;
+	color: #094FA4;	
+	font-family: 'bbva-regular';
+-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;		
+}
+.azulbarra{
+	background: url('https://www.segurodeautobancomer.com/wp-content/uploads/2016/10/img_bar_index-2.png');
+	color:#ffffff;
+	margin: 15px;	
+	-webkit-border-radius: 70px;
+	-moz-border-radius: 70px;
+	border-radius: 70px;
+    background-position: center bottom;
+    font-family: 'bbva-regular';
+}
+.azulbarra2{
+	background: url('https://www.segurodeautobancomer.com/wp-content/uploads/2016/10/img_bar_index-2.png');
+	color:#ffffff;
+	margin: 0px;	
+	-webkit-border-radius:0px;
+	-moz-border-radius:0px;
+	border-radius:0px;
+    background-position: center bottom;
+    font-family: 'bbva-regular';
+}
+.azulbarra h1{
+	font-size: 24px;
+	color: #ffffff;
+	font-weight: 300;
+	font-family: 'bbva-regular';
+}
+.row.cobertura{
+    padding-top: 30px;
+    padding-bottom: 18px;
+}
+.row.cobertura h2{
+	font-family: 'bbva-regular';
+	font-size: 20px;
+	color: #094FA4;
+	font-weight: 300;
+	margin-top: 10px;
+}
+.row.cobertura ul.listcobertura span{
+	font-size: 15px;
+	color: #363636;
+	position: relative;
+	top: -5px;
+	left: -5px;
+	font-family: 'bbva-regular';
+}
+ul.listcobertura{
+    padding-left: 50px;	
+}
+.listrigt{
+	padding-left: 10px;
+}
+ul.listcobertura li{
+    font-size: 25px;
+    color: #094FA4;
+    font-family: 'bbva-regular';
+    margin: 0px;
+    line-height: 13px;
+}
+.separador{
+	padding: 0px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	background: #094FA4;
+	margin: 0px;
+}
+.fseparador{
+	padding: 0px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	margin: 0px;
+	background: #094FA4;	
+}
+.footer ul li{
+	list-style: none;
+	text-align: left;
+	font-size: 15px;
+	color: #666666;
+}
+.redes-sociales ul li{
+  	text-align: left;
+  	margin-top: 13px;
+  	margin-bottom: 10px;
+}
+.infoAyuda{
+	border-left: 1px solid #ccc;
+    margin-top: 2px;
+}
+.avisos{
+	background: #F3F3F3;
+	border-top: 2px solid #e4e4e4;
+	padding: 5px;
+}
+.legal{
+	color: #ffffff;
+	font-size: 13px;
+	font-family: 'bbva-regular';
+}
+.footer h4{
+	font-size: 12px;
+	color: #363636;
+	text-transform: uppercase;
+	font-family: 'bbva-regular';
+}
+.footer li span{
+	font-size: 9px;
+	font-family: 'bbva-regular';
+}
+.footer li a{
+	color: #666666;
+	font-size: 12px;
+	font-family: 'bbva-regular';
+}
+
+/*Comienza estilo ultimo row de footer*/
+
+.btnVerdeFooter{
+	background: url('../images/imgs/bg_btn_green.png');
+	text-align: center;
+    color: white;
+    font-family: 'bbva-regular';
+    padding: 6px 25px 6px 25px;
+    font-size: 15px;
+    border-radius: 4px;
+}
+.llamanos .pFooter{
+	font-size: 15px;
+	font-family: 'bbva-regular';
+	padding: 4px;
+}
+.llamanos .numFooter{
+	color: #ffffff;
+    font-size: 15px;
+    font-family: 'bbva-regular';
+}
+
+
+/*Termina estilo ultimo de footer */
+/*cierra footer*/
+/*abre full*/
+
+.row.infor{
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 7px;	
+}
+/*cierra full*/
+
+/*index*/
+.container.index{
+	margin-top: -10px;
+}
+.row.steps{
+	padding: 25px;
+	padding-bottom: 10px;
+}
+
+.row.steps .cont-rig{
+	border-right: 1px solid #ccc;
+
+}
+.title-utilizar{
+	font-size: 20px;
+	text-align: center;
+	font-size: 'bbva-regular';
+	color:#094FA4;
+	margin-top: 50px;
+}
+h3.title-utilizar span{
+	font-size: 'bbva-regular';
+	color:#094FA4;
+	font-size: 17px;
+}
+/*cierra index*/
+
+
+/*comienza estilo pdf*/
+.pdf span{
+	color: #094fa4;
+	text-decoration: underline;
+	font-size: 17px;
+}
+/*Termina estilo pdf*/
+
+
+@media (min-width : 1200px) {
+	li.with-sub-menu:hover .row.items-1{
+		width: 31.33% !important;
+	}
+}
+@media (min-width : 1200px) {
+	li.with-sub-menu:hover .row.siniestro{
+		width: 23% !important;
+	}
+}
+@media (max-width : 1200px) {
+li.with-sub-menu:hover .row.items-1{
+		width: 31% !important;
+	}
+
+}
+@media (max-width : 992px) {
+li.with-sub-menu:hover .row.items-1{
+		width: 30.3% !important;
+	}
+}
+
+.navbar-header{
+	background-color: #FFF;
+}
+.navbar-default .navbar-nav>li>a{
+	background: url('http://ec2-52-49-166-51.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/10/separador-menu.png')  top right no-repeat transparent;
+	color: #fff !important;
+	text-shadow:none;
+  font-size: 16px;
+	/*margin-left: -30px;*/
+}
+.navbar.navbar-default{
+	background: rgba(9,79,164,1);
+	background: -moz-linear-gradient(top, rgba(9,79,164,1) 0%, rgba(0,109,193,1) 51%, rgba(9,79,164,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(9,79,164,1)), color-stop(51%, rgba(0,109,193,1)), color-stop(100%, rgba(9,79,164,1)));
+	background: -webkit-linear-gradient(top, rgba(9,79,164,1) 0%, rgba(0,109,193,1) 51%, rgba(9,79,164,1) 100%);
+	background: -o-linear-gradient(top, rgba(9,79,164,1) 0%, rgba(0,109,193,1) 51%, rgba(9,79,164,1) 100%);
+	background: -ms-linear-gradient(top, rgba(9,79,164,1) 0%, rgba(0,109,193,1) 51%, rgba(9,79,164,1) 100%);
+	background: linear-gradient(to bottom, rgba(9,79,164,1) 0%, rgba(0,109,193,1) 51%, rgba(9,79,164,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#094fa4', endColorstr='#094fa4', GradientType=0 );
+
+}
+.nav.open>a, .nav.open>a:focus, .nav.open>a:hover,.open a{
+	background-color:none !important;	
+	background-image:none !important;
+}
+.navbar-default .navbar-nav>.open>a{
+	background-color:none !important;	
+	background-image:none !important;
+	background: none !important;
+
+}
+.menuright a{
+	padding-left: 0px;
+}
+.sp{
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+.menuright li>a:hover , .menuright li>a:focus{
+	background: none !important;
+}
+.nav>li>a:hover,.nav>li>a:focus{
+	/*background: none !important;*/
+}
+.menuright li a{
+	padding-left: 0px;
+}
+.navbar.navbar-default{
+	margin-bottom: 0px !important;
+}
+@media only screen and (max-width : 768px) {
+li.with-sub-menu:hover .row.items-1{
+		width: 31.33% !important;
+	}
+	.navbar-nav>li>a{
+		background:none;	
+	}	
+}
+
+/*Comienza estilo de menu hamburguesa*/
+
+ul.dropdown-menu{
+	background: white !important;
+}
+/*Termina estilo de menu hamburguesa*/
+
+/*modal abierto*/
+.modal-header{
+	background: #094fa4;
+	color: #ffffff;
+}
+
+.btn-form-cancel{
+	background: url('http://ec2-52-49-166-51.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/09/pattern_bg.png');
+	color: #ffffff;
+}
+.modal-footer{
+	border-top: none;
+}
+/*modar cierre*/
+
+
+/*estilo abre form llamanos*/
+.forsales .btn{
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 0px;
+}
+/*estilo cierra form llamanos*/
+.btn-form-cancel:hover,.btn-form-cancel:active,.btn-form-cancel:focus{
+	background: url('http://ec2-52-49-166-51.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/09/pattern_bg.png');
+	color: #ffffff;
+}
+.close{
+	color: #ffffff;
+	opacity: 1;
+}
+.close:hover{
+	color: #ffffff;
+	opacity: .6;
+}
+
+
+/*faqs*/
+.panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    content: "\e259";    /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+    color: grey;         /* adjust as needed */
+
+}
+.panel-heading .accordion-toggle:after{
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    float: right;        /* adjust as needed */
+    color: grey;         /* adjust as needed */
+	content: "\e260";    /* adjust as needed, taken from bootstrap.css */
+    position: relative;	
+}
+.panel-default{
+	border:none;
+}
+.panel{
+	border-bottom: solid 1px #ddd;
+}
+.panel-default > .panel-heading{
+	background-color: #fff;
+    text-align: left;
+}
+.panel-body{
+	border:none;
+}
+.panel-group .panel-heading + .panel-collapse > .panel-body{
+	border:none;
+}
+/*Estilo para carousel*/
+/*body { padding-top: 20px; }*/
+#myCarousel .nav a small {
+    display:block;
+}
+#myCarousel .nav {
+	background-color: #005098;
+}
+#myCarousel .nav a {
+    border-radius:0px;
+}
+.aIndex{
+	color: #FFF;
+}
+/*Termina estilo para carousel*/
+h1{
+	color: #094fa4;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;
+}
+h2{
+	color: #094FA4;
+	font-size: 16px;
+	text-decoration: none;
+	text-align: center;
+}
+p{
+	font-size: 15px;
+	color: #000;
+	text-decoration: none;
+}
+span{
+	color: #094fa4;
+	font-size: 16px;
+}
+.paqueteIndex{
+	border-radius: 10px 10px 10px 10px;
+    border: 1px solid #ccc;
+    padding: 20px 10px 20px 10px;
+    margin-top: 30px;
+    height: 200px;
+}
+.paqueteIndex:hover{
+	box-shadow: 0 4px 8px 0 #094FA4, 0 6px 20px 0 #094FA4;
+}
+/*Estilos para hoje seguro gmm*/
+.gmmCabecera{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.gmmCabecera ul li{
+	font-size: 15px;
+	color: #000;
+}
+/*termina estilos para hoje seguro gmm*/
+
+/*Estilo para tabla suguroGMM*/
+h1.sumasAseguradas{
+	margin: 15px;
+}
+.planesGMM{
+	margin-left: 10px;
+    margin-right: 10px;
+}
+.tablaGMM{
+	border-radius: 4px;
+    border-style: hidden;
+    box-shadow: 0 0 0 4px #0f6bda;
+}
+.tablaGMM thead{
+	background-color: #8eb9ec;
+	border: 4px solid #0f6bda;
+}
+.tablaGMM thead th{
+	text-align: center;
+	font-size: 15px;
+	color: #FFF;
+}
+.tablaGMM tbody td{
+	text-align: center;
+	font-size: 14px;
+	color: #000;
+}
+.tablaGMM2{
+	border-radius: 4px;
+    border-style: hidden;
+    box-shadow: 0 0 0 4px #0f6bda;
+}
+.tablaGMM2 thead{
+	background-color: #FFF;
+	border: 4px solid #0f6bda;
+}
+.tablaGMM2 thead th{
+	text-align: center;
+	font-size: 15px;
+	color: #094FA4;
+}
+.tablaGMM2 tbody td{
+	text-align: center;
+	font-size: 14px;
+	color: #000;
+}
+.tablaPlanesCoberturas{
+	background-color: #FFF;
+	border: 2px solid #0f6bda;
+}
+.tablaPlanesCoberturas thead{
+	border: 2px solid #0f6bda;
+}
+.tablaPlanesCoberturas thead th{
+	text-align: center;
+	font-size: 15px;
+	color: #094FA4;
+}
+.tablaPlanesCoberturas tbody td{
+	font-size: 14px;
+	color: #000;
+}
+.tcen{
+	text-align: center;
+}
+/*Termina estilos para tabla seguroGMM*/
+/*Estilos del nuevoindex*/
+.botonIndex{
+	margin-top: 15px;
+	background-image: url('http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/bg_btn_green.png');
+	color: #FFF;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+button{
+	border: none;
+}
+/*Termina estilos del nuevo index*/
+/*Estilos index2*/
+.titulo{
+	height: 30px;
+	font-size: 18px;
+	color: #094FA4;
+	text-align: center;
+}
+.productosIndex{
+	margin-top: 30px;
+}
+.preventivaIndex span{
+	border-radius: 5px;
+	border: 1px solid #094FA4;
+	margin-top: 40px;
+	width: auto;
+	padding: 10px;
+}
+.indexPmedico{
+	margin-top: 80px;
+	text-align: center;
+}
+.imageIndex{
+	margin-top: 100px;
+}
+.h1Index{
+	margin-top: 30px;
+}
+.panel-default > .panel-heading {
+    background-color: #f7f7f7;
+    text-align: left;
+}
+.bordeIndex{
+	border-left: 1px solid #ccc;
+	padding: 1px 0px 1px 15px;
+}
+.sinBordeIndex{
+	padding: 1px 0px 1px 15px;
+}
+ul li{
+	list-style-image: url('http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/icono_ok.png');
+	text-align: left;
+}
+/*Termina estilos index 2*/
+button{
+	border:none;
+}
+/* mision vision*/
+span.tituloMision{
+	padding-left: 10px;
+	font-size: 18px;
+	font-family: arial,sans-serif;
+	color: #094fa4;
+	position: relative;
+	top: -8px;
+}
+.backmision{
+	background: url('http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/img_mv.png') no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.separadortop{
+	margin-bottom: 25px;
+}
+.mision{
+	margin-bottom: 35px;
+	margin-top: 20px;
+}
+.h1izq{
+	text-align: left;
+}
+/*Estilos para glosario*/
+.etiquetaGlosa{
+	background-color: #094fa4;
+    color: #FFF;
+    width: 6%;
+    padding: 5px 0px 5px 0px;
+    border-radius: 0px 12px 12px 0px;
+}
+.lineaGlosa{
+	border-top: 2px solid #ccc;
+}
+.backcontacto{
+	background: url('http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/img_contacto.jpg') no-repeat;
+	padding: 100px 0px 34px 0px;
+    background-size: cover;
+}
+/*Termina estilos para glosario*/
+/*Estilo para categorias preguntas frecuentes index*/
+.fondoFAQs {
+    color: #094fa4;
+    border: 1px solid #094fa4;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    padding: 15px 0px 15px 0px;
+    height: 100px;
+    margin-top: 15px;
+}
+.fondoFAQs:hover{
+	background-color: #094FA4;
+	color: white;
+}
+.h3FAQs {
+    font-size: 18px;
+    font-family: 'bbva-regular';
+}
+/*Termina estilo para categorias preguntas frecuentes index*/
+/*Etilos para pagina de siniestro*/
+.pSiniestro{
+	height: 130px;
+	border-left: 1px solid #ccc;
+    padding: 0px 10px 0px 10px;
+}
+.sinSalud{
+	margin-top: 50px;
+}
+/*Termina estilo para pagina de siniestro*/
