@@ -34,7 +34,7 @@ $(".fancybox").fancybox({
         }
     }
 });
-$('.glyphicon').on('click' , function(){
+$('.mp .glyphicon').on('click' , function(){
 	$('.glyphicon').not($(this)).removeClass('glyphicon-circle-arrow-up')
 	$('.glyphicon').not($(this)).addClass('glyphicon-circle-arrow-down')
 
