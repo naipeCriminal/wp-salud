@@ -259,7 +259,8 @@ li.icon-contacto{
 	font-family: 'bbva-regular';
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
-	border-radius: 4px;		
+	border-radius: 4px;
+	margin-bottom: 20px;		
 }
 .bnt-slider:hover{
 	background: url('https://www.segurodeautobancomer.com/wp-content/uploads/2016/10/bg_btn_green.png');
@@ -932,3 +933,15 @@ span.tituloMision{
     margin-top: 50px;
 }
 /*Termina estilos de pagina oficinas de atencion (GMM y salud)*/
+/*Estilos de pagina comprobantes fiscales*/
+.backComFis{
+	background-color: #f1f4f7;
+	margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.margenCF{
+	margin-bottom: 20px;
+}
+/*Termina estilos de pagina comprobantes fiscales*/
