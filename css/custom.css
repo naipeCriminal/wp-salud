@@ -844,6 +844,11 @@ span.tituloMision{
 }
 .separadortop{
 	margin-bottom: 25px;
+	background: #eaeaea; /* Old browsers */
+	background: -moz-linear-gradient(left, #eaeaea 0%, #7f7f7f 76%, #a5a4a4 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #eaeaea 0%,#7f7f7f 76%,#a5a4a4 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #eaeaea 0%,#7f7f7f 76%,#a5a4a4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#a5a4a4',GradientType=1 ); 	
 }
 .mision{
 	margin-bottom: 35px;
