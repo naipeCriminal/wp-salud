@@ -917,6 +917,9 @@ span.tituloMision{
 	padding: 100px 0px 69px 0px;
     background-size: cover;
 }
+.mp{
+	margin-top: 60px;
+}
 /*Termina estilos de pagina medicina preventiva*/
 /*Estilos de pagina oficinas de atencion (GMM y salud)*/
 .oficinas span.ofi {
