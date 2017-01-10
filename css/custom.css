@@ -976,3 +976,12 @@ span.spanSubraya{
     background-size: cover;
 }
 /*termina background para encabezado de siniestro*/
+/*Comienza estilos de pagina reembolso*/
+.reembolso{
+	margin-top: 35px;
+	margin-bottom: 25px;
+}
+.pNegritas{
+	font-weight:bold;
+}
+/*Termina estilos de pagina reembolso*/
