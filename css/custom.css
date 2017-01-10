@@ -898,11 +898,15 @@ span.tituloMision{
 /*Etilos para pagina de siniestro*/
 .pSiniestro{
 	height: 130px;
-	border-left: 1px solid #ccc;
-    padding: 0px 10px 0px 10px;
 }
 .sinSalud{
-	margin-top: 50px;
+	margin-top: 80px;
+}
+.sinSalud .bordeSin{
+	border-left: 1px solid #CCC;
+}
+.sinSalud span.spanSubraya{
+	border-bottom: 1px solid;
 }
 /*Termina estilo para pagina de siniestro*/
 /*Estilo para pagina siniestrosPersona*/
