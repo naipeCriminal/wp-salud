@@ -969,3 +969,10 @@ span.spanSubraya{
 	list-style-type: none;
 }
 /*Termina estilos de pagina pago directo*/
+/*background para encabezado de siniestro*/
+.backSiniEmpresa{
+    background: url('http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/01/img04.png') no-repeat;
+	padding: 100px 0px 63px 0px;
+    background-size: cover;
+}
+/*termina background para encabezado de siniestro*/
