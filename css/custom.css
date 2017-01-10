@@ -170,7 +170,9 @@ li.icon-contacto{
     color: #ffffff;
     margin: 0px;
 }
-
+a{
+	cursor: pointer;
+}
 .llamanos a:link{
 	text-decoration: none;
 	color: #ffffff;
@@ -668,12 +670,14 @@ h1{
 	font-size: 18px;
 	text-decoration: none;
 	text-align: center;
+	margin-bottom: 30px;
 }
 h2{
 	color: #094FA4;
 	font-size: 16px;
 	text-decoration: none;
 	text-align: center;
+	margin-bottom: 30px;
 }
 p{
 	font-size: 15px;
@@ -900,12 +904,12 @@ span.tituloMision{
 	height: 130px;
 }
 .sinSalud{
-	margin-top: 80px;
+	margin-top: 50px;
 }
 .sinSalud .bordeSin{
 	border-left: 1px solid #CCC;
 }
-.sinSalud span.spanSubraya{
+span.spanSubraya{
 	border-bottom: 1px solid;
 }
 /*Termina estilo para pagina de siniestro*/
@@ -952,3 +956,16 @@ span.tituloMision{
 	margin-bottom: 20px;
 }
 /*Termina estilos de pagina comprobantes fiscales*/
+/*Estilos de pagina pago directo*/
+.pagoDirecto{
+	margin-top: 25px;
+	margin-bottom: 35px;
+}
+.pagoDirecto ul li{
+	list-style-image: none;
+	list-style-type: disc;
+}
+.pagoDirecto ul li ul li{
+	list-style-type: none;
+}
+/*Termina estilos de pagina pago directo*/
