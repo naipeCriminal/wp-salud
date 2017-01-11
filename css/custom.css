@@ -994,3 +994,11 @@ span.spanSubraya{
 	padding: 20px;
 }
 /*Terminas estilos para pagina siniestros persona*/
+/*Estilos de pagina solicitud de Alta GMM*/
+.backSolicitudAlta{
+	background: url('http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/01/img05.png') no-repeat;
+	padding: 409px 0px 0px 0px;
+	background-size: cover;
+	margin-bottom: -15px;
+}
+/*Termina estilos de pagina solicitud de Alta GMM*/
