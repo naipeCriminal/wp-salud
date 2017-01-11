@@ -985,3 +985,12 @@ span.spanSubraya{
 	font-weight:bold;
 }
 /*Termina estilos de pagina reembolso*/
+/*Estilos para pagina siniestros persona*/
+.topSinPer{
+	margin-top: 45px;
+}
+.pSinPer{
+	margin-top: 15px;
+	padding: 20px;
+}
+/*Terminas estilos para pagina siniestros persona*/
