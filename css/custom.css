@@ -1004,3 +1004,25 @@ span.spanSubraya{
 	margin-bottom: -15px;
 }
 /*Termina estilos de pagina solicitud de Alta GMM*/
+/*ajustes con jenny*/
+.tituloPaginas{
+	font-size: 20px;
+	color: #094fa4;
+}
+
+.subtituliPaginas{
+	font-size: 17px;
+	color:#006ec1;
+}
+.sinBordeIndex h3,.bordeIndex h3{
+	font-size: 17px;
+	color:#006ec1;	
+}
+p{
+	color: #363636;
+}
+.sinBordeIndex a,.bordeIndex a{
+	color: #094fa4;
+	font-size: 15px;
+
+}
