@@ -105,8 +105,7 @@ li.icon-contacto{
 	color:#ffffff;
 }
 .auto-menu{
-	font-size: 35px;
-	/*padding-right: 35px;*/
+	font-size: 24px;
 	color: #094fa4;
 	font-family: 'bbva-regular';
 }
@@ -688,7 +687,7 @@ p{
 }
 span{
 	color: #094fa4;
-	font-size: 16px;
+	font-size: 17px;
 }
 .paqueteIndex{
 	border-radius: 10px 10px 10px 10px;
@@ -884,8 +883,8 @@ span.tituloMision{
 /*Termina estilos para glosario*/
 /*Estilo para categorias preguntas frecuentes index*/
 .fondoFAQs {
-    color: #094fa4;
-    border: 1px solid #094fa4;
+    color: #006ec1;
+    border: 1px solid #bfbfbf;
     -moz-border-radius: 5px 5px 5px 5px;
     -webkit-border-radius: 5px 5px 5px 5px;
     padding: 15px 0px 15px 0px;
@@ -897,7 +896,7 @@ span.tituloMision{
 	color: white;
 }
 .h3FAQs {
-    font-size: 18px;
+    font-size: 17px;
     font-family: 'bbva-regular';
 }
 /*Termina estilo para categorias preguntas frecuentes index*/
@@ -1024,5 +1023,21 @@ p{
 .sinBordeIndex a,.bordeIndex a{
 	color: #094fa4;
 	font-size: 15px;
+}
+.entry-content{
+	padding-bottom: 40px;	
+}
+.titlee{
+    padding: 20px;
+}
+.titlee .tituloPaginas{
+	padding:0px;
+	margin: 0px; 
+
+}
+.titlee .subtituliPaginas{
+	padding:0px;
+	margin: 13px; 
+
 
 }
