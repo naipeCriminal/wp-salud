@@ -1,15 +1,15 @@
 @font-face {
   font-family: 'bbva-regular';
-  src: url("../fonts/bbvaweb-book.eot");
-  src: url("../fonts/bbvaweb-book.eot?#iefix") format("embedded-opentype"), url("../fonts/bbvaweb-book.woff") format("woff"), url("../fonts/bbvaweb-book.ttf") format("truetype"), url("../fonts/bbvaweb-book.svg#StagSansBook") format("svg");
+  src: url("fonts/bbvaweb-book.eot");
+  src: url("fonts/bbvaweb-book.eot?#iefix") format("embedded-opentype"), url("fonts/bbvaweb-book.woff") format("woff"), url("fonts/bbvaweb-book.ttf") format("truetype"), url("fonts/bbvaweb-book.svg#StagSansBook") format("svg");
   font-style: normal;
   font-weight: 500;
   font-stretch: normal;
 }
 @font-face {
   font-family: 'bbva-bold';
-  src: url("../fonts/bbvaweb-semibold.eot");
-  src: url("../fonts/bbvaweb-semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/bbvaweb-semibold.woff") format("woff"), url("../fonts/bbvaweb-semibold.ttf") format("truetype"), url("../fonts/bbvaweb-semibold.svg#StagSansBook") format("svg");
+  src: url("fonts/bbvaweb-semibold.eot");
+  src: url("fonts/bbvaweb-semibold.eot?#iefix") format("embedded-opentype"), url("fonts/bbvaweb-semibold.woff") format("woff"), url("fonts/bbvaweb-semibold.ttf") format("truetype"), url("fonts/bbvaweb-semibold.svg#StagSansBook") format("svg");
   font-style: normal;
   font-weight: 500;
   font-stretch: normal;
@@ -18,7 +18,7 @@
 	width: 99%;
 }
 body{
-	margin-bottom: 125px !important;
+	/*margin-bottom: 125px !important;*/
 }
 .container.theme {
   padding: 0px 15px 20px 15px;
@@ -103,7 +103,6 @@ li.icon-contacto{
 }
 .auto-menu{
 	font-size: 24px;
-	/*padding-right: 35px;*/
 	color: #094fa4;
 	font-family: 'bbva-regular';
 }
@@ -169,7 +168,9 @@ li.icon-contacto{
     color: #ffffff;
     margin: 0px;
 }
-
+a{
+	cursor: pointer;
+}
 .llamanos a:link{
 	text-decoration: none;
 	color: #ffffff;
@@ -232,8 +233,8 @@ li.icon-contacto{
 	font-family: 'bbva-regular';
 	position: relative;	
 }
-.bnt-slider{
-	background: url('http://ec2-52-49-166-51.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/10/bg_btn_green.png');
+.boton-verde{
+	background: url('http://d3ghvh1f861wyu.cloudfront.net/wp-content/uploads/2016/12/bg_btn_green.png');
 	padding: 5px;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -242,18 +243,33 @@ li.icon-contacto{
 	color: #ffffff;	
 	border: none;
 	font-family: 'bbva-regular';
--webkit-border-radius: 4px;
+	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;		
 }
+.boton-azul{
+	background: url('http://d3ghvh1f861wyu.cloudfront.net/wp-content/uploads/2016/12/pattern_bg.png');
+	padding: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-shadow: none;
+	font-size: 17px;
+	color: #ffffff;	
+	border: none;
+	font-family: 'bbva-regular';
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	margin-bottom: 20px;		
+}
 .bnt-slider:hover{
-	background: url('http://ec2-52-49-166-51.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/10/bg_btn_green.png');
+	background: url('https://www.segurodeautobancomer.com/wp-content/uploads/2016/10/bg_btn_green.png');
 }
 .bnt-slider:focus{
-	background: url('http://ec2-52-49-166-51.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/10/bg_btn_green.png');
+	background: url('https://www.segurodeautobancomer.com/wp-content/uploads/2016/10/bg_btn_green.png');
 }
 .bnt-slider:active{
-	background: url('http://ec2-52-49-166-51.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/10/bg_btn_green.png');
+	background: url('https://www.segurodeautobancomer.com/wp-content/uploads/2016/10/bg_btn_green.png');
 }
 .btn{
 	font-size: 17px !important;
@@ -291,7 +307,7 @@ li.icon-contacto{
 	border-radius: 4px;		
 }
 .azulbarra{
-	background: url('http://ec2-52-49-166-51.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/10/img_bar_index-2.png');
+	background: url('https://www.segurodeautobancomer.com/wp-content/uploads/2016/10/img_bar_index-2.png');
 	color:#ffffff;
 	margin: 15px;	
 	-webkit-border-radius: 70px;
@@ -301,7 +317,7 @@ li.icon-contacto{
     font-family: 'bbva-regular';
 }
 .azulbarra2{
-	background: url('http://ec2-52-49-166-51.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/10/img_bar_index-2.png');
+	background: url('https://www.segurodeautobancomer.com/wp-content/uploads/2016/10/img_bar_index-2.png');
 	color:#ffffff;
 	margin: 0px;	
 	-webkit-border-radius:0px;
@@ -375,7 +391,6 @@ ul.listcobertura li{
 }
 .infoAyuda{
 	border-left: 1px solid #ccc;
-	/*height: 230px;*/
     margin-top: 2px;
 }
 .avisos{
@@ -465,917 +480,6 @@ h3.title-utilizar span{
 }
 /*cierra index*/
 
-/* comienza estilo de siniestro*/
-
-.clase-siniestro h1{
-	color: #094fa4;
-	font-family: 'bbva-regular';
-	text-align: center;
-	font-size: 20px;
-	margin-top: 30px;
-}
-.clase-siniestro h2{
-	color: #006ec1;
-	text-align: center;
-	font-family: 'bbva-regular';
-	font-size: 17px;
-	margin: 12px;
-}
-.clase-siniestro p{
-	text-align: center;
-	color: #363636;
-	font-size: 15px;
-	padding: 15px;
-	font-weight: normal;
-	font-family: 'bbva-regular';
-	height: 120px;
-	
-}
-.clase-siniestro p.contenid{
-	height: 105px;
-}
-.clase-siniestro p button{
-	background: url('../images/imgs/pattern_bg.png');
-	text-align: center;
-	font-weight: normal;
-	font-size: 17px;
-	color: white;
-	padding: 10px;
-	padding-left: 30px;
-	padding-right: 30px;
-	border:none;
-	font-family: 'bbva-regular';
--webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;		
-}
-.clase-siniestro p button:focus{
-	outline: 0;
-}
-
-
-#tipos-siniestros{
-	border-right: 1px solid #CCCCCC;
-	margin-top: 2px;
-}
-.infor div p{
-	font-family: 'bbva-regular';
-    font-size: 13px !important;
-    text-align: center;
-}
-/*Termina estilos de siniestros*/
-
-
-/*tipo de siniestros*/
-.page-tipo-siniestros .tipo-siniestro{
-padding: 15px;
-}
-
-.page-tipo-siniestros h1{
-	font-family: 'bbva-regular';	
-	color: #094fa4;
-	font-size: 20px;
-	padding: 15px;
-	margin-bottom: -20px;
-}
-.page-tipo-siniestros .tipo-siniestro p.title{
-	color: #006EC1;
-	font-size: 17px;
-	margin-top: 10px;
-	font-family: 'bbva-regular';
-}
-}
-.page-tipo-siniestros .tipo-siniestro .img{
-padding-top: 35px;
-}
-.page-tipo-siniestros .tipo-siniestro p{
-	color: #363636;
-	font-size: 15px;
-	font-family: 'bbva-regular';
-}
-.page-tipo-siniestros .tipo-siniestro p span{
-	color: #006ec1;
-	font-size: 15px;
-	font-family: 'bbva-regular';
-}
-.page-tipo-siniestros .tipo-siniestro .descripcion{
-    padding: 10px;
-    border-left: 1px solid #ccc;	
-    padding-left: 35px;
-    text-align: left;
-    font-family: 'bbva-regular';
-}
-.page-tipo-siniestros .informacion span{
-	font-size: 15px;
-	color: #363636;
-	font-family: 'bbva-regular';
-}
-.page-tipo-siniestros .informacion span{
-	font-size: 15px;
-	color: #006ec1;
-	font-family: 'bbva-regular';
-}
-.page-tipo-siniestros .ico-siniestro{
-	padding-top: 20px;
-}
-/* cierra tipo de siniestro*/
-
-
-
-
-
-/*que hacer siniestros*/
-.page-hacer-siniestro .hacer-siniestro{
-	font-family: 'bbva-regular';
-	padding: 15px;
-}
-
-.page-hacer-siniestro h1{
-	color: #094fa4;
-	font-size: 20px;
-	padding: 15px;
-	font-family: 'bbva-regular';
-}
-.page-hacer-siniestro .hacer-siniestro p.title{
-	color: #006EC1;
-	font-size: 17px;
-	margin-top: 10px;
-	font-family: 'bbva-regular';
-}
-.page-hacer-siniestro .hacer-siniestro .img{
-padding-top: 35px;
-font-family: 'bbva-regular';
-}
-.page-hacer-siniestro .hacer-siniestro p{
-	color: #363636;
-	font-size: 15px;
-	font-family: 'bbva-regular';
-}
-.page-hacer-siniestro .hacer-siniestro p span{
-	color: #006ec1;
-	font-size: 15px;
-	font-family: 'bbva-regular';
-}
-.page-hacer-siniestro .hacer-siniestro .descripcion{
-    padding: 10px;
-    border-left: 1px solid #ccc;	
-    padding-left: 35px;
-    font-family: 'bbva-regular';
-}
-.page-hacer-siniestro .informacion span{
-	font-size: 11px;
-	color: #363636;
-	font-family: 'bbva-regular';
-}
-.page-hacer-siniestro .informacion span{
-	font-size: 11px;
-	color: #094fa4;
-	font-family: 'bbva-regular';
-}
-
-/* que hacer siniestro*/
-
-
-
-
-
-
-
-
-
-
-/*iconos*/
-.container.inf{
-	width: 100%;
-	background: #F2F2F2;
-}
-.informacion h2{
-	font-size: 15px;
-	color: #363636;
-	font-family: 'bbva-regular';
-}
-.informacion span{
-	color: #006ec1;
-	font-size: 15px;
-	font-family: 'bbva-regular';
-}
-.informacion p{
-	color: #363636;
-	font-size: 15px;
-	padding-top: 7px;
-	font-family: 'bbva-regular';
-}
-
-.infor p{
-	color: #666;
-	font-size: 13px;
-	padding-top: 7px;
-	font-family: 'bbva-regular';
-}
-.col-inf{
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
-.policia{
-height: 44px;
-    width: 61px;
-    background-image: url('../images/sprites/sprite_policia.png');
-    background-repeat: no-repeat;
-    background-position: 0px 0px;
-    left: 50%;
-    position: relative;
-    margin-left: -31px;
-}
-.policia:hover{
-	
-}
-
-.autoseguro{
-height: 44px;
-    width: 78px;
-    background-image: url('http://ec2-52-49-166-51.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/10/icn_07.png');
-    background-repeat: no-repeat;
-    background-position: 0px 0px;
-    left: 50%;
-    position: relative;
-    margin-left: -22px;
-}
-.autoseguro:hover{
-	
-}
-.cruzroja{
-	height: 44px;
-    width: 41px;
-    background-image: url('../images/sprites/sprite_cruzroja.png');
-    background-repeat: no-repeat;
-    background-position: 0px 0px;
-    left: 50%;
-    position: relative;
-    margin-left: -21px;
-}
-.cruzroja:hover{
-	
-}
-.telatencion{
-    height: 52px;
-    width: 40px;
-    background-image: url('../images/icons/icono_phone.png');
-    background-repeat: no-repeat;
-    background-position: 0px 0px;
-    left: 50%;
-    top: 20px;
-    position: relative;
-    margin-left: -20px;
-    font-family: 'bbva-regular';
-}
-.col-rigth{
-    border-left: 1px solid #ccc;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    padding-top: 5px;
-    padding-bottom: -65px;
-    font-family: 'bbva-regular';
-}
-
-/*iconos cerrar*/
-
-
-/* Comienza estilo de descripcion corta*/
-.clase-descripcion-corta h1{
-	font-size: 20px;
-	color: #094fa4;
-	text-align: center;
-	font-family: 'bbva-regular';
-	margin-bottom: 25px;
-}
-.clase-descripcion-corta h2{
-	text-align: left;
-	font-size: 15px;
-	font-family: 'bbva-regular';
-}
-#lista-con-icono ul li{
-	list-style-type:  square;
-  	list-style-image: url('http://ec2-52-49-166-51.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/09/icono_ok.png');
-  	font-size: 15px;
-  	padding: 10px;
-  	text-align: left;
-  	color: #363636;
-  	font-family: 'bbva-regular';
-}
-#boton-verde{
-	background: url('http://ec2-52-49-166-51.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/10/bg_btn_green.png');
-	text-align: center;
-	font-weight: normal;
-	color: white;
-	padding: 5px;
-	padding-left: 50px;
-	padding-right: 50px;
-	border:none;
-	font-size: 17px !important;
-	font-family: 'bbva-regular';
--webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;		
-}
-.clase-descripcion-corta .col-xs-12{
-	text-align: center;
-	margin-bottom: 20px
-}
-.imagenSeguro{
-	margin-top: 175px;
-}
-.parrafo-descripcion-corta {
-	font-size: 15px;
-	font-family: 'bbva-regular';
-	color: #363636;
-}
-.clase-descripcion-corta a{
-    color: #094fa4;
-}
-.clase-descripcion-corta a:hover{
-    color: #094fa4;
-}
-/* Termina estilo de descripcion corta*/
-
-/*Comienza estilo  Seguro auto esencial*/
-span.altura{
-	position: relative;
-	top: -10px;
-}
-
-.cabecera{
-	    margin-top: 20px;
-}
-.descripcion-producto p{
-	font-size: 15px;
-	text-align: center !important;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	color: #363636;
-	font-family: 'bbva-regular';
-}
-#lineaSeguro{
-	font-family: 'bbva-regular';
-	margin-top: 38px;
-    text-align: left !important;
-    font-size: 17px;
-    color: #0064c1;
-    margin-bottom: -71px;
-}
-#lineaSeguro a{
-	font-family: 'bbva-regular';
-	margin-top: 38px;
-    text-align: left !important;
-    font-size: 17px;
-    color: #0064c1;
-    margin-bottom: -71px;
-}
-.descripcion-producto span{
-	font-family: 'bbva-regular';
-	text-align: center;
-}
-#span{
-	font-size: 35px;
-	color: #094fa4;
-	font-family: 'bbva-regular';
-}
-#h1{
-	font-size: 40px;
-	color: #094fa4;
-	margin-top: 135px;
-	font-family: 'bbva-regular';
-	text-align: center;
-}
-#p1{
-	font-size: 19px;
-	text-align: center;
-	color: #006ec1;
-	margin-bottom: 60px;
-	font-family: 'bbva-regular';
-}
-#p2{
-	text-align: center;
-    margin-top: 8px;
-    font-size: 17px;
-    color: #363636;
-    margin-bottom: 15px;
-    font-family: 'bbva-regular';
-}
-#p3{
-	text-align: center;
-	color: #363636;
-	font-size: 13px;
-	margin-bottom: 45px;
-    margin-top: -20px;
-    font-family: 'bbva-regular';
-}
-#p4{
-	text-align: center;
-	font-size: 13px;
-	margin-bottom: 50px;
-    margin-top: 50px;
-    color: #666666;
-    font-family: 'bbva-regular';
-}
-.text-titulo{
-	font-family: 'bbva-regular';
-	top: 5px;
-	font-size: 17px;
-	color: #363636;
-}
-#botonCotizar{
-	background: url('http://ec2-52-49-166-51.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/10/bg_btn_green.png');
-	text-align: center;
-	font-weight: normal;
-	color: white;
-	padding: 5px;
-	padding-left: 30px;
-	padding-right: 30px;
-	border:none;
-	font-size: 17px;
-	font-family: 'bbva-regular';
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;	
-}
-#botonCotizar:focus{
-	outline: none;
-}
-.parte-responsabilidad{
-	background: #F2F2F2;
-	padding-top: 15px;
-	padding-bottom: 20px;
-}
-.parte-responsabilidad h1{
-	text-align: left;
-	font-size: 20px;
-	color: #094fa4;
-	font-family: 'bbva-regular';
-}
-
-.parte-responsabilidad ul li.activo{
-	list-style-image: url('http://ec2-52-49-166-51.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/10/icon_rounded_active.png');
-  	font-size: 15px;
-  	padding: 10px;
-  	color: #363636;
-  	font-family: 'bbva-regular';
-  	text-align: left !important;
-}
-.parte-responsabilidad ul li.predeterminado{
-	list-style-image: url('http://ec2-52-49-166-51.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/10/icon_rounded_inactive.png');
-  	font-size: 15px;
-  	padding: 10px;
-  	color: #363636;
-  	font-family: 'bbva-regular';
-  	text-align: left !important;
-}
-.parte-responsabilidad ul li.opcionales{
-	list-style-image: url('http://ec2-52-49-166-51.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/10/icon_rounded_empty.png');
-  	font-size: 15px;
-  	padding: 10px;
-  	color: #363636;
-  	font-family: 'bbva-regular';
-  	text-align: left !important;
-}
-.parte-responsabilidad ul li p{
-	text-align: left !important;
-}
-.parte-responsabilidad p{
-	text-align: center !important;
-}
-.parte-responsabilidad .pie{
-	color: #666666;
-	margin-bottom: 20px;
-}
-.otros-planes h2{
-	font-size: 20px;
-	text-align: center;
-	font-family: 'bbva-regular';
-	color: #094FA4;
-	margin-top: 53px;
-    margin-bottom: 70px;
-}
-.otros-planes1{
-	background: #eee;
-	font-size: 15px;
-	font-size: 12px;
-    border:1px solid #ccc;
-	border-radius: 10px 10px 10px 10px;
-	-moz-border-radius: 10px 10px 10px 10px;
-	-webkit-border-radius: 10px 10px 10px 10px;	
-	margin-bottom: 15px;
-	padding: 20px 0px 20px 0px;
-}
-.otrosPlPrecio{
-	color: #094fa4 !important;
-    font-size: 26px !important;
-    font-family: 'bbva-regular' !important;
-    padding-top: 35px;
-}
-.otrosPlmx{
-	font-size: 15px !important;
-    color: #363636 !important;
-    margin-top: 20px !important;
-}
-.indica{
-	background:url('http://ec2-52-49-166-51.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/09/indicador_seguros.png');
-	width: 230px;
-    height: 29px;
-    margin-top: 28px;
-    position: relative;
-    left: 50%;
-    margin-left: -115px;
-    margin-bottom: 15px;
-}
-.otros-planes.descripcion-producto .indicador{
-	left: 50%;
-	margin-left: -15px;
-	
-}
-.indica.planAmplio{
-	background-position: 455px 0px;
-}
-.indica.planEsencial{
-	background-position: 455px 107px;
-}
-.indica.planBasico{
-	background-position: 455px 185px;
-	text-align: center !important;
-}
-.indica.planAmplioPlus{
-	background-position: 455px 129px;
-}
-.indicador{
-	background:url('http://ec2-52-49-166-51.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/09/indicador_planes.png');
-	width: 135px;
-	height: 17px;
-	margin-top: 5px;
-}
-.indicador.plan1{
-	background-position: 0px 46px;	
-}
-.indicador.plan2{
-	background-position: 0px 32px;	
-}
-.indicador.plan3{
-	background-position: 0px 78px;	
-}
-.image{
-	list-style-image: url('../images/sprites/sprite_cobertura.png');
-}
-.previsto{
-	font-size: 12px !important;
-	font-family: 'bbva-regular';
-}
-.image{
-	width: 15px;
-	height: 10px;
-	background-image: url('../images/sprites/sprite_cobertura.png');
-}
-/*Termina estilo  Seguro auto esencial*/
-
-/* tabla*/
-.seguro-auto-particular button.azul{
-	background: url('../images/imgs/pattern_bg.png');
-	text-align: center;
-	font-weight: normal;
-	color: white;
-	padding: 10px;
-/*	padding-left: 30px;
-	padding-right: 30px;*/
-	border:none;
-	font-family: 'bbva-regular';
-}
-.seguro-auto-particular .table-responsive .medidor{
-	width: 120px;
-	height: 15px;
-	background: url('../images/sprites/indicador_tabla.png');
-	position: relative;
-	left: 50%;
-	margin-left: -60px;
-	margin-top: 5px;
-	margin-bottom: -12px;
-}
-.seguro-auto-particular .table-responsive .medidor.esencial{
-	background-position: 0px 0px;
-}
-.seguro-auto-particular .table-responsive .medidor.basico{
-	background-position: 0px -13px;
-}
-.seguro-auto-particular .table-responsive .medidor.amplio{
-	background-position: 0px -27px;
-}
-.seguro-auto-particular .table-responsive .medidor.amplioplus{
-	background-position: 0px -42px;
-}
-.seguro-auto-particular .table-responsive span.opcion {
-	background: url('../images/sprites/sprite_cobertura.png');
-	width: 26px;
-	height: 26px;
-	position: absolute;
-	margin-left: -13px;
-	background-position: 30px 0px;
-	background-repeat: no-repeat;
-}
-.seguro-auto-particular .table-responsive span.opcion.opc {
-	background-position: 0px -3px;
-}
-.seguro-auto-particular .table-responsive span.opcion.ind {
-	background-position: -54px -3px;
-}
-.seguro-auto-particular .table-responsive span.opcion.pred {
-	background-position: -26px -3px;
-}
-
-
-.seguro-auto-particular .table-responsive .desde{
-	font-family: 'bbva-regular';
-	font-size: 15px;
-	color: #363636;
-	margin-bottom: -10px;
-}
-.seguro-auto-particular .table-responsive .precio{
-	font-family: 'bbva-regular';
-	font-size: 30px;
-	color: #094fa4;
-	margin-bottom: -10px;
-}
-.seguro-auto-particular .table-responsive .anual{
-	font-family: 'bbva-regular';
-	font-size: 15px;
-	color: #363636;
-}
-.seguro-auto-particular .table-responsive .btn{
-	font-family: 'bbva-regular';
-	font-size: 12px;
-	color: #fff;
-	width: 135px;
-}
-h1.estaspreparado{
-	font-size: 20px;
-	color: #094fa4;
-	text-align: center;
-	font-family: 'bbva-regular';
-	opacity: 1;
-}
-.seguro-auto-particular .conten{
-	font-family: 'bbva-regular';
-	font-size: 13px;
-	color: #666;
-	text-align: center;;
-}
-/*tabla cierra*/
-
-
-/*cotizador abre*/
-.seguro-auto-particular .indica.planAmplio{
-	margin-bottom: 0px;	
-}
-
-.seguro-auto-particular h2.titletable{
-	text-align: center;
-	font-size: 20px;
-	color: #094fa4;
-	font-family: 'bbva-regular';
-	margin-top: 10px;
-}
-.seguro-auto-particular p.contentable{
-	text-align: center;
-	font-size: 15px;
-	color: #363636;
-	font-family: 'bbva-regular';
-	margin-top: 10px;
-}
-.seguro-auto-particular .h2{
-	text-align: center;
-	font-size: 20px;
-	color: #094fa4;
-	font-family: 'bbva-regular';
-	margin-top: 10px;
-}
-.seguro-auto-particular .p3{
-	font-size: 13px;
-	text-align: center;
-	color: #666666;
-	font-family: 'bbva-regular';
-}
-.cotizadorSpan{
-	font-size: 13px;
-    text-align: center;
-    font-family: 'bbva-regular';
-    color: #094fa4;
-    text-transform: uppercase;
-}
-.seguro-auto-particular .p4{
-	font-size: 13px;
-	color: #666666;
-	font-family: 'bbva-regular';
-}
-.seguro-auto-particular .p{
-	text-align: center;
-	color: #363636;
-	font-size: 15px;
-	font-family: 'bbva-regular';
-	margin-top: 26px;
-	margin-bottom: 50px;
-}
-.cotizadorP1{
-	text-align: center;
-    color: #363636;
-    font-family: 'bbva-regular';
-    font-size: 17px;
-    margin-top: 18px;
-    margin-bottom: 15px;
-}
-.cotizadorPrecio{
-	text-align: center;
-	font-size: 35px;
-	font-family: 'bbva-regular';
-	color: #094fa4;
-}
-
-.seguro-auto-particular .table-responsive .medidor{
-	width: 120px;
-	height: 15px;
-	background: url('http://ec2-52-49-166-51.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/09/indicador_tabla.png');
-	position: relative;
-	left: 50%;
-	margin-left: -60px;
-	margin-top: 5px;
-	margin-bottom: -12px;
-}
-.seguro-auto-particular .table-responsive .medidor.esencial{
-	background-position: 0px 0px;
-}
-.seguro-auto-particular .table-responsive .medidor.basico{
-	background-position: 0px -13px;
-}
-.seguro-auto-particular .table-responsive .medidor.amplio{
-	background-position: 0px -27px;
-}
-.seguro-auto-particular .table-responsive .medidor.amplioplus{
-	background-position: 0px -42px;
-}
-
-.seguro-auto-particular .table-responsive{
-	text-align: center;
-}
-.table-bordered{
-	border:none;
-}
-.seguro-auto-particular .table-responsive th{
-	font-family: 'bbva-regular';
-	color: #363636;
-	font-size: 15px;
-	border: none; 
-}
-.seguro-auto-particular .table-responsive th.head{
-	font-family: 'bbva-regular';
-	color: #094FA4;
-	font-size: 20px;	
-}
-
-.seguro-auto-particular .table-responsive th .medidor{
-	margin-bottom: -5px;
-}
-.seguro-auto-particular .table-responsive th span{
-	font-family: 'bbva-regular';
-	color: #363636;
-	font-size: 11px;
-	padding-top: 15px;
-}
-.seguro-auto-particular .row h2.titulo{
-	text-align: center;
-	color: #094FA4;
-	font-size: 20px;
-	font-family: 'bbva-regular';
-}
-.seguro-auto-particular .row p.contentido{
-	font-size: 15px;
-	color: #363636;
-	text-align: center;
-}
-.img-dsp{
-	display: inline;
-}
-.icon_rounded{
-	color:#666666;
-}
-/*cotizador cierra*/
-/*contenedor padre*/
-.container.gris{
-	background-color: #F2F2F2;
-	width: 100%;
-}
-.container.blanco{
-	width: 100%;
-	margin-bottom: 85px;
-}
-/*termina contenedor padre*/
-
-
-
-
-/*Comientza estilos autoAlerta*/
-.autoAlerta h1{
-	font-family: 'bbva-regular';
-	font-size: 48px;
-	color: #094FA4;
-	text-align: center;
-}
-.autoAlerta p{
-	font-family: 'bbva-regular';
-	font-size: 18px;
-	color: #006EC1;
-	margin-bottom: 45px;
-	text-align: center;
-}
-.autoAlerta ul{
-	margin-bottom: 60px;
-}
-.autoAlerta ul li{
-	list-style-image: url('http://ec2-52-49-166-51.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/10/icon_rounded_active.png');
-	text-align: left;
-	font-size: 18px;
-	margin-bottom: 3px;
-	color: #006EC1;
-	font-family: 'bbva-regular';
-}
-
-
-
-
-p.parrafo{
-	margin-top: 7px;
-    text-align: center;
-    font-size: 15px;
-    color: #1D1D1D;
-}
-
-.blanco h1{
-	font-size: 20px;
-	font-family: 'bbva-regular';
-	color: #094FA4;
-	text-align: center;
-}
-
-.iconAutoAlerta{
-	width: 105px;
-    height: 106px;
-    transform: scale(.9, .9);
-    margin-left: -13px;
-}
-
-.iconAutoAlerta.siniestro{
-	background-image: url('http://ec2-52-49-166-51.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/10/icon_report.png');
-	display: inline-block;
-}
-.iconAutoAlerta.siniestro:hover{
-	
-}
-.iconAutoAlerta.solicitar{
-	background-image: url('http://ec2-52-49-166-51.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/10/icon_asistencia.png');
-	display: inline-block;
-}
-.iconAutoAlerta.solicitar:hover{
-	
-}
-.iconAutoAlerta.consultar{
-	background-image: url('http://ec2-52-49-166-51.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/10/icon_poliza.png');
-	display: inline-block;
-}
-.iconAutoAlerta.consultar:hover{
-	
-}
-.iconAutoAlerta.geolocalizacion{
-	background-image: url('http://ec2-52-49-166-51.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/10/icon_geolocalizacion.png');
-	display: inline-block;
-}
-.iconAutoAlerta.geolocalizacion:hover{
-	
-}
-.iconAutoAlerta.emergencia{
-	background-image: url('http://ec2-52-49-166-51.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/10/icon_emergencia.png');
-	display: inline-block;
-}
-.iconAutoAlerta.emergencia:hover{
-	
-}
-.iconAutoAlerta.ajustador{
-	background-image: url('http://ec2-52-49-166-51.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/10/icon_contacto.png');
-	display: inline-block;
-}
-.iconAutoAlerta.ajustador:hover{
-	
-}
-.iconAutoAlerta.atencionCliente{
-	background-image: url('http://ec2-52-49-166-51.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/10/icon_atencion.png');
-	display: inline-block;
-}
-.iconAutoAlerta.atencionCliente:hover{
-	
-}
-/*Termina estilos autoAlerta*/
 
 /*comienza estilo pdf*/
 .pdf span{
@@ -1385,7 +489,32 @@ p.parrafo{
 }
 /*Termina estilo pdf*/
 
-/*Comienza estilos que estaban en el heder.php*/
+
+@media (min-width : 1200px) {
+	li.with-sub-menu:hover .row.items-1{
+		width: 31.33% !important;
+	}
+}
+@media (min-width : 1200px) {
+	li.with-sub-menu:hover .row.siniestro{
+		width: 23% !important;
+	}
+}
+@media (max-width : 1200px) {
+li.with-sub-menu:hover .row.items-1{
+		width: 31% !important;
+	}
+
+}
+@media (max-width : 992px) {
+li.with-sub-menu:hover .row.items-1{
+		width: 30.3% !important;
+	}
+}
+
+.navbar-header{
+	background-color: #FFF;
+}
 .navbar-default .navbar-nav>li>a{
 	background: url('http://ec2-52-49-166-51.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/10/separador-menu.png')  top right no-repeat transparent;
 	color: #fff !important;
@@ -1433,93 +562,13 @@ p.parrafo{
 .navbar.navbar-default{
 	margin-bottom: 0px !important;
 }
-
-/*Termina estilos que estaban el el heder.php*/
-
-/*Estilo para cambiar el puntero del raton*/
-a:focus, a:hover {
-    cursor: pointer;
-}
-
-/*termina estilo para cambiar puntero del raton*/
-
-/* navegacion productos*/
-a.nabp:hover{
-	color:#666 !important;
-}
-
-a.nabp:link {
-    color:#666 !important;
-}
-
-a.nabp:visited {
-    color:#666 !important;
-}
-
-a.nabp:hover {
-    color:#666 !important;
-}
-
-a.nabp:active {
-    color:#666 !important;
-
-}
-.btn.focus, .btn:focus, .btn:hover,.btn-default:hover,.btn:hover{
-     color: none !important; 
-    background-color: none !important;
-    border-color: none !important;	
-}
-@media (max-width: 768px) {
-	.navbar-header{
-		background: #ffffff;
+@media only screen and (max-width : 768px) {
+li.with-sub-menu:hover .row.items-1{
+		width: 31.33% !important;
 	}
-	.container.theme{
-		padding: 10px 15px 20px 15px;
-	}
-	img.imagenSeguro{
-		margin-top: 0px;
-	}
-	.navbar-default .navbar-nav>li>a{
-		border-right: none;
-	}
-	.clase-siniestro h2{
-		margin-bottom: 0px !important;
-	}
-	.clase-siniestro p{
-		padding: 0px;
-	}
-	.navbar-default .navbar-nav>li>a{
-		background:none !important;
+	.navbar-nav>li>a{
+		background:none;	
 	}	
-}
-@media (min-width : 1200px) {
-	li.with-sub-menu:hover .row.items-1{
-		width: 31.33% !important;
-	}
-}
-@media (max-width : 1200px) {
-li.with-sub-menu:hover .row.items-1{
-		width: 31% !important;
-	}
-
-}
-@media (max-width : 992px) {
-li.with-sub-menu:hover .row.items-1{
-		width: 30.3% !important;
-	}
-}
-@media (max-width : 768px) {
-li.with-sub-menu:hover .row.items-1{
-		width: 31.33% !important;
-	}
-}
-
-/*.row.items-1{}*/
-
-.nextarrow{
-	position: relative;
-	top:-3px;
-	left: 6px;
 }
 
 /*Comienza estilo de menu hamburguesa*/
@@ -1544,12 +593,7 @@ ul.dropdown-menu{
 }
 /*modar cierre*/
 
-/*Estilo para los iconos autoAlert*/
-.padding0{
-	padding: 0px;
-	margin-top: 0px;
-}
-/*Termina estilo para los iconos autoAlerta*/
+
 /*estilo abre form llamanos*/
 .forsales .btn{
     padding: 5px;
@@ -1586,7 +630,6 @@ ul.dropdown-menu{
     float: right;        /* adjust as needed */
     color: grey;         /* adjust as needed */
 	content: "\e260";    /* adjust as needed, taken from bootstrap.css */
-    top: -15px;
     position: relative;	
 }
 .panel-default{
@@ -1597,7 +640,7 @@ ul.dropdown-menu{
 }
 .panel-default > .panel-heading{
 	background-color: #fff;
-	background: #fff;
+    text-align: left;
 }
 .panel-body{
 	border:none;
@@ -1605,63 +648,240 @@ ul.dropdown-menu{
 .panel-group .panel-heading + .panel-collapse > .panel-body{
 	border:none;
 }
+/*Estilo para carousel*/
+/*body { padding-top: 20px; }*/
+#myCarousel .nav a small {
+    display:block;
+}
+#myCarousel .nav {
+	background-color: #005098;
+}
+#myCarousel .nav a {
+    border-radius:0px;
+}
+.aIndex{
+	color: #FFF;
+}
+/*Termina estilo para carousel*/
+h1{
+	color: #094fa4;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;
+	margin-bottom: 30px;
+}
+h2{
+	color: #094FA4;
+	font-size: 16px;
+	text-decoration: none;
+	text-align: center;
+	margin-bottom: 30px;
+}
+p{
+	font-size: 15px;
+	color: #000;
+	text-decoration: none;
+}
+span{
+	color: #094fa4;
+	font-size: 17px;
+}
+.paqueteIndex{
+	border-radius: 10px 10px 10px 10px;
+    border: 1px solid #ccc;
+    padding: 20px 10px 20px 10px;
+    margin-top: 30px;
+    height: 200px;
+}
+.paqueteIndex:hover{
+	box-shadow: 0 4px 8px 0 #094FA4, 0 6px 20px 0 #094FA4;
+}
+/*Estilos para hoje seguro gmm*/
+.gmmCabecera{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.gmmCabecera ul li{
+	font-size: 15px;
+	color: #000;
+}
+/*termina estilos para hoje seguro gmm*/
 
-
-
-/*Estilo para iframe*/
-.col-md-12.iframe{
-	padding-left: 0px;
-	padding-right: 0px;
+/*Estilo para tabla suguroGMM*/
+h1.sumasAseguradas{
+	margin: 15px;
 }
-/*Termina estilo para iframe*/
-
-/*Estilo para clase FAQs*/
-.col-md-12.form-group{
-	width: 100%;
-	padding-left: 0px;
-    padding-right: 0px;
+.planesGMM{
+	margin-left: 10px;
+    margin-right: 10px;
 }
-input.search-field.form-control.imputBuscar{
-	width: 100%;
-	height: 50px;
+.tablaGMM{
+	border-radius: 4px;
+    border-style: hidden;
+    box-shadow: 0 0 0 4px #0f6bda;
 }
-input.search-submit.botonBuscar{
-	padding: 14px 23px 14px 23px;
-    background-color: #094FA4;
-    color: white;
-    border-radius: 5px;
+.tablaGMM thead{
+	background-color: #8eb9ec;
+	border: 4px solid #0f6bda;
 }
-div.col-md-10.pad0{
-	padding-right: 0px;
+.tablaGMM thead th{
+	text-align: center;
+	font-size: 15px;
+	color: #FFF;
 }
-.col-md-12.bordPreguntas{
-	border-bottom: 1px solid #ccc;
+.tablaGMM tbody td{
+	text-align: center;
+	font-size: 14px;
+	color: #000;
 }
-.col-md-4.bordPreguntas{
-	margin-top: 40px;
-    font-size: 20px;
-    border-left: 1px solid #ccc;
-    border-top: 1px solid #ccc;
-    border-right: 1px solid #ccc;
-    padding-top: 10px;
-    border-bottom: 1px solid white;
-    margin-bottom: -1px;
+.tablaGMM2{
+	border-radius: 4px;
+    border-style: hidden;
+    box-shadow: 0 0 0 4px #0f6bda;
 }
-li.liPreFAQS{
+.tablaGMM2 thead{
+	background-color: #FFF;
+	border: 4px solid #0f6bda;
+}
+.tablaGMM2 thead th{
+	text-align: center;
+	font-size: 15px;
 	color: #094FA4;
 }
-/*Termina estilo para clase FAQs*/
-
-
-/*Comienza estilo de preguntasFAQs*/
-p.h1FAQs{
-	font-size: 20px;
-    color: #094fa4 !important;
-    font-family: 'bbva-regular'
+.tablaGMM2 tbody td{
+	text-align: center;
+	font-size: 14px;
+	color: #000;
 }
-.fondoFAQs{
+.tablaPlanesCoberturas{
+	background-color: #FFF;
+	border: 2px solid #0f6bda;
+}
+.tablaPlanesCoberturas thead{
+	border: 2px solid #0f6bda;
+}
+.tablaPlanesCoberturas thead th{
+	text-align: center;
+	font-size: 15px;
+	color: #094FA4;
+}
+.tablaPlanesCoberturas tbody td{
+	font-size: 14px;
+	color: #000;
+}
+.tcen{
+	text-align: center;
+}
+/*Termina estilos para tabla seguroGMM*/
+/*Estilos del nuevoindex*/
+.botonIndex{
+	margin-top: 15px;
+	background-image: url('http://d3ghvh1f861wyu.cloudfront.net/wp-content/uploads/2016/12/bg_btn_green.png');
+	color: #FFF;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+button{
+	border: none;
+}
+/*Termina estilos del nuevo index*/
+/*Estilos index2*/
+.titulo{
+	height: 30px;
+	font-size: 18px;
+	color: #094FA4;
+	text-align: center;
+}
+.productosIndex{
+	margin-top: 30px;
+}
+.preventivaIndex span{
+	border-radius: 5px;
+	border: 1px solid #094FA4;
+	margin-top: 40px;
+	width: auto;
+	padding: 10px;
+}
+.indexPmedico{
+	margin-top: 80px;
+	text-align: center;
+}
+.imageIndex{
+	margin-top: 100px;
+}
+.h1Index{
+	margin-top: 30px;
+}
+.panel-default > .panel-heading {
+    background-color: #f7f7f7;
+    text-align: left;
+}
+.bordeIndex{
+	border-left: 1px solid #ccc;
+	padding: 1px 0px 1px 15px;
+}
+.sinBordeIndex{
+	padding: 1px 0px 1px 15px;
+}
+ul li{
+	list-style-image: url('http://d3ghvh1f861wyu.cloudfront.net/wp-content/uploads/2016/12/icono_ok.png');
+	text-align: left;
+}
+/*Termina estilos index 2*/
+button{
+	border:none;
+}
+/* mision vision*/
+span.tituloMision{
+	padding-left: 10px;
+	font-size: 18px;
+	font-family: arial,sans-serif;
 	color: #094fa4;
-    border: 1px solid #094fa4;
+	position: relative;
+	top: -8px;
+}
+.backmision{
+	background: url('http://d3ghvh1f861wyu.cloudfront.net/wp-content/uploads/2016/12/img_mv.png') no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.separadortop{
+	margin-bottom: 25px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eaeaea+0,7f7f7f+76,a5a4a4+100 */
+	background: #eaeaea; /* Old browsers */
+	background: -moz-linear-gradient(left,  #eaeaea 0%, #7f7f7f 76%, #a5a4a4 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #eaeaea 0%,#7f7f7f 76%,#a5a4a4 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #eaeaea 0%,#7f7f7f 76%,#a5a4a4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#a5a4a4',GradientType=1 ); /* IE6-9 */
+}
+.mision{
+	margin-bottom: 35px;
+	margin-top: 20px;
+}
+.h1izq{
+	text-align: left;
+}
+/*Estilos para glosario*/
+.etiquetaGlosa{
+	background-color: #094fa4;
+    color: #FFF;
+    width: 6%;
+    padding: 5px 0px 5px 0px;
+    border-radius: 0px 12px 12px 0px;
+}
+.lineaGlosa{
+	border-top: 2px solid #ccc;
+}
+.backcontacto{
+	background: url('http://d3ghvh1f861wyu.cloudfront.net/wp-content/uploads/2016/12/img_contacto.jpg') no-repeat;
+	padding: 100px 0px 34px 0px;
+    background-size: cover;
+}
+/*Termina estilos para glosario*/
+/*Estilo para categorias preguntas frecuentes index*/
+.fondoFAQs {
+    color: #006ec1;
+    border: 1px solid #bfbfbf;
     -moz-border-radius: 5px 5px 5px 5px;
     -webkit-border-radius: 5px 5px 5px 5px;
     padding: 15px 0px 15px 0px;
@@ -1672,46 +892,166 @@ p.h1FAQs{
 	background-color: #094FA4;
 	color: white;
 }
-.h3FAQs{
+.h3FAQs {
+    font-size: 17px;
+    font-family: 'bbva-regular';
+}
+/*Termina estilo para categorias preguntas frecuentes index*/
+/*Etilos para pagina de siniestro*/
+.pSiniestro{
+	height: 130px;
+}
+.sinSalud{
+	margin-top: 50px;
+}
+.sinSalud .bordeSin{
+	border-left: 1px solid #CCC;
+}
+span.spanSubraya{
+	border-bottom: 1px solid;
+}
+/*Termina estilo para pagina de siniestro*/
+/*Estilo para pagina siniestrosPersona*/
+.gallery{
+    display: inline-block;
+    margin-top: 20px;
+}
+/*Termina estilo para pagina siniestrosPersona*/
+/*Extilos de pagina medicina preventiva*/
+.backPreve{
+	background: url('http://d3ghvh1f861wyu.cloudfront.net/wp-content/uploads/2017/01/img_preventiva.png') no-repeat;
+	padding: 100px 0px 69px 0px;
+    background-size: cover;
+}
+.mp{
+	margin-top: 60px;
+}
+/*Termina estilos de pagina medicina preventiva*/
+/*Estilos de pagina oficinas de atencion (GMM y salud)*/
+.oficinas span.ofi {
+    border-radius: 5px;
+    border: 1px solid #094FA4;
+    margin-top: 40px;
+    width: auto;
+    padding: 10px 100px;
+}
+.oficinas h2.h2Ofi{
 	font-size: 18px;
-	font-family: 'bbva-regular';
+    color: #094FA4;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
-.dudasFAQs{
-	background-color: #094FA4;
-    color: white;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    border-radius: 5px 5px 5px 5px;
+/*Termina estilos de pagina oficinas de atencion (GMM y salud)*/
+/*Estilos de pagina comprobantes fiscales*/
+.backComFis{
+	background-color: #f1f4f7;
+	margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-.imgFAQs{
-	margin-bottom: 15px;
+.margenCF{
+	margin-bottom: 20px;
 }
-.tituloFAQs{
-	font-family: 'bbva-regular';
+/*Termina estilos de pagina comprobantes fiscales*/
+/*Estilos de pagina pago directo*/
+.pagoDirecto{
+	margin-top: 25px;
+	margin-bottom: 35px;
 }
-.h3imagenFAQs{
-	margin-bottom: 30px;
+.pagoDirecto ul li{
+	list-style-image: none;
+	list-style-type: disc;
 }
-.rapFaciFAQs{
-	margin-top: 20px;
-	color: #666666;
+.pagoDirecto ul li ul li{
+	list-style-type: none;
 }
-.pPreguntasFrec{
-		font-size: 20px;
-    color: #666666;
-    font-family: 'bbva-regular'
+/*Termina estilos de pagina pago directo*/
+/*background para encabezado de siniestro*/
+.backSiniEmpresa{
+    background: url('http://d3ghvh1f861wyu.cloudfront.net/wp-content/uploads/2017/01/img04.png') no-repeat;
+	padding: 100px 0px 63px 0px;
+    background-size: cover;
 }
-.panel-body p{
-	color: #666666;
+/*termina background para encabezado de siniestro*/
+/*Comienza estilos de pagina reembolso*/
+.reembolso{
+	margin-top: 35px;
+	margin-bottom: 25px;
 }
-h1.page-title{
-	color:#666666;
+.pNegritas{
+	font-weight:bold;
 }
-/*Termina estilo de preguntasFAQs*/
-iframe {
-    width: 1px;
-    min-width: 100%;
-    /**width: 100%;*/
+/*Termina estilos de pagina reembolso*/
+/*Estilos para pagina siniestros persona*/
+.topSinPer{
+	margin-top: 45px;
+}
+.pSinPer{
+	margin-top: 15px;
+	padding: 20px;
+}
+/*Terminas estilos para pagina siniestros persona*/
+/*Estilos de pagina solicitud de Alta GMM*/
+.backSolicitudAlta{
+	background: url('http://d3ghvh1f861wyu.cloudfront.net/wp-content/uploads/2017/01/img05.png') no-repeat;
+	padding: 409px 0px 0px 0px;
+	background-size: cover;
+	margin-bottom: -15px;
+}
+/*Termina estilos de pagina solicitud de Alta GMM*/
+/*ajustes con jenny*/
+.tituloPaginas{
+	font-size: 20px;
+	color: #094fa4;
+}
+
+.subtituliPaginas{
+	font-size: 17px;
+	color:#006ec1;
+}
+.sinBordeIndex h3,.bordeIndex h3{
+	font-size: 17px;
+	color:#006ec1;	
+}
+p{
+	color: #363636;
+}
+.sinBordeIndex a,.bordeIndex a{
+	color: #094fa4;
+	font-size: 15px;
+}
+.entry-content{
+	padding-bottom: 40px;	
+}
+.titlee{
+    padding: 20px;
+}
+.titlee .tituloPaginas{
+	padding:0px;
+	margin: 0px; 
+
+}
+.titlee .subtituliPaginas{
+	padding:0px;
+	margin: 13px; 
+
+
+}
+.iconcenter{
+	padding-left: 15px;
+}
+
+.backmision h1.tituloPaginas{
+	margin-bottom:0px;
+}
+
+.backmision h3.subtituliPaginas{
+	margin-bottom: 20px;
+}
+.backmision .container{
+	padding-top: 70px;
+	padding-bottom: 70px;
 }
 ul.pfrecuentesli li{
 	list-style: none;
