@@ -838,7 +838,7 @@ span.tituloMision{
 	font-family: arial,sans-serif;
 	color: #094fa4;
 	position: relative;
-	top: -8px;
+	top: -5px;
 }
 .backmision{
 	background: url('http://d3ghvh1f861wyu.cloudfront.net/wp-content/uploads/2016/12/img_mv.png') no-repeat;
@@ -847,12 +847,12 @@ span.tituloMision{
 }
 .separadortop{
 	margin-bottom: 25px;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eaeaea+0,7f7f7f+76,a5a4a4+100 */
-	background: #eaeaea; /* Old browsers */
-	background: -moz-linear-gradient(left,  #eaeaea 0%, #7f7f7f 76%, #a5a4a4 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(left,  #eaeaea 0%,#7f7f7f 76%,#a5a4a4 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to right,  #eaeaea 0%,#7f7f7f 76%,#a5a4a4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#a5a4a4',GradientType=1 ); /* IE6-9 */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcfcfc+0,d8d8d8+100 */
+background: #fcfcfc; /* Old browsers */
+background: -moz-linear-gradient(left,  #fcfcfc 0%, #d8d8d8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #fcfcfc 0%,#d8d8d8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #fcfcfc 0%,#d8d8d8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#d8d8d8',GradientType=1 ); /* IE6-9 */
 }
 .mision{
 	margin-bottom: 35px;
@@ -1064,4 +1064,13 @@ span.borde-icono{
 	-moz-border-radius: 10px 10px 10px 10px;
 	-webkit-border-radius: 10px 10px 10px 10px;
 	padding: 3px;
+}
+
+ul.boulets-only li{
+	list-style-image: none;
+	padding-left: 4px;
+}
+
+.glyphicon.lc:before{
+	font-size:22px; 
 }

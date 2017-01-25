@@ -57,7 +57,7 @@
             </aside>
         </div>
     </div> 
-            <p class="auto-menu">Seguros</p>
+            <p class="auto-menu">Seguros Salud</p>
       <input type="search" id="q_head" name="q" class="form-control input-search ui-autocomplete-input" autocomplete="off"><span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
     </form>   
     
@@ -132,7 +132,7 @@
                 <div class="col-lg-12">
                   <ul>
                     <li>
-                      <a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/seguro/gasto-medico-empresarial-bancomer/" data-original-title="" title="">Gastos Médicos Empresarial BancomerSalud</a>
+                      <a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/seguro/gasto-medico-empresarial-bancomer/" data-original-title="" title="">Gastos Médicos Empresarial Bancomer</a>
                     </li>
                     <li>
                       <a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/seguro/salud-empresarial-bancomer/" data-original-title="" title="">Salud Empresarial</a>
