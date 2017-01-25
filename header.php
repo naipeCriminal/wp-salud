@@ -39,7 +39,7 @@
         
   <div class="logo-container">
     <a class="navbar-trigger">&nbsp;</a>  
-    <a href="/" class="logo-cabecera"><img height="90" class="hidden-xs" src="https://www.segurodeautobancomer.com/wp-content/uploads/2016/09/icon_logo.png"></a>
+    <a href="/" class="logo-cabecera"><img height="90" class="hidden-xs" src="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/01/logo_seguro_salud.png"></a>
   </div>
   
   <!-- color bar -->

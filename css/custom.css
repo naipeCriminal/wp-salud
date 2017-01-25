@@ -1713,3 +1713,15 @@ iframe {
     min-width: 100%;
     /**width: 100%;*/
 }
+ul.pfrecuentesli li{
+	list-style: none;
+    list-style-image: none;	
+}
+span.borde-icono{
+	font-size: 10px;
+	border: 1px solid #094fa4;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	padding: 3px;
+}
