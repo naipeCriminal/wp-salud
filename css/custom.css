@@ -969,9 +969,7 @@ span.spanSubraya{
 /*Termina estilos de pagina pago directo*/
 /*background para encabezado de siniestro*/
 .backSiniEmpresa{
-    background: url('http://d3ghvh1f861wyu.cloudfront.net/wp-content/uploads/2017/01/img04.png') no-repeat;
-	padding: 100px 0px 63px 0px;
-    background-size: cover;
+	padding: 25px 0px 63px 0px;
 }
 /*termina background para encabezado de siniestro*/
 /*Comienza estilos de pagina reembolso*/
@@ -1073,4 +1071,31 @@ ul.boulets-only li{
 
 .glyphicon.lc:before{
 	font-size:22px; 
+}
+.mpan span.primertexto{
+	font-size: 13px;
+	color: #666666;
+}
+.mpan{
+	font-size: 13px;
+	color: #363636;
+}
+.mpan span{
+	font-size: 11px;
+	color: #363636;
+}
+td:nth-child(even) {
+    background-color: rgba(0,110,179,0.1);
+}
+.requeriments h2{
+	color: #363636;
+	font-size: 14px;
+}
+.requeriments p{
+	color: #363636;
+	font-size: 14px;
+}
+.requeriments span.resaltar-correo{
+	font-size: 16px;
+	color:#0f6bda !important;
 }
