@@ -1099,3 +1099,7 @@ td:nth-child(even) {
 	font-size: 16px;
 	color:#0f6bda !important;
 }
+.tablaContacto{
+	border-radius: none;
+	box-shadow: none;
+}
