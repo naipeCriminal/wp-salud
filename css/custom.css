@@ -1100,6 +1100,11 @@ td:nth-child(even) {
 	color:#0f6bda !important;
 }
 .tablaContacto{
+	margin-top: 30px;
 	border-radius: none;
 	box-shadow: none;
+}
+table.tablaContacto tbody tr td{
+	background: none;
+	border-top: none;
 }
