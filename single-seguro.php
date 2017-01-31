@@ -60,32 +60,51 @@ get_header(); ?>
   </div>
 <?php } ?>  
 <div class="requeriments">
-  <h2>Requerimientos y modalidades para contratar:</h2>
-  <p class="text-center"><?php the_field('Requerimientos descripcion'); ?></p>
-  <h3 class="text-center" style="font-size: 14px;color:#0f6bda;"><?php the_field('edad_contratacion'); ?></h3>
-  <p class="text-center"><?php the_field('edad_descripcion'); ?></p>
+  <h1 class="tituloPaginas">Requerimientos y modalidades para contratar:</h1>
+<?php if(get_field('Requerimientos descripcion')){?>
+<p class="text-center"><?php the_field('Requerimientos descripcion'); ?></p>
+<?php  }?>
+<?php if(get_field('edad_contratacion')){?>
+<h3 class="text-center" style="font-size: 14px;color:#0f6bda;"><?php the_field('edad_contratacion'); ?></h3>
+<?php  }?> 
+<?php if(get_field('edad_descripcion')){?>
+<p class="text-center"><?php the_field('edad_descripcion'); ?></p>
+<?php  }?> 
+  
 </div>
 <table class="tablaGMM table-responsive">
 <thead></thead>
 <tbody>
+<?php if(get_field('telefono-zona-metropolitana') or get_field('telefono-interior-republica')){ ?>
 <tr>
 <td><span class="glyphicon glyphicon-earphone" aria-hidden="true" data-original-title="" title=""></span></td>
-<td>D.F. y zona metropolitana: <span style="font-weight:600;color: #363636 !important;font-size: 16px;"> <?php the_field('telefono-zona-metropolitana'); ?>  </span> <br>Desde el interior de la república: <span style="font-weight:600;color: #363636 !important;font-size: 16px;"><?php the_field('telefono-interior-republica'); ?> </span></td>
+<td><?php if(get_field('telefono-zona-metropolitana')) {?>  D.F. y zona metropolitana: <span style="font-weight:600;color: #363636 !important;font-size: 16px;"> <?php the_field('telefono-zona-metropolitana'); ?>  </span> <?php } ?><br> <?php if(get_field('telefono-interior-republica')){?>Desde el interior de la república: <span style="font-weight:600;color: #363636 !important;font-size: 16px;"><?php the_field('telefono-interior-republica'); ?> </span><?php } ?></td>
 </tr>
+<?php } ?>
+<?php if(get_field('desde_celular')){?>
 <tr>
 <td><span class="glyphicon glyphicon-phone" aria-hidden="true" data-original-title="" title=""></span></td>
 <td>Desde celular: <span style="font-weight:600;color: #363636 !important;font-size: 16px;"><?php the_field('desde_celular'); ?></span> </td>
 </tr>
+<?php } ?>
+<?php if(get_field('correo')){?>
 <tr>
 <td><span class="glyphicon glyphicon-envelope" aria-hidden="true" data-original-title="" title=""></span></td>
 <td>Por correo electrónico: <br> <span class="resaltar-correo"><?php the_field('correo'); ?> </span> </td>
 </tr>
+<?php  }?> 
+<?php if(get_field('contacto-para-cotizacion')){?>
+<tr>
+<td><span class="glyphicon glyphicon-envelope" aria-hidden="true" data-original-title="" title=""></span></td>
+<td>Contacto para cotizaciones.<br />
+Karla Suarez Bustamante<br> <span class="resaltar-correo"><?php the_field('contacto-para-cotizacion'); ?> </span> </td>
+</tr>
+<?php  }?> 
 </tbody>
 </table>
 </div>
 </div>
 </div>
-
 
 <?php endwhile ?>
 
