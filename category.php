@@ -39,50 +39,54 @@ if ( have_posts() ) : ?>
     </div>
   <div class="row">
     
-<div class="col-md-12 col-xs-12 form-group">
-  <div class="col-md-3 btn-faq text-center">
-    <a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/category/salud-empresarial-bancomer/"><div class="col-md-12 fondoFAQs">
-      <h3 class="h3FAQs">Salud Empresarial</h3>
-    </div></a>
-  </div>
-  <div class="col-md-3 btn-faq text-center">
-    <a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/category/seguro-individual-y-familiar-de-salud-dental-basico/"><div class="col-md-12 fondoFAQs">
-      <h3 class="h3FAQs">Salud Dental Básico</h3>
-    </div></a>
-  </div>
-  <div class="col-md-3 btn-faq text-center">
-    <a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/category/seguro-individual-o-familiar-de-salud-basico-estandarizados/"><div class="col-md-12 fondoFAQs">
-      <h3 class="h3FAQs">Gastos Médicos Básicos Estandarizados</h3>
-    </div></a>
-  </div>
-  <div class="col-md-3 btn-faq text-center">
-    <a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/category/salud-asegurada-bancomer/"><div class="col-md-12 fondoFAQs">
-      <h3 class="h3FAQs">Salud Asegurada Bancomer</h3>
-    </div></a>
-  </div>
-</div>
-<div class="col-md-12 col-xs-12 form-group">
-  <div class="col-md-3 btn-faq text-center">
-    <a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/category/gastos-medicos-mayores-indemizatorio/"><div class="col-md-12 fondoFAQs">
-      <h3 class="h3FAQs">Gastos Médicos Mayores Indemnizatorios</h3>
-    </div></a>
-  </div>
-  <div class="col-md-3 btn-faq text-center">
-    <a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/category/gasto-medico-familiar-bancomer/"><div class="col-md-12 fondoFAQs">
-      <h3 class="h3FAQs">Gasto Médico Familiar Bancomer</h3>
-    </div></a>
-  </div>
-  <div class="col-md-3 btn-faq text-center">
-    <a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/category/gasto-medico-empresarial-bancomer/"><div class="col-md-12 fondoFAQs">
-      <h3 class="h3FAQs">Gasto Médico Empresarial</h3>
-    </div></a>
-  </div>
-  <div class="col-md-3 btn-faq text-center">
-    <a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/category/cirugiasegura-bancomer/"><div class="col-md-12 fondoFAQs">
-      <h3 class="h3FAQs">Cirugía Segura Bancomer</h3>
-    </div></a>
-  </div>
-</div>
+<div class="col-md-12 form-group hidden-xs">
+<div class="col-md-4 btn-faq text-center">
+            <a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/category/salud-empresarial-bancomer/">
+<div class="col-md-12 fondoFAQs">
+<h3 class="h3FAQs">Salud Empresarial</h3>
+<p></p></div>
+</a><p><a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/category/salud-empresarial-bancomer/"></a>
+          </p></div>
+<div class="col-md-4 btn-faq text-center">
+            <a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/category/salud-asegurada-bancomer/">
+<div class="col-md-12 fondoFAQs">
+<h3 class="h3FAQs">Salud Asegurada Bancomer</h3>
+<p></p></div>
+</a><p><a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/category/salud-asegurada-bancomer/"></a>
+          </p></div>
+<div class="col-md-4 btn-faq text-center">
+            <a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/category/gastos-medicos-mayores-indemizatorio/">
+<div class="col-md-12 fondoFAQs">
+<h3 class="h3FAQs">Gastos Médicos Mayores Indemnizatorios</h3>
+<p></p></div>
+</a><p><a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/category/gastos-medicos-mayores-indemizatorio/"></a>
+          </p></div>
+<p></p></div>
+<div class="col-md-12 form-group hidden-xs">
+<div class="col-md-4 btn-faq text-center">
+            <a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/category/gasto-medico-familiar-bancomer/">
+<div class="col-md-12 fondoFAQs">
+<h3 class="h3FAQs">Gasto Médico Familiar Bancomer</h3>
+<p></p></div>
+</a><p><a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/category/gasto-medico-familiar-bancomer/"></a>
+          </p></div>
+<div class="col-md-4 btn-faq text-center">
+            <a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/category/gasto-medico-empresarial-bancomer/">
+<div class="col-md-12 fondoFAQs">
+<h3 class="h3FAQs">Gasto Médico Empresarial</h3>
+<p></p></div>
+</a><p><a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/category/gasto-medico-empresarial-bancomer/"></a>
+          </p></div>
+<div class="col-md-4 btn-faq text-center">
+            <a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/category/cirugiasegura-bancomer/">
+<div class="col-md-12 fondoFAQs">
+<h3 class="h3FAQs">Cirugía Segura Bancomer</h3>
+<p></p></div>
+</a><p><a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/category/cirugiasegura-bancomer/"></a>
+          </p></div>
+<p></p></div>
+
+
 <div class="col-md-12">
   <hr>
 </div>
