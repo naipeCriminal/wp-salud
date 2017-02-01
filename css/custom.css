@@ -1101,9 +1101,20 @@ td:nth-child(even) {
 	font-size: 16px;
 	color:#0f6bda !important;
 }
+<<<<<<< HEAD
 .snstr{
 	font-size: 16px;
 }
 a.snstr{
 	text-decoration: underline;
+=======
+.tablaContacto{
+	margin-top: 30px;
+	border-radius: none;
+	box-shadow: none;
+}
+table.tablaContacto tbody tr td{
+	background: none;
+	border-top: none;
+>>>>>>> 9607caaf474f7e4c5d1016599df6cb95c92794b1
 }

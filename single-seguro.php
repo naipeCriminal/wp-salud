@@ -72,7 +72,8 @@ get_header(); ?>
 <?php  }?> 
   
 </div>
-<table class="tablaGMM table-responsive">
+<div class="col-md-6 col-md-offset-3 col-xs-12">
+  <table class="tablaContacto table-responsive">
 <thead></thead>
 <tbody>
 <?php if(get_field('telefono-zona-metropolitana') or get_field('telefono-interior-republica')){ ?>
@@ -101,7 +102,8 @@ Karla Suarez Bustamante<br> <span class="resaltar-correo"><?php the_field('conta
 </tr>
 <?php  }?> 
 </tbody>
-</table>
+</table>  
+</div>
 </div>
 </div>
 </div>
