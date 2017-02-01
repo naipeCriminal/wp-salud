@@ -31,6 +31,8 @@
       <ul>
         <li><a target="_BLANK" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/Aviso-de-Privacidad-Seguro-Salud.pdf">Aviso de Privacidad</a></li>
         <li><a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/seguro/seguro-individual-o-familiar-de-salud-basico-estandarizado-2">Básicos Estandarizados</a></li>
+        <li><a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/seguro/seguro-individual-y-familiar-de-salud-dental-basico-estandarizado/">Seguro Individual y Familiar de Salud Dental Básico</a></li>
+        <li><a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/seguro/seguro-individual-o-familiar-de-gastos-medicos/">Seguro Individual o Familiar de Gastos Médicos</a></li>
         <li><a target="_BLANK" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/Buró-EF.pdf">Buró de Entidades Financieras</a></li>
         <li><a target="_BLANK" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/Buro_de_Entidades-SegurosSalud.pdf">Buró de Entidades Financieras SegurosSalud</a></li>
         <li><a target="_BLANK" href="#">Condiciones Generales</a></li>
