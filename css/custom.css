@@ -1116,3 +1116,10 @@ table.tablaContacto tbody tr td{
 	background: none;
 	border-top: none;
 }
+.tableSinBorde{
+	border-bottom: none;
+	border-top: none;
+}
+.tableSinBordeBottom{
+	border-bottom: none;
+}
