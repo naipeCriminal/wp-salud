@@ -1123,3 +1123,32 @@ table.tablaContacto tbody tr td{
 .tableSinBordeBottom{
 	border-bottom: none;
 }
+/*Estilos de pagina Siniestros Seguros Gastos Salud*/
+.backSinGaSa .container{
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+.backSinGaSa.container{
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+.sinGaSa p{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.sinGaSa{
+	margin-bottom: 30px;
+}
+.secSinGa{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.secSinGa .bor{
+	border-right: 1px solid #ccc;
+	height: 277px;
+}
+.secSinGa .borLeft{
+	border-left: 1px solid #ccc;
+	height: 277px;
+}
+/*Terminan estilos de pagina Siniestros Seguros Gastos Salud*/
