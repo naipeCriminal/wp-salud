@@ -1116,6 +1116,13 @@ table.tablaContacto tbody tr td{
 	background: none;
 	border-top: none;
 }
+.tableSinBorde{
+	border-bottom: none;
+	border-top: none;
+}
+.tableSinBordeBottom{
+	border-bottom: none;
+}
 /*Estilos de pagina Siniestros Seguros Gastos Salud*/
 .backSinGaSa .container{
 	margin-top: 60px;
