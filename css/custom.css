@@ -1098,7 +1098,7 @@ td:nth-child(even) {
 	font-size: 14px;
 }
 .requeriments span.resaltar-correo{
-	font-size: 16px;
+	font-size: 14px !important;
 	color:#0f6bda !important;
 }
 .snstr{
