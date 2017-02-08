@@ -27,7 +27,7 @@ get_header(); ?>
       <div class="col-md-6 text-left">
         <h1 class="h1izq"><?php the_title(); ?></h1>
         <p><?php the_content(); ?></p>
-        <h2 class="h2izq">Beneficios:</h2>
+        <h2 class="h1izq">Beneficios:</h2>
         <?php if( get_field('beneficios') ): the_field('beneficios'); endif; ?>
       </div>
     </div>

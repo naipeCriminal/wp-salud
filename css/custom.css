@@ -721,7 +721,7 @@ h1.sumasAseguradas{
 .tablaGMM{
 	border-radius: 4px;
     border-style: hidden;
-    box-shadow: 0 0 0 4px #0f6bda;
+    box-shadow: 0 0 0 2px #0f6bda;
     margin: 5px !important;
 }
 .tablaGMM thead{
@@ -1156,3 +1156,9 @@ table.tablaContacto tbody tr td{
 	background-size: cover;
 }
 /*Terminan estilos de pagina Siniestros Seguros Gastos Salud*/
+/*Clase para preguntas frecuentes*/
+.fondoFAQs.active{
+    background-color: #094FA4;
+    color: white;
+}
+/*Termina clase para preguntas frecuentes*/
