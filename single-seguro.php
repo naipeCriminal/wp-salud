@@ -54,7 +54,7 @@ get_header(); ?>
     <div class="col-md-12">
       <h1>Planes y Coberturas</h1>
     </div>
-    <div class="col-md-12">
+    <div class="col-md-12 table-responsive">
       <?php the_field('planes_y_coberturas'); ?>
     </div>      
   </div>
@@ -79,13 +79,13 @@ get_header(); ?>
 <?php if(get_field('telefono-zona-metropolitana') or get_field('telefono-interior-republica')){ ?>
 <tr>
 <td><span class="glyphicon glyphicon-earphone" aria-hidden="true" data-original-title="" title=""></span></td>
-<td><?php if(get_field('telefono-zona-metropolitana')) {?>  D.F. y zona metropolitana: <br><span style="font-weight:600;color: #363636 !important;font-size: 16px;"> <?php the_field('telefono-zona-metropolitana'); ?>  </span> <?php } ?><br> <?php if(get_field('telefono-interior-republica')){?>Desde el interior de la república:<br> <span style="font-weight:600;color: #363636 !important;font-size: 16px;"><?php the_field('telefono-interior-republica'); ?> </span><?php } ?></td>
+<td><?php if(get_field('telefono-zona-metropolitana')) {?>  D.F. y zona metropolitana: <br><span style="font-weight:600;font-size: 16px;"> <?php the_field('telefono-zona-metropolitana'); ?>  </span> <?php } ?><br> <?php if(get_field('telefono-interior-republica')){?>Desde el interior de la república:<br> <span style="font-weight:600;font-size: 16px;"><?php the_field('telefono-interior-republica'); ?> </span><?php } ?></td>
 </tr>
 <?php } ?>
 <?php if(get_field('desde_celular')){?>
 <tr>
 <td><span class="glyphicon glyphicon-phone" aria-hidden="true" data-original-title="" title=""></span></td>
-<td>Desde celular:<br><span style="font-weight:600;color: #363636 !important;font-size: 16px;"><?php the_field('desde_celular'); ?></span> </td>
+<td>Desde celular:<br><span style="font-weight:600;font-size: 16px;"><?php the_field('desde_celular'); ?></span> </td>
 </tr>
 <?php } ?>
 <?php if(get_field('correo')){?>

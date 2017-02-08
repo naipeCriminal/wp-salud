@@ -49,17 +49,7 @@
   
   <div class="main-menu">
 <div class="header-buttons">
-    <form action="/meta/buscador/buscador.jsp">
-    
-    <div class="move-to" data-device="tablet phone" data-element="login-form">
-        <div id="form-buttonaccess" class="hidden form-client-access" style="left: -96px; width: 235px; position: absolute;">
-            <aside>                
-            </aside>
-        </div>
-    </div> 
-            <p class="auto-menu">Seguros Salud</p>
-      <input type="search" id="q_head" name="q" class="form-control input-search ui-autocomplete-input" autocomplete="off"><span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
-    </form>   
+
     
 </div>    
   
@@ -153,7 +143,7 @@
                       <a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/siniestro-empresa/" data-original-title="" title="">Gastos Médicos Mayores</a>
                     </li>
                     <li>
-                      <a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/siniestro-persona/" data-original-title="" title="">Salud</a>
+                      <a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/siniestros-salud/" data-original-title="" title="">Salud</a>
                     </li>
                     <li>
                       <a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/siniestro-persona/" data-original-title="" title="">Seguros Indemnizatorios</a>

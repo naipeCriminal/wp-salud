@@ -1,3 +1,6 @@
+.container{
+	width: 960px;
+}
 @font-face {
   font-family: 'bbva-regular';
   src: url("fonts/bbvaweb-book.eot");
@@ -1097,7 +1100,7 @@ td:nth-child(even) {
 	color: #363636;
 	font-size: 14px;
 }
-.requeriments span.resaltar-correo{
+span.resaltar-correo{
 	font-size: 14px !important;
 	color:#0f6bda !important;
 }
@@ -1152,3 +1155,6 @@ table.tablaContacto tbody tr td{
 	height: 277px;
 }
 /*Terminan estilos de pagina Siniestros Seguros Gastos Salud*/
+  iframe {
+   min-height:750px !important;
+}
