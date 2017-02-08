@@ -1124,10 +1124,6 @@ table.tablaContacto tbody tr td{
 	border-bottom: none;
 }
 /*Estilos de pagina Siniestros Seguros Gastos Salud*/
-.backSinGaSa .container{
-	margin-top: 60px;
-	margin-bottom: 60px;
-}
 .backSinGaSa.container{
 	margin-top: 60px;
 	margin-bottom: 60px;
@@ -1150,5 +1146,10 @@ table.tablaContacto tbody tr td{
 .secSinGa .borLeft{
 	border-left: 1px solid #ccc;
 	height: 277px;
+}
+.backSinGaSa{
+	background: url('http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/02/img06.jpg') no-repeat;
+	padding: 80px 0px 80px 0px;
+	background-size: cover;
 }
 /*Terminan estilos de pagina Siniestros Seguros Gastos Salud*/
