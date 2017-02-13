@@ -1,5 +1,18 @@
 $(document).on( 'ready' , function() {
-// alert('ok')
+function pantalla(){
+  pant = $(window).width();
+  //console.info( 'la pantalla mide ' + pant + 'px' );
+  if (pant <= 440) {
+  	$('.sinBordeIndex p.contenido, .bordeIndex p.contenido').css('height','auto');
+  }else{
+  	$('.sinBordeIndex p.contenido, .bordeIndex p.contenido').css('height','115px');
+  }
+  }	
+  pantalla();
+$(window).resize(
+  	function(){
+  		pantalla();
+  	})
     $('#myCarousel').carousel({
 		interval:   4000
 	});
@@ -34,17 +47,4 @@ $(".fancybox").fancybox({
         }
     }
 });
-$('.mp .glyphicon').on('click' , function(){
-	$('.glyphicon').not($(this)).removeClass('glyphicon-circle-arrow-up')
-	$('.glyphicon').not($(this)).addClass('glyphicon-circle-arrow-down')
-
-
-	if ($(this).hasClass('glyphicon-circle-arrow-up')) {
-		$(this).removeClass('glyphicon-circle-arrow-up');
-		$(this).addClass('glyphicon-circle-arrow-down');		
-	}else{
-		$(this).removeClass('glyphicon-circle-arrow-down');
-		$(this).addClass('glyphicon-circle-arrow-up');
-	}
-})
 });
