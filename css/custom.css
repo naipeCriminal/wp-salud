@@ -811,11 +811,8 @@ button{
 	padding: 10px;
 }
 .indexPmedico{
-	margin-top: 80px;
+	margin-top: 20px;
 	text-align: center;
-}
-.imageIndex{
-	margin-top: 100px;
 }
 .h1Index{
 	margin-top: 30px;
@@ -826,9 +823,6 @@ button{
 }
 .bordeIndex{
 	border-left: 1px solid #ccc;
-	padding: 1px 0px 1px 15px;
-}
-.sinBordeIndex{
 	padding: 1px 0px 1px 15px;
 }
 ul li{
@@ -1043,9 +1037,6 @@ p{
 	margin: 13px; 
 
 
-}
-.iconcenter{
-	padding-left: 15px;
 }
 
 .backmision h1.tituloPaginas{
