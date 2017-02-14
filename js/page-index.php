@@ -92,7 +92,7 @@ get_header(); ?>
 					</div>
 					<?php $i++; ?>
 			    <?php endwhile; ?>
-			<?php endif; ?>
+			 <?php endif; ?>			
 		</div>		
 	</div>
 	<div class="row" style="padding: 25px;">
