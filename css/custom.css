@@ -813,7 +813,7 @@ button{
 	padding: 10px;
 }
 .indexPmedico{
-	margin-top: 20px;
+	margin-top: 0px;
 	text-align: center;
 }
 .h1Index{
@@ -1069,7 +1069,9 @@ ul.boulets-only li{
 	list-style-image: none;
 	padding-left: 4px;
 }
-
+.imageIndex{
+	margin-top: 100px;
+}
 .glyphicon.lc:before{
 	font-size:22px; 
 }
