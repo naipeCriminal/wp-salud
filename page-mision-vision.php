@@ -43,7 +43,7 @@ get_header(); ?>
 			<div class="col-md-12">
 				<div class="mision">
 					<span class="glyphicon lc glyphicon-globe" aria-hidden="true"><span class="tituloMision">Misión</span></span><hr>
-					<p><?php echo $mision; ?></p>
+					<p class="text-justify"><?php echo $mision; ?></p>
 				</div>
 
 				<div class="mision">

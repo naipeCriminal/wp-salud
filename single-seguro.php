@@ -27,8 +27,6 @@ get_header(); ?>
       <div class="col-md-6 text-left">
         <h1 class="h1izq"><?php the_title(); ?></h1>
         <p><?php the_content(); ?></p>
-        <h2 class="h1izq">Beneficios:</h2>
-        <?php if( get_field('beneficios') ): the_field('beneficios'); endif; ?>
       </div>
     </div>
   </div>
@@ -58,7 +56,21 @@ get_header(); ?>
       <?php the_field('planes_y_coberturas'); ?>
     </div>      
   </div>
-<?php } ?>  
+<?php } ?>
+
+
+</div>
+</div>
+<div class="container-fluid" style="background: rgba(137, 209, 243, 0.1);padding-top: 40px;padding-bottom: 40px;">
+<div class="container">
+  <div class="row">
+        <h2 class="h1izq">Beneficios:</h2>
+        <?php if( get_field('beneficios') ): the_field('beneficios'); endif; ?>    
+  </div>  
+</div>
+</div>
+<div class="container">
+  <div class="row">
 <div class="requeriments">
   <h1 class="tituloPaginas">Requerimientos y modalidades para contratar:</h1>
 <?php if(get_field('Requerimientos descripcion')){?>
@@ -72,6 +84,10 @@ get_header(); ?>
 <?php  }?> 
   
 </div>
+</div>
+</div>
+<div class="container">
+<div class="row"></div>
 <div class="col-md-6 col-md-offset-3 col-xs-12">
   <table class="tablaContacto table-responsive">
 <thead></thead>
@@ -99,6 +115,13 @@ get_header(); ?>
 <td><span class="glyphicon glyphicon-envelope" aria-hidden="true" data-original-title="" title=""></span></td>
 <td>Contacto para cotizaciones.<br />
 Karla Suarez Bustamante<br> <span class="resaltar-correo"><?php the_field('contacto-para-cotizacion'); ?> </span> </td>
+</tr>
+<?php  }?> 
+<?php if(get_field('horario_de_atencion')){?>
+<tr>
+<td><span class="glyphicon glyphicon-envelope" aria-hidden="true" data-original-title="" title=""></span></td>
+<td>Horario de Atención:<br />
+<span class="resaltar-correo"><?php the_field('horario_de_atencion'); ?> </span> </td>
 </tr>
 <?php  }?> 
 </tbody>

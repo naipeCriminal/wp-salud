@@ -84,9 +84,11 @@ get_header(); ?>
 			    <?php while( have_rows('nuestros_seguros') ): the_row(); ?>
 			 		<div class="col-xs-12 col-md-4 text-center">
 						<img class="iconcenter" src="<?php the_sub_field('img-seg-ind'); ?>"><p></p>
-						<div class="sinBordeIndex  <?php if($i<=2){echo 'cont-rig';} ?> ">
-							<h3><?php the_sub_field('titulo-seg-ind'); ?></h3>
-							<p class="contenido"><?php the_sub_field('texto-seg-ind'); ?></p>
+						<div class="sinBordeIndex">
+							<div class="<?php if($i<=2){echo 'cont-rig';} ?> ">
+								<h3><?php the_sub_field('titulo-seg-ind'); ?></h3>
+								<p class="contenido"><?php the_sub_field('texto-seg-ind'); ?></p>
+							</div>
 							<a href="<?php the_sub_field('link-seg-ind'); ?>"><button class="boton-verde">Conóce más</button></a>
 						</div>
 					</div>
