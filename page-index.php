@@ -78,7 +78,7 @@ get_header(); ?>
 		</div>
 	</div>
 	<div class="row steps">
-		<div class="col-md-12">
+		
 			<?php if( have_rows('nuestros_seguros') ): ?>
 			<?php $i =1; ?>
 			    <?php while( have_rows('nuestros_seguros') ): the_row(); ?>
@@ -93,7 +93,7 @@ get_header(); ?>
 					<?php $i++; ?>
 			    <?php endwhile; ?>
 			<?php endif; ?>
-		</div>		
+		
 	</div>
 	<div class="row" style="padding: 25px;">
 		<div class="col-md-12 text-center visible-xs">

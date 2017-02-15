@@ -466,7 +466,6 @@ ul.listcobertura li{
 	margin-top: -10px;
 }
 .row.steps{
-	padding: 25px;
 	padding-bottom: 10px;
 }
 
@@ -1070,7 +1069,7 @@ ul.boulets-only li{
 	padding-left: 4px;
 }
 .imageIndex{
-	margin-top: 100px;
+	margin-top: 30px;
 }
 .glyphicon.lc:before{
 	font-size:22px; 
