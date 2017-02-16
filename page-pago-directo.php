@@ -31,25 +31,39 @@ get_header(); ?>
 
 		<div class="container">
 			<div class="row">
-		    <div class="list-group gallery" style="width: 100%;">
-		        <div class="col-md-12 topSinPer">
-		        <?php
-					if( have_rows('imagenes') ):
-						while ( have_rows('imagenes') ) : the_row(); 
-						?>
-		        	<div class="col-xs-12 col-md-6 text-center">
-			        	<a title="<?php  the_sub_field('descripcion_img'); ?>" class="fancybox" rel="ligthbox" href="<?php the_sub_field('imagen_info'); ?>"><img class="img-responsive" src="<?php the_sub_field('imagen_info'); ?>" alt=""></a>
-			            <div class="col-md-12 text-justify">
-			            	<p class="pSinPer"><?php  the_sub_field('descripcion_img'); ?></p>
-			            </div>
-			        </div>
-		        <?php
-	    		endwhile;
-				endif;
-				?>
+			    <div class="list-group gallery" style="width: 100%;">
+			        <div class="col-md-12 topSinPer">
+			        <?php
+						if( have_rows('imagenes') ):
+							while ( have_rows('imagenes') ) : the_row(); 
+							?>
+			        	<div class="col-xs-12 col-md-6 text-center">
+				        	<a title="<?php  the_sub_field('descripcion_img'); ?>" class="fancybox" rel="ligthbox" href="<?php the_sub_field('imagen_info'); ?>"><img class="img-responsive" src="<?php the_sub_field('imagen_info'); ?>" alt=""></a>
+				            <div class="col-md-12 text-justify">
+				            	<p class="pSinPer"><?php  the_sub_field('descripcion_img'); ?></p>
+				            </div>
+				        </div>
+			        <?php
+		    		endwhile;
+					endif;
+					?>
+					</div>
+			    </div>
+			</div>
+			<div class="row">
+				<div class="col-md-12" style="width: 100%;margin-bottom: 20px;">
+					<?php
+						if( have_rows('pdf') ):
+							while ( have_rows('pdf') ) : the_row(); 
+							?>
+					<div class="col-md-4 col-xs-12">
+						<a style="border: 1px solid #094FA4;" class="btn btn-default" target="_BLANK" href="<?php  the_sub_field('filepdf'); ?>" role="button"><?php  the_sub_field('nombre'); ?></a>
+					</div>
+					<?php
+		    		endwhile;
+					endif;
+					?>
 				</div>
-		    </div>
-		</div>
-
+			</div>
 		</div>
 <?php get_footer(); ?>
