@@ -1092,7 +1092,7 @@ ul.boulets-only li{
 	font-size: 11px;
 	color: #363636;
 }
-td:nth-child(even) {
+table.tablaGMM td:nth-child(even) {
     background-color: rgba(0,110,179,0.1);
 }
 .requeriments h2{
@@ -1104,8 +1104,8 @@ td:nth-child(even) {
 	font-size: 14px;
 }
 span.resaltar-correo{
-	font-size: 14px !important;
-	color:#0f6bda !important;
+	font-size: 9px !important;
+	color:#094fa4 !important;
 }
 .snstr{
 	font-size: 16px;
@@ -1169,3 +1169,47 @@ table.tablaContacto tbody tr td{
     color: white;
 }
 /*Termina clase para preguntas frecuentes*/
+.segurocontac{
+	padding-bottom: 30px;
+}
+table.tablecontact{
+	border:medium hidden;
+}
+.linearight{
+	border-right: solid 1px #cccccc;
+}
+
+/*alinear al centro columnas*/
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+.col-centered span.icono{
+    width: 30px;
+    height: 30px;
+    top: 15px;
+    left: 0px;	
+}
+.col-centered span.icono.df{
+	background-image: url('http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/02/icn_45.png');
+	background-repeat: no-repeat;
+}
+.col-centered span.icono.cel{
+	background-image: url('http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/02/icn_47.png');
+	background-repeat: no-repeat;
+}
+.col-centered span.icono.sobre{
+	background-image: url('http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/02/icn_49.png');
+	background-repeat: no-repeat;
+}
+.col-centered span.icono.atencion{
+	background-image: url('http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/02/icn_51.png');
+	background-repeat: no-repeat;
+}

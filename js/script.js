@@ -55,5 +55,7 @@ $(".fancybox").fancybox({
 	        scrollTop: $(section).offset().top
 	    });
 	});
+
+	$('.linearight').last().removeClass('linearight');
 	
 });

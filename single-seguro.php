@@ -87,46 +87,68 @@ get_header(); ?>
 </div>
 </div>
 <div class="container">
-<div class="row"></div>
-<div class="col-md-6 col-md-offset-3 col-xs-12">
-  <table class="tablaContacto table-responsive">
-<thead></thead>
-<tbody>
-<?php if(get_field('telefono-zona-metropolitana') or get_field('telefono-interior-republica')){ ?>
-<tr>
-<td><span class="glyphicon glyphicon-earphone" aria-hidden="true" data-original-title="" title=""></span></td>
-<td><?php if(get_field('telefono-zona-metropolitana')) {?>  D.F. y zona metropolitana: <br><span style="font-weight:600;font-size: 16px;"> <?php the_field('telefono-zona-metropolitana'); ?>  </span> <?php } ?><br> <?php if(get_field('telefono-interior-republica')){?>Desde el interior de la república:<br> <span style="font-weight:600;font-size: 16px;"><?php the_field('telefono-interior-republica'); ?> </span><?php } ?></td>
-</tr>
-<?php } ?>
-<?php if(get_field('desde_celular')){?>
-<tr>
-<td><span class="glyphicon glyphicon-phone" aria-hidden="true" data-original-title="" title=""></span></td>
-<td>Desde celular:<br><span style="font-weight:600;font-size: 16px;"><?php the_field('desde_celular'); ?></span> </td>
-</tr>
-<?php } ?>
-<?php if(get_field('correo')){?>
-<tr>
-<td><span class="glyphicon glyphicon-envelope" aria-hidden="true" data-original-title="" title=""></span></td>
-<td>Por correo electrónico: <br> <span class="resaltar-correo"><?php the_field('correo'); ?> </span> </td>
-</tr>
-<?php  }?> 
-<?php if(get_field('contacto-para-cotizacion')){?>
-<tr>
-<td><span class="glyphicon glyphicon-envelope" aria-hidden="true" data-original-title="" title=""></span></td>
-<td>Contacto para cotizaciones.<br />
-Karla Suarez Bustamante<br> <span class="resaltar-correo"><?php the_field('contacto-para-cotizacion'); ?> </span> </td>
-</tr>
-<?php  }?> 
-<?php if(get_field('horario_de_atencion')){?>
-<tr>
-<td><span class="glyphicon glyphicon-envelope" aria-hidden="true" data-original-title="" title=""></span></td>
-<td>Horario de Atención:<br />
-<span class="resaltar-correo"><?php the_field('horario_de_atencion'); ?> </span> </td>
-</tr>
-<?php  }?> 
-</tbody>
-</table>  
+<div class="row segurocontac row-centered">
+      <?php if(get_field('telefono-zona-metropolitana') or get_field('telefono-interior-republica')){ ?>
+        <div class="col-md-3 linearight col-centered">
+          <table class="tablecontact">
+          <tr>
+          <td><span class="icono df"></span></td>
+          <td><?php if(get_field('telefono-zona-metropolitana')) {?>  D.F. y zona metropolitana: <br><span style="font-size: 16px;"> <?php the_field('telefono-zona-metropolitana'); ?>  </span> <?php } ?><br> <?php if(get_field('telefono-interior-republica')){?> ó  <span style="font-size: 16px;"><?php the_field('telefono-interior-republica'); ?> </span><?php } ?></td>
+          </tr>        
+          </table>
+        </div>
+      <?php } ?>    
+  
+  
+      <?php if(get_field('desde_celular')){?>
+        <div class="col-md-3 linearight col-centered">
+          <table class="tablecontact">
+            <tr>
+            <td><span class="icono cel"></span></td>
+            <td>Desde celular:<br><span style="font-size: 16px;"><?php the_field('desde_celular'); ?></span> </td>
+            </tr>          
+          </table>
+        </div>
+      <?php } ?>    
+  
+      <?php if(get_field('correo')){?>
+        <div class="col-md-3 linearight col-centered">
+          <table class="tablecontact">
+          <tr>
+          <td><span class="icono sobre" aria-hidden="true" data-original-title="" title=""></span></td>
+          <td>Por correo electrónico: <br> <span class="resaltar-correo"><?php the_field('correo'); ?> </span> </td>
+          </tr>
+          </table>
+        </div>
+      <?php  }?>     
+  
+      <?php if(get_field('contacto-para-cotizacion')){?>
+        <div class="col-md-3 linearight col-centered">
+          <table class="tablecontact">
+            <tr>
+            <td><span class="icono sobre" aria-hidden="true" data-original-title="" title=""></span></td>
+            <td>Contacto para cotizaciones.<br />
+            Karla Suarez Bustamante<br> <span class="resaltar-correo"><?php the_field('contacto-para-cotizacion'); ?> </span> </td>
+            </tr>          
+          </table>
+        </div>
+      <?php  }?>     
+  
+  
+      <?php if(get_field('horario_de_atencion')){?>
+        <div class="col-md-3 linearight col-centered">
+          <table class="tablecontact">
+          <tr>
+          <td><span class="icono atencion" aria-hidden="true" data-original-title="" title=""></span></td>
+          <td>Horario de Atención:<br />
+          <span><?php the_field('horario_de_atencion'); ?> </span> </td>
+          </tr>
+          </table>
+        </div>
+      <?php  }?>     
+  
 </div>
+
 </div>
 </div>
 </div>
