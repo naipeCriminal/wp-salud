@@ -32,7 +32,7 @@ get_header(); ?>
   </div>
 </div>
 
-<div class="container">
+<div class="container" style="padding-top:30px;padding-bottom:30px;">
   <div class="row">
 <?php if( get_field('descripcion_resumida_de_ayuda') ) { ?>
   <div class="row planesGMM">

@@ -140,7 +140,7 @@
                 <div class="col-lg-12">
                   <ul>
                     <li>
-                      <a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/siniestro-empresa/" data-original-title="" title="">Gastos Médicos Mayores</a>
+                      <a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/gastos-medicos-mayores/" data-original-title="" title="">Gastos Médicos Mayores</a>
                     </li>
                     <li>
                       <a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/siniestros-salud/" data-original-title="" title="">Salud</a>
@@ -209,7 +209,7 @@
         </li>
       <li class="col-md-3 text-center dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Siniestro<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a class="text-center" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/siniestro-empresa/">Gastos Médicos Mayores</a>
+            <li><a class="text-center" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/gastos-medicos-mayores/">Gastos Médicos Mayores</a>
             </li>
             <li><a class="text-center" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/siniestro-persona/">Salud</a>
             </li>

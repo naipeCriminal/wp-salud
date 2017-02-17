@@ -1213,3 +1213,16 @@ table.tablecontact{
 	background-image: url('http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/02/icn_51.png');
 	background-repeat: no-repeat;
 }
+span.circle{
+	padding-top: 10px;
+	padding-bottom: 8px;
+	padding-right: 14px;
+	padding-left: 14px;
+	border: solid 2px #006EC1;
+	position: relative;
+	-webkit-border-radius: 35px;
+	-moz-border-radius: 35px;
+	border-radius: 35px;
+	background: #094FA4;
+	color: #ffffff;	
+}
