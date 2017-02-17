@@ -52,7 +52,7 @@ get_header(); ?>
     <div class="col-md-12">
       <h1>Planes y Coberturas</h1>
     </div>
-    <div class="col-md-12 table-responsive">
+    <div class="col-md-12 flag">
       <?php the_field('planes_y_coberturas'); ?>
     </div>      
   </div>

@@ -643,6 +643,21 @@ ul.dropdown-menu{
 	content: "\e260";    /* adjust as needed, taken from bootstrap.css */
     position: relative;	
 }
+.flag .panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    content: "\e259";    /* adjust as needed, taken from bootstrap.css */
+    float: inherit;        /* adjust as needed */
+    color: grey;         /* adjust as needed */
+
+}
+.flag .panel-heading .accordion-toggle:after{
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    float: inherit;        /* adjust as needed */
+    color: grey;         /* adjust as needed */
+	content: "\e260";    /* adjust as needed, taken from bootstrap.css */
+    position: relative;	
+}
 .panel-default{
 	border:none;
 }
