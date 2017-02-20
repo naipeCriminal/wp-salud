@@ -48,12 +48,13 @@ $(".fancybox").fancybox({
     }
 });
 	
-	$("nav").find("a").click(function(e) {
-	    e.preventDefault();
-	    var section = $(this).attr("href");
-	    $("html, body").animate({
-	        scrollTop: $(section).offset().top
-	    });
+	$('.backSiniEmpresa a[href^="#"]').click(function(){
+		var the_id = $(this).attr("href");
+
+		$('html, body').animate({
+			scrollTop:$(the_id).offset().top
+		}, 'slow');
+		return false;
 	});
 
 	$('.linearight').last().removeClass('linearight');

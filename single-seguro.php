@@ -27,6 +27,7 @@ get_header(); ?>
       <div class="col-md-6 text-left">
         <h1 class="h1izq"><?php the_title(); ?></h1>
         <p><?php the_content(); ?></p>
+        <a href="#benef"><button class="boton-verde">Conóce Beneficios</button></a>
       </div>
     </div>
   </div>
@@ -61,7 +62,7 @@ get_header(); ?>
 
 </div>
 </div>
-<div class="container-fluid" style="background: rgba(137, 209, 243, 0.1);padding-top: 40px;padding-bottom: 40px;">
+<div id="benef" class="container-fluid" style="background: rgba(137, 209, 243, 0.1);padding-top: 40px;padding-bottom: 40px;">
 <div class="container">
   <div class="row">
         <h2 class="h1izq">Beneficios:</h2>
