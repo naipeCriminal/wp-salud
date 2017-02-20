@@ -643,6 +643,21 @@ ul.dropdown-menu{
 	content: "\e260";    /* adjust as needed, taken from bootstrap.css */
     position: relative;	
 }
+.flag .panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    content: "\e259";    /* adjust as needed, taken from bootstrap.css */
+    float: inherit;        /* adjust as needed */
+    color: grey;         /* adjust as needed */
+
+}
+.flag .panel-heading .accordion-toggle:after{
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    float: inherit;        /* adjust as needed */
+    color: grey;         /* adjust as needed */
+	content: "\e260";    /* adjust as needed, taken from bootstrap.css */
+    position: relative;	
+}
 .panel-default{
 	border:none;
 }
@@ -727,14 +742,14 @@ h1.sumasAseguradas{
     margin-right: 10px;
 }
 .tablaGMM{
-	border-radius: 4px;
+	border-radius: 2px;
     border-style: hidden;
     box-shadow: 0 0 0 2px #0f6bda;
     margin: 5px !important;
 }
 .tablaGMM thead{
 	background-color: #8eb9ec;
-	border: 4px solid #0f6bda;
+	border: 2px solid #0f6bda;
 }
 .tablaGMM thead th{
 	text-align: center;
@@ -747,14 +762,14 @@ h1.sumasAseguradas{
 	color: #000;
 }
 .tablaGMM2{
-	border-radius: 4px;
+	border-radius: 2px;
     border-style: hidden;
-    box-shadow: 0 0 0 4px #0f6bda;
+    box-shadow: 0 0 0 2px #0f6bda;
     margin: 5px !important;
 }
 .tablaGMM2 thead{
 	background-color: #FFF;
-	border: 4px solid #0f6bda;
+	border: 2px solid #0f6bda;
 }
 .tablaGMM2 thead th{
 	text-align: center;
