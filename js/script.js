@@ -3,9 +3,11 @@ function pantalla(){
   pant = $(window).width();
   //console.info( 'la pantalla mide ' + pant + 'px' );
   if (pant <= 440) {
+  	$('.seccionP').css('height','auto');
   	$('.sinBordeIndex p.contenido, .bordeIndex p.contenido').css('height','auto');
   }else{
   	$('.sinBordeIndex p.contenido, .bordeIndex p.contenido').css('height','115px');
+  	$('.seccionP').css('height','370px');
   }
   }	
   pantalla();

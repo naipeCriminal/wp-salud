@@ -1122,12 +1122,6 @@ span.resaltar-correo{
 	font-size: 9px !important;
 	color:#094fa4 !important;
 }
-.snstr{
-	font-size: 16px;
-}
-a.snstr{
-	text-decoration: underline;
-}
 .tablaContacto{
 	margin-top: 30px;
 	border-radius: none;
@@ -1240,4 +1234,11 @@ span.circle{
 	border-radius: 35px;
 	background: #094FA4;
 	color: #ffffff;	
+}
+.boton-verde img.icon{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
 }
