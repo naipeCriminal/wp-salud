@@ -21,7 +21,7 @@ get_header(); ?>
 ?>
         
 <?php if( have_rows('slider-ind') ): ?>
-  <div class="row" style="background: #f2f2f2;margin-right: 15px;">
+  <div class="row" style="background: #f2f2f2;">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner" role="listbox" style="margin-bottom: -20px;">
 
