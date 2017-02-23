@@ -46,27 +46,29 @@ get_header(); ?>
 	 </div>
    <div class="row separador separadortop"></div>
 <?php endwhile; ?>
-
-	 <div class="container hidden-xs hidden-sm">
-    <div class="col-md-12">
+<div class="container">
       <div class="row mp">
         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
         	<?php
 				if( have_rows('articulos') ):
 				$i = 1;
 				while ( have_rows('articulos') ) : the_row();
-          
-            // $tituloArticulo = the_sub_field('titulo-articulo');
-            // $imagenArticulo = the_sub_field('imagen-articulo');
-            // $descripcionArticulo = the_sub_field('descripcion-articulo');
-            // $botonArticulo = the_sub_field('boton-articulo');
-            // $collaDescripcion = the_sub_field('colla-descripcion');
-            // $collaPdf = the_sub_field('colla-pdf');
+          if (($i%2) !=0){
+            $tituloArticulo = get_sub_field('titulo-articulo');
+            $imagenArticulo = get_sub_field('imagen-articulo');
+            $descripcionArticulo = get_sub_field('descripcion-articulo');
+            $botonArticulo = get_sub_field('boton-articulo');
+            $collaDescripcion = get_sub_field('colla-descripcion');
+            $collaPdf = get_sub_field('colla-pdf');            
+          }
             
 			?>
-       <?php if (($i%2) != 0) { ?>
+      <?php if (($i%2) !=0){ ?>
           <div class="panel panel-default">
             <div class="row">
+      <?php } ?>
+
+
               <div class="col-md-6 text-center">
                 <h1><?php echo the_sub_field('titulo-articulo'); ?></h1>
                   <img src="<?php echo the_sub_field('imagen-articulo'); ?>">
@@ -79,24 +81,10 @@ get_header(); ?>
                   </h4>
                 </div>
               </div>
-              <?php }else{?>
-              <div class="col-md-6 text-center">
-                <h1><?php echo the_sub_field('titulo-articulo'); ?></h1>
-                 <img src="<?php echo the_sub_field('imagen-articulo'); ?>">
-                 <p><?php echo the_sub_field('descripcion-articulo'); ?></p>
-                <div class="panel-heading" role="tab" id="heading<?php echo $i; ?>">
-                  <h4 class="panel-title">
-                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse<?php echo $i; ?>" aria-expanded="false" aria-controls="collapse<?php echo $i; ?>">
-                      <button class="boton-azul"><?php echo the_sub_field('boton-articulo'); ?></button>
-                    </a>
-                  </h4>
-                </div>
-              </div>
-              <?php }?>
-            </div>
-            </div>
-            <?php if (($i%2) !=0) {  
-             ?>
+
+      <?php if (($i%2) ==0){ ?>  
+            </div> 
+
             <div id="collapse<?php echo $i?>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading<?php echo $i?>">
               <div class="panel-body">
                    <h1><?php echo the_sub_field('titulo-articulo'); ?></h1>
@@ -106,28 +94,23 @@ get_header(); ?>
                 </div>
               </div>
             </div>
-            <?php } else{ ?>
-            <div id="collapse<?php echo $i;?>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading<?php echo $i;?>">
+            <div id="collapse<?php echo $i-1;?>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading<?php echo $i-1;?>">
               <div class="panel-body">
               <?php ?>
-                <h1><?php echo the_sub_field('titulo-articulo'); ?></h1>
-                <?php echo the_sub_field('colla-descripcion'); ?>
+                <h1><?php echo $tituloArticulo; ?></h1>
+                <?php echo $collaDescripcion; ?>
                 <div class="col-md-12 text-center">
-                  <a target="_BLANK" href="<?php echo the_sub_field('colla-pdf'); ?>"><button class="boton-verde"><img class="icon" src="#">Descargar PDF para más información</button></a>
+                  <a target="_BLANK" href="<?php echo $collaPdf; ?>"><button class="boton-verde"><img class="icon" src="#">Descargar PDF para más información</button></a>
                 </div>
               </div>
             </div>
-            <?php } ?>
-          </div> 
+
+            </div>
+
+
+      <?php } ?>
+          
            <?php
-           // else {
-           //      // $tituloArticulo = the_sub_field('titulo-articulo');
-           //      // $imagenArticulo = the_sub_field('imagen-articulo');
-           //      // $descripcionArticulo = the_sub_field('descripcion-articulo');
-           //      // $botonArticulo = the_sub_field('boton-articulo');
-           //      // $collaDescripcion = the_sub_field('colla-descripcion');
-           //      // $collaPdf = the_sub_field('colla-pdf');
-           //    }
            $i++;
 		    endwhile;
 			endif;
@@ -135,7 +118,9 @@ get_header(); ?>
       </div>
         
         </div>
-      </div>
+        </div>
+        </div>
+
     
 
 <?php get_footer(); ?>
