@@ -9,8 +9,8 @@
  * @since Twenty Fifteen 1.0
  */
 ?>
-<div class="row separador"></div>
-<div style="background: #f2f2f2; width: 100%;">
+<!-- <div class="row separador"></div> -->
+<div style="width: 100%;">
   <div class="container footer">
   <div class="row arealink">
     <div class="col-md-4 col-xs-6 infoAyuda">
