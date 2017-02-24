@@ -33,7 +33,7 @@ get_header(); ?>
 							?>
 
 			        	<div class="col-xs-12 col-md-4 text-left">
-			        		<p style="height:140px; text-align: justify;line-height: 30px;"><span class="circle"><?php echo $i; ?></span> <?php  the_sub_field('descripcion_img'); ?></p>
+			        		<p style="height:230px; text-align: justify;line-height: 30px;"><span class="circle"><?php echo $i; ?></span> <?php  the_sub_field('descripcion_img'); ?></p>
 			        		
 				        	<a title="<?php  the_sub_field('descripcion_img'); ?>" class="fancybox" rel="ligthbox" href="<?php the_sub_field('imagen_info'); ?>"><img class="img-responsive" style="margin: 0 auto;" src="<?php the_sub_field('imagen_info'); ?>" alt=""></a>
 				            <div class="col-md-12 text-justify">

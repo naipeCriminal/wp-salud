@@ -1278,3 +1278,10 @@ span.circle{
 	width: 0px;
 	height: 0px;
 }
+.requeriments ul.boulets-only li{
+	text-align: center;
+	list-style: none;
+}
+.requeriments ul.boulets-only li:before{
+	content: '• ';
+}
