@@ -20,17 +20,11 @@ get_header(); ?>
     global $post;
     $thumbID = get_post_thumbnail_id( $post->ID );
     $imgDestacada = wp_get_attachment_url( $thumbID );
-    $tituloArticulo1 = "";
     $tituloArticulo = "";
-    $imagenArticulo1 = "";
     $imagenArticulo = "";
-    $descripcionArticulo1 = "";
     $descripcionArticulo = "";
-    $botonArticulo1 = "";
     $botonArticulo = "";
-    $collaDescripcion1 = "";
     $collaDescripcion = "";
-    $collaPdf1 = "";
     $collaPdf = "";
 	?>
 
@@ -46,7 +40,7 @@ get_header(); ?>
 	 </div>
    <div class="row separador separadortop"></div>
 <?php endwhile; ?>
-<div class="container">
+<div class="container hidden-xs hidden-sm">
       <div class="row mp">
         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
         	<?php
@@ -104,9 +98,7 @@ get_header(); ?>
                 </div>
               </div>
             </div>
-
             </div>
-
 
       <?php } ?>
           
@@ -120,6 +112,52 @@ get_header(); ?>
         </div>
         </div>
 
-    
+
+
+      <div class="container visible-xs visible-sm">
+      <div class="row mp">
+        <div class="panel-group" id="accordion2" role="tablist" aria-multiselectable="true">
+          <?php
+        if( have_rows('articulos') ):
+        $i = 1;
+        while ( have_rows('articulos') ) : the_row();
+          
+            
+      ?>
+          <div class="panel panel-default">
+            <div class="row">
+             <div class="col-md-6 text-center">
+                <h1><?php echo the_sub_field('titulo-articulo'); ?></h1>
+                  <img src="<?php echo the_sub_field('imagen-articulo'); ?>">
+                  <p><?php echo the_sub_field('descripcion-articulo'); ?></p>
+                <div class="panel-heading" role="tab" id="heading<?php echo "a$i"?>">
+                  <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapse<?php echo "a$i"?>" aria-expanded="true" aria-controls="collapse<?php echo "a$i"?>">
+                      <button class="boton-azul"><?php echo the_sub_field('boton-articulo'); ?></button>
+                    </a>
+                  </h4>
+                </div>
+              </div>  
+            </div> 
+
+            <div id="collapse<?php echo "a$i"?>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading<?php echo "a$i"?>">
+              <div class="panel-body">
+                   <h1><?php echo the_sub_field('titulo-articulo'); ?></h1>
+                   <?php echo the_sub_field('colla-descripcion'); ?>
+                <div class="col-md-12 text-center">
+                  <a target="_BLANK" href="<?php echo the_sub_field('colla-pdf') ?>"><button class="boton-verde"><img class="icon" src="#">Descargar PDF para más información</button></a>
+                </div>
+              </div>
+            </div>
+            </div>
+           <?php
+           $i++;
+        endwhile;
+      endif;
+      ?>
+      </div>
+        
+        </div>
+        </div>
 
 <?php get_footer(); ?>
