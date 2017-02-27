@@ -1274,9 +1274,9 @@ span.circle{
 .boton-verde img.icon{
 	position: relative;
 	top: 0px;
-	left: 0px;
-	width: 0px;
-	height: 0px;
+	left: -10px;
+    width: 18px;
+    height: 18px;
 }
 .requeriments ul.boulets-only li{
 	text-align: center;
