@@ -1312,3 +1312,18 @@ li.icon-pdf:before{
     width: 18px;
     height: 18px;
 }
+li.icon-pdf2{
+	list-style-image: none;
+	list-style-type: none;
+}
+li.icon-pdf2:after{
+    content: '';
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    position: relative;
+    background-image: url(http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/02/icn_pdf_blue.png);
+    background-size: cover;
+    left: 5px;
+    top: 3px;
+}
