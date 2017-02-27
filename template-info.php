@@ -22,6 +22,7 @@ get_header(); ?>
 		  </div>
 		</div>
 
+<div class="backgris">
 		<div class="container">
 			<div class="row">
 			    <div class="list-group gallery" style="width: 100%;">
@@ -68,5 +69,6 @@ get_header(); ?>
 					?>
 				</div>
 			</div>
-		</div>
+		</div>	
+</div>
 <?php get_footer(); ?>
