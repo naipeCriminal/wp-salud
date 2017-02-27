@@ -84,7 +84,7 @@ get_header(); ?>
                    <h1><?php echo the_sub_field('titulo-articulo'); ?></h1>
                    <?php echo the_sub_field('colla-descripcion'); ?>
                 <div class="col-md-12 text-center">
-                  <a target="_BLANK" href="<?php echo the_sub_field('colla-pdf') ?>"><button class="boton-verde"><img class="icon" src="#">Descargar PDF para más información</button></a>
+                  <a target="_BLANK" href="<?php echo the_sub_field('colla-pdf') ?>"><button class="boton-verde"><img class="icon" src="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/02/icn_pdf.png">Descargar PDF para más información</button></a>
                 </div>
               </div>
             </div>
@@ -94,7 +94,7 @@ get_header(); ?>
                 <h1><?php echo $tituloArticulo; ?></h1>
                 <?php echo $collaDescripcion; ?>
                 <div class="col-md-12 text-center">
-                  <a target="_BLANK" href="<?php echo $collaPdf; ?>"><button class="boton-verde"><img class="icon" src="#">Descargar PDF para más información</button></a>
+                  <a target="_BLANK" href="<?php echo $collaPdf; ?>"><button class="boton-verde"><img class="icon" src="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/02/icn_pdf.png">Descargar PDF para más información</button></a>
                 </div>
               </div>
             </div>
@@ -145,7 +145,7 @@ get_header(); ?>
                    <h1><?php echo the_sub_field('titulo-articulo'); ?></h1>
                    <?php echo the_sub_field('colla-descripcion'); ?>
                 <div class="col-md-12 text-center">
-                  <a target="_BLANK" href="<?php echo the_sub_field('colla-pdf') ?>"><button class="boton-verde"><img class="icon" src="#">Descargar PDF para más información</button></a>
+                  <a target="_BLANK" href="<?php echo the_sub_field('colla-pdf') ?>"><button class="boton-verde"><img class="icon" src="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/02/icn_pdf.png">Descargar PDF para más información</button></a>
                 </div>
               </div>
             </div>
