@@ -1,4 +1,4 @@
-.container{
+.row{
 	width: 960px;
 }
 @font-face {
@@ -1284,6 +1284,12 @@ span.circle{
 }
 .requeriments ul.boulets-only li:before{
 	content: '• ';
+}
+
+.slider-filtro{
+	margin-bottom: 30px;
+	margin-top: 30px;
+	height: 500px;
 }
 li.icon-pdf{
 	list-style-image: none;

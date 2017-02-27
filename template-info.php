@@ -59,8 +59,8 @@ get_header(); ?>
 						if( have_rows('pdf') ):
 							while ( have_rows('pdf') ) : the_row(); 
 							?>
-					<div class="col-md-4 col-xs-12">
-						<a style="border: 1px solid #094FA4;" class="btn btn-default" target="_BLANK" href="<?php  the_sub_field('filepdf'); ?>" role="button"><?php  the_sub_field('nombre'); ?></a>
+					<div class="col-md-4 col-xs-12 text-center">
+						<a target="_BLANK" href="<?php  the_sub_field('filepdf'); ?>"><button class="boton-verde"><?php  the_sub_field('nombre'); ?></button></a>
 					</div>
 					<?php
 		    		endwhile;
