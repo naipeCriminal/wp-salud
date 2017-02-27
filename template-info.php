@@ -60,7 +60,7 @@ get_header(); ?>
 							while ( have_rows('pdf') ) : the_row(); 
 							?>
 					<div class="col-md-4 col-xs-12 text-center">
-						<a target="_BLANK" href="<?php  the_sub_field('filepdf'); ?>"><button class="boton-verde"><?php  the_sub_field('nombre'); ?></button></a>
+						<a target="_BLANK" href="<?php  the_sub_field('filepdf'); ?>"><button class="boton-verde"><img class="icon" src="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/02/icn_pdf.png"><?php  the_sub_field('nombre'); ?></button></a>
 					</div>
 					<?php
 		    		endwhile;
