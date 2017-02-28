@@ -16,7 +16,7 @@ get_header(); ?>
 <div class="backgris">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6">
+			<div class="col-md-8">
 				<?php while ( have_posts() ) : the_post(); ?>
 
 				<h1 class="tituloPaginas text-left"><?php the_title(); ?></h1>
@@ -24,7 +24,7 @@ get_header(); ?>
 					<?php if( have_rows('condiciones_generales') ): ?>
 					<?php $i =1; ?>
 					    <?php while( have_rows('condiciones_generales') ): the_row(); ?>
-						    <li><a target="_BLANK" href="<?php echo the_sub_field('pdf'); ?>"><?php echo the_sub_field('texto'); ?> </a></li>
+						    <li class="icon-pdf"><a target="_BLANK" href="<?php echo the_sub_field('pdf'); ?>"><?php echo the_sub_field('texto'); ?> </a></li>
 						    <?php endwhile; ?>
 					<?php endif; ?>				
 
