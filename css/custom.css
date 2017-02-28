@@ -1123,7 +1123,7 @@ span.borde-icono{
 	padding: 3px;
 }
 
-.descripcionFiltro ul li, ul.boulets-only li{
+.benef ul li ,.descripcionFiltro ul li, ul.boulets-only li{
 	list-style-image: none;
 	padding-left: 4px;
 }
@@ -1334,7 +1334,7 @@ li.icon-pdf2:after{
 	top: 8px;
 }
 .descripcionFiltro{
-    background: #fff;
+	background: rgba(251, 251, 252,0.5);
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 20px;
