@@ -1289,7 +1289,7 @@ span.circle{
 .slider-filtro{
 	padding-bottom: 30px;
 	padding-top: 30px;
-	height: 500px;
+	height: 440px;
 }
 li.icon-pdf{
 	list-style-image: none;
@@ -1345,6 +1345,14 @@ li.icon-pdf2:after{
 }
 .descripcionFiltro h2{
 	text-align: left;
+	color: #006EC1;
+
+}
+h2.h1izq:before , .descripcionFiltro h2:before{
+	position: relative;
+	top: 1px;
+	left: -5px;	
+	content: url("http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/02/icn_benef_light.png");
 
 }
 .descripcionFiltro p{

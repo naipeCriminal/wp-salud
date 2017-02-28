@@ -17,7 +17,7 @@ get_header(); ?>
 									<div class="descripcionFiltro">
 										<h1><?php the_sub_field('titulo'); ?></h1>
 										<h2>Beneficios</h2>
-										<p><?php the_sub_field('subtitulo'); ?></p>
+										<!-- <p><?php #the_sub_field('subtitulo'); ?></p> -->
 										<?php the_sub_field('beneficios'); ?>
 										<a href="<?php the_sub_field('link'); ?>"><button class="boton-verde">Conóce Beneficios</button></a>									
 									</div>									
