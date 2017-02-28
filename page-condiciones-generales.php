@@ -24,7 +24,7 @@ get_header(); ?>
 					<?php if( have_rows('condiciones_generales') ): ?>
 					<?php $i =1; ?>
 					    <?php while( have_rows('condiciones_generales') ): the_row(); ?>
-						    <li class="icon-pdf"><a target="_BLANK" href="<?php echo the_sub_field('pdf'); ?>"><?php echo the_sub_field('texto'); ?> </a></li>
+						    <li class="icon-pdf"><a href="<?php echo the_sub_field('pdf'); ?>"><?php echo the_sub_field('texto'); ?> </a></li>
 						    <?php endwhile; ?>
 					<?php endif; ?>				
 
