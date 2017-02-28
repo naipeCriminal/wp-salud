@@ -7,13 +7,15 @@ Template Name: filtro seguro
 get_header(); ?>
 		<?php the_sub_field('imagen_info'); ?>
 		<?php
+			$i=1;
 			if( have_rows('banners') ):
 				while ( have_rows('banners') ) : the_row(); 
 		?>
+					
 					<div class="slider-filtro" style="background:url('<?php the_sub_field('imagen'); ?>');background-position:center top;background-size:cover;">
 						<div class="container">
 							<div class="row">
-								<div class="col-md-6">
+								<div class="<?php if (($i%2)==0) { echo "col-md-offset-6 "; }?>col-md-6">
 									<div class="descripcionFiltro">
 										<h1><?php the_sub_field('titulo'); ?></h1>
 										<h2>Beneficios</h2>
@@ -25,8 +27,8 @@ get_header(); ?>
 							</div>							
 						</div>
 					</div>
-
-		<?php
+					<?php 
+					$i++;
 				endwhile;
 		endif;
 		?>
