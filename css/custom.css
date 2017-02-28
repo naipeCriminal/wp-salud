@@ -1123,7 +1123,7 @@ span.borde-icono{
 	padding: 3px;
 }
 
-ul.boulets-only li{
+.descripcionFiltro ul li, ul.boulets-only li{
 	list-style-image: none;
 	padding-left: 4px;
 }
@@ -1332,4 +1332,27 @@ li.icon-pdf2:after{
 }
 .glyphicon.glyphicon-share-alt.glyOfi{
 	top: 8px;
+}
+.descripcionFiltro{
+    background: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.descripcionFiltro h1{
+	text-align: left;
+}
+.descripcionFiltro h2{
+	text-align: left;
+
+}
+.descripcionFiltro p{
+	text-align: left;
+}
+.descripcionFiltro .boton-verde{
+	padding: 12px;
+	font-size: 12px;
+	padding-left: 25px;
+	padding-right: 25px;	
 }
