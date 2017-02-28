@@ -146,7 +146,7 @@
                       <a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/siniestros-salud/" data-original-title="" title="">Salud</a>
                     </li>
                     <li>
-                      <a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/siniestro-persona/" data-original-title="" title="">Seguros Indemnizatorios</a>
+                      <a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/seguro-indemnizatorio/" data-original-title="" title="">Seguros Indemnizatorios</a>
                     </li>
                   </ul>
                 </div>
@@ -211,9 +211,9 @@
           <ul class="dropdown-menu">
             <li><a class="text-center" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/gastos-medicos-mayores/">Gastos Médicos Mayores</a>
             </li>
-            <li><a class="text-center" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/siniestro-persona/">Salud</a>
+            <li><a class="text-center" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/siniestros-salud/">Salud</a>
             </li>
-            <li><a class="text-center" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/siniestro-persona/">Seguros Indemnizatorios</a>
+            <li><a class="text-center" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/seguro-indemnizatorio/">Seguros Indemnizatorios</a>
             </li>
           </ul>
         </li>

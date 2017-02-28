@@ -1364,3 +1364,14 @@ h2.h1izq:before , .descripcionFiltro h2:before{
 	padding-left: 25px;
 	padding-right: 25px;	
 }
+.filtro .glyphicon{
+	font-size: 20px;
+	color:#094FA4;
+}
+.filtro h2 {
+	text-align: left;
+}
+.filtro h2 span{
+	color: #333;
+	font-size: 12px;	
+}
