@@ -38,15 +38,15 @@ get_header(); ?>
 							?>
 
 			        	<div class="col-xs-12 col-md-4 text-left">
-			        		<p class="infop"><span class="circle"><?php echo $i; ?></span> <?php  the_sub_field('descripcion_img'); ?></p>
-			        		
-				        	<img class="img-responsive" style="margin: 0 auto;" src="<?php the_sub_field('imagen_info'); ?>" alt="">
+			        		<span class="circle"><?php echo $i; ?></span>
+				        	<img class="img-responsive" style="margin: 25px auto;" src="<?php the_sub_field('imagen_info'); ?>" alt="">
 				            <div class="col-md-12 text-justify">
+				            	<p class="infop"> <?php  the_sub_field('descripcion_img'); ?></p>
 				            	<p class="pSinPer"></p>
 				            </div>
 				        </div>
 						<?php if ($j == 3) {
-							echo '<div class="col-md-12"><hr class="lineaGlosa"></div>';
+							echo '<div class="col-md-12" style="padding-bottom: 20px;"><hr class="lineaGlosa"></div>';
 						$j = 0;
 						} ?>
 			        <?php
