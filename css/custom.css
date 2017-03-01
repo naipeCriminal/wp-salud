@@ -254,6 +254,7 @@ a{
 	font-size: 17px;	
 	border: none;
 	font-family: 'bbva-regular' ;
+	margin-bottom: 15px;
 }
 .boton-verde:hover{
 	background: #489d01;
@@ -291,7 +292,8 @@ a{
 	padding-right: 30px;
 	font-size: 17px;
 	color: #ffffff;	
-	font-family: 'bbva-regular';		
+	font-family: 'bbva-regular';
+	margin-bottom: 15px;		
 }
 .boton-azul:hover{
 	background: #0069b1;
