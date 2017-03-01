@@ -23,7 +23,7 @@
         <li><a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/oficinas-de-atencion-gmm-y-salud-2/">Oficinas de Atención (GMM y Salud)</a></li>
         <li><a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/solicitud-de-alta-gmm-familiar-2/">Solicitud de Alta GMM Familiar</a></li>
         <li><a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/solicitud-de-cambios-2/">Solicitud de cambios</a></li>
-        <li><a target="_BLANK" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/lista-Medicamentos.pdf">Lista de medicamentos</a></li>
+        <li><a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/lista-de-medicamentos/">Lista de medicamentos</a></li>
       </ul>
     </div>
     <div class="col-md-4 col-xs-6 infoAyuda">
