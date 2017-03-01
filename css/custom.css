@@ -1375,3 +1375,8 @@ h2.h1izq:before , .descripcionFiltro h2:before{
 	color: #333;
 	font-size: 12px;	
 }
+.infop{
+	height:270px;
+	text-align: justify;
+	line-height: 30px;	
+}

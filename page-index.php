@@ -21,7 +21,6 @@ get_header(); ?>
 ?>
         
 <?php if( have_rows('slider-ind') ): ?>
-  <div class="row" style="background: #f2f2f2;">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner" role="listbox" style="margin-bottom: -20px;">
 
@@ -43,16 +42,17 @@ get_header(); ?>
 
 
 	</div>
-	
-	<div class="" style="background-color: #f2f2f2;background:url('https://www.segurodeautobancomer.com/wp-content/uploads/2016/10/img_bar_index_.png');background-repeat: no-repeat;background-position: center;margin-top:20px;">
+
+	<div class="backgris col-md-12 col-xs-12 text-center" style="background-color: #f2f2f2;background:url('https://www.segurodeautobancomer.com/wp-content/uploads/2016/10/img_bar_index_.png');background-repeat: no-repeat;background-position: center;margin-top:20px;">
 		<div class="row">
-		  <div class="col-md-12 col-xs-12 text-center">
+		  
 		    <h1 class="titlebottomslider">Seguro salud Bancomer</h1>
-		  </div>
+		  
 		</div>
+
+		
 	</div>	
 
-</div>
 <div style="background: #f2f2f2;width: 100%;padding-bottom: 15px;">
 	<div class="container">
 		<div class="row imageIndex">
