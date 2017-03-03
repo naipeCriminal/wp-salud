@@ -86,7 +86,7 @@ get_header(); ?>
 				<p class="text-center">Acuda al hospital que corresponda a su seguro contratado para ser atendido y llame a los siguientes teléfonos en cuanto le sea posible.</p>
 			</div>
 			<div class="row segurocontac row-centered">
-              <div class="col-md-4 linearight col-centered">
+              <div class="col-md-4 linearight col-centered col-centered-2">
 		        <table class="tablecontact">
 		          <tbody><tr>
 			          <td><span class="icono df"></span></td>

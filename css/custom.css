@@ -1232,6 +1232,14 @@ table.tablecontact{
 }
 .col-centered {
     display:inline-block;
+    /*float:none;*/
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+.col-centered-2{
+	display:inline-block;
     float:none;
     /* reset the text-align */
     text-align:left;
@@ -1245,6 +1253,10 @@ table.tablecontact{
     left: 0px;	
 }
 .col-centered span.icono.df{
+	background-image: url('http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/02/icn_45.png');
+	background-repeat: no-repeat;
+}
+.col-centered.col-centered-2 span.icono.df{
 	background-image: url('http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/02/icn_45.png');
 	background-repeat: no-repeat;
 }
@@ -1280,14 +1292,6 @@ span.circle{
     width: 18px;
     height: 18px;
 }
-.requeriments ul.boulets-only li{
-	text-align: center;
-	list-style: none;
-}
-.requeriments ul.boulets-only li:before{
-	content: '• ';
-}
-
 .slider-filtro{
 	padding-bottom: 30px;
 	padding-top: 30px;
@@ -1379,4 +1383,8 @@ h2.h1izq:before , .descripcionFiltro h2:before{
 .infop{
 	text-align: justify;
 	line-height: 30px;
+}
+.formDirectorio{
+	border: 1px solid #094FA4;
+    border-radius: 25px;
 }

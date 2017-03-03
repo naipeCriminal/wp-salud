@@ -76,15 +76,15 @@ get_header(); ?>
     <div class="container">
       <div class="row">
     <div class="requeriments">
-      <h1 class="tituloPaginas">Requerimientos y modalidades para contratar:</h1>
+      <h1 class="tituloPaginas text-left">Requerimientos y modalidades para contratar:</h1>
     <?php if(get_field('Requerimientos descripcion')){?>
-    <p class="text-center"><?php the_field('Requerimientos descripcion'); ?></p>
+    <p class="text-left"><?php the_field('Requerimientos descripcion'); ?></p>
     <?php  }?>
     <?php if(get_field('edad_contratacion')){?>
-    <h3 class="text-center" style="font-size: 14px;color:#0f6bda;"><?php the_field('edad_contratacion'); ?></h3>
+    <h3 class="text-left" style="font-size: 14px;color:#0f6bda;"><?php the_field('edad_contratacion'); ?></h3>
     <?php  }?> 
     <?php if(get_field('edad_descripcion')){?>
-    <p class="text-center"><?php the_field('edad_descripcion'); ?></p>
+    <p class="text-left"><?php the_field('edad_descripcion'); ?></p>
     <?php  }?> 
       
     </div>
