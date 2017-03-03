@@ -49,7 +49,9 @@ while ( have_posts() ) : the_post();
     </div>
     <div class="col-md-12 text-center sinGaSa">
       <a href="<?php echo $seccion_link_infografia; ?>"><button class="boton-azul">Ver infografía</button></a>
-      <a href="<?php echo $seccion_link_pdf; ?>"><button class="boton-verde"><img class="icon" src="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/02/icn_pdf.png"> Descargar PDF</button></a>
+      <?php if ($seccion_link_pdf != '') { ?>
+        <a href="<?php echo $seccion_link_pdf; ?>"><button class="boton-verde"><img class="icon" src="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/02/icn_pdf.png"> Descargar PDF</button></a>
+     <?php } ?>
     </div>
   </div>
 </div>
