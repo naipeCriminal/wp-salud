@@ -26,7 +26,7 @@ get_header(); ?>
 		  </div>
 		</div>
 
-<div class="backgris">
+<div class="backgris infografia">
 		<div class="container">
 			<div class="row">
 			    <div class="list-group gallery" style="width: 100%;">
