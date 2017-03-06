@@ -70,7 +70,7 @@ get_header(); ?>
                 <div class="panel-heading" role="tab" id="heading<?php echo $i?>">
                   <h4 class="panel-title">
                     <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse<?php echo $i?>" aria-expanded="true" aria-controls="collapse<?php echo $i?>">
-                      <button class="boton-azul"><?php echo the_sub_field('boton-articulo'); ?></button>
+                      <button class="boton-azul">Leer más</button>
                     </a>
                   </h4>
                 </div>
@@ -84,7 +84,7 @@ get_header(); ?>
                    <h1><?php echo the_sub_field('titulo-articulo'); ?></h1>
                    <?php echo the_sub_field('colla-descripcion'); ?>
                 <div class="col-md-12 text-center">
-                  <a target="_BLANK" href="<?php echo the_sub_field('colla-pdf') ?>"><button class="boton-verde"><img class="icon" src="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/02/icn_pdf.png">Descargar PDF para más información</button></a>
+                  <a target="_BLANK" href="<?php echo the_sub_field('colla-pdf') ?>"><button class="boton-verde"><img class="icon" src="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/02/icn_pdf.png">Descargar PDF</button></a>
                 </div>
               </div>
             </div>
@@ -94,7 +94,7 @@ get_header(); ?>
                 <h1><?php echo $tituloArticulo; ?></h1>
                 <?php echo $collaDescripcion; ?>
                 <div class="col-md-12 text-center">
-                  <a target="_BLANK" href="<?php echo $collaPdf; ?>"><button class="boton-verde"><img class="icon" src="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/02/icn_pdf.png">Descargar PDF para más información</button></a>
+                  <a target="_BLANK" href="<?php echo $collaPdf; ?>"><button class="boton-verde"><img class="icon" src="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/02/icn_pdf.png">Descargar PDF</button></a>
                 </div>
               </div>
             </div>
@@ -133,7 +133,7 @@ get_header(); ?>
                 <div class="panel-heading" role="tab" id="heading<?php echo "a$i"?>">
                   <h4 class="panel-title">
                     <a role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapse<?php echo "a$i"?>" aria-expanded="true" aria-controls="collapse<?php echo "a$i"?>">
-                      <button class="boton-azul"><?php echo the_sub_field('boton-articulo'); ?></button>
+                      <button class="boton-azul">Leer más</button>
                     </a>
                   </h4>
                 </div>
@@ -145,7 +145,7 @@ get_header(); ?>
                    <h1><?php echo the_sub_field('titulo-articulo'); ?></h1>
                    <?php echo the_sub_field('colla-descripcion'); ?>
                 <div class="col-md-12 text-center">
-                  <a target="_BLANK" href="<?php echo the_sub_field('colla-pdf') ?>"><button class="boton-verde"><img class="icon" src="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/02/icn_pdf.png">Descargar PDF para más información</button></a>
+                  <a target="_BLANK" href="<?php echo the_sub_field('colla-pdf') ?>"><button class="boton-verde"><img class="icon" src="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/02/icn_pdf.png">Descargar PDF</button></a>
                 </div>
               </div>
             </div>

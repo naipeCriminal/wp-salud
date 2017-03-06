@@ -29,9 +29,9 @@
 
 <div class="container">
   <ul class="top-menu">
-     <li>
+     <!-- <li>
        <i class="sprite-iconos-bbva sprite-iconos-bbva-ico-ayuda"></i>
-       <a href="#" class="ico-ayuda">Ayuda Bancomer</a></li>     
+       <a href="#" class="ico-ayuda">Ayuda Bancomer</a></li> -->     
      <li>
        <i class="sprite-iconos-bbva sprite-iconos-bbva-ico-lineabbva"></i>
           Contáctanos 5998 5000</li>
