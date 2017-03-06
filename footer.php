@@ -35,10 +35,10 @@
         <li><a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/seguro/seguro-individual-o-familiar-de-gastos-medicos/">Seguro Individual o Familiar de Gastos Médicos</a></li>
         <li><a target="_BLANK" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/Buró-EF.pdf">Buró de Entidades Financieras</a></li>
         <li><a target="_BLANK" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/Buro_de_Entidades-SegurosSalud.pdf">Buró de Entidades Financieras SegurosSalud</a></li>
-        <li><a target="_BLANK" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/condiciones-generales/">Condiciones Generales</a></li>
+        <li><a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/condiciones-generales/">Condiciones Generales</a></li>
         <li><a target="_BLANK" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2016/12/Derechos-ARCO.pdf">Derechos ARCO</a></li>
         <li><a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/glosario/">Glosario de términos</a></li>
-        <li><a target="_BLANK" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/legal/">Legal</a></li>
+        <li><a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/legal/">Legal</a></li>
         <li><a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/une-2/">UNE</a></li>
       </ul>
     </div>
