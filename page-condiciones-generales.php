@@ -15,7 +15,12 @@ get_header(); ?>
 	
 <div class="backgris">
 	<div class="container">
-		<div class="row">
+		<div class="row migas">
+			<div class="col-md-12">
+				<p><a href="#">Seguros </a>> Condiciones Generales</p>
+			</div>
+		</div>
+		<div class="row gmmCabecera">
 			<div class="col-md-8">
 				<?php while ( have_posts() ) : the_post(); ?>
 
