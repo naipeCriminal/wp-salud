@@ -247,11 +247,11 @@ a{
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#59c000', endColorstr='#499900', GradientType=0);
     border: 1px solid #499900;
     color: #fff;
-	padding: 5px;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding: 8px;
+	padding-left: 25px;
+	padding-right: 25px;
 	text-shadow: none;
-	font-size: 17px;	
+	font-size: 12px;	
 	border: none;
 	font-family: 'bbva-regular' ;
 	margin-bottom: 15px;
@@ -267,11 +267,11 @@ a{
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#489d01', endColorstr='#347201', GradientType=0);
     border: 1px solid #245c28;
     color: #fff;
-	padding: 5px;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding: 8px;
+	padding-left: 25px;
+	padding-right: 25px;
 	text-shadow: none;
-	font-size: 17px;	
+	font-size: 12px;	
 	border: none;
 	font-family: 'bbva-regular' ;
 }
@@ -287,10 +287,10 @@ a{
     background: linear-gradient(to bottom,#0079c1 0,#00559d 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0079c1', endColorstr='#00559D', GradientType=0);
     border: 1px solid #00559d;
-	padding: 5px;
-	padding-left: 30px;
-	padding-right: 30px;
-	font-size: 17px;
+	padding: 8px;
+	padding-left: 25px;
+	padding-right: 25px;
+	font-size: 12px;
 	color: #ffffff;	
 	font-family: 'bbva-regular';
 	margin-bottom: 15px;		
@@ -306,10 +306,10 @@ a{
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0069b1', endColorstr='#004b8c', GradientType=0);
     border: 1px solid #003c6f;
 	border: 1px solid #00559d;
-	padding: 5px;
-	padding-left: 30px;
-	padding-right: 30px;
-	font-size: 17px;
+	padding: 8px;
+	padding-left: 25px;
+	padding-right: 25px;
+	font-size: 12px;
 	color: #ffffff;	
 	font-family: 'bbva-regular';
 }
@@ -909,7 +909,6 @@ span.tituloMision{
 	height: 350px;
 }
 .separadortop{
-	margin-bottom: 25px;
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcfcfc+0,d8d8d8+100 */
 background: #fcfcfc; /* Old browsers */
 background: -moz-linear-gradient(left,  #fcfcfc 0%, #d8d8d8 100%); /* FF3.6-15 */
@@ -1272,6 +1271,10 @@ table.tablecontact{
 	background-image: url('http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/02/icn_51.png');
 	background-repeat: no-repeat;
 }
+.col-centered span.icono.ubicacion{
+	background-image: url('#');
+	background-repeat: no-repeat;
+}
 span.circle{
 	padding-top: 10px;
 	padding-bottom: 8px;
@@ -1334,6 +1337,7 @@ li.icon-pdf2:after{
 }
 .backgris{
 	background: #f8f8f8;
+	padding-top: 25px;
 }
 .glyphicon.glyphicon-share-alt.glyOfi{
 	top: 8px;
@@ -1395,4 +1399,8 @@ h2.h1izq:before , .descripcionFiltro h2:before{
 }
 .migas{
 	margin: 25px 0px 25px 0px;
+}
+.rowMargin{
+	margin-top: 35px;
+    margin-bottom: 35px;
 }
