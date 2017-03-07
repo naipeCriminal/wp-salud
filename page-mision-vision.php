@@ -38,17 +38,19 @@ get_header(); ?>
 	</div>
 
 	<div class="row separador separadortop"></div>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="mision">
-					<span class="glyphicon lc glyphicon-globe" aria-hidden="true"><span class="tituloMision">Misión</span></span><hr>
-					<p class="text-justify"><?php echo $mision; ?></p>
-				</div>
+	<div class="container-fluid backgris">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="mision">
+						<span class="glyphicon lc glyphicon-globe" aria-hidden="true"><span class="tituloMision">Misión</span></span><hr>
+						<p class="text-justify"><?php echo $mision; ?></p>
+					</div>
 
-				<div class="mision">
-					<span class="glyphicon lc glyphicon-eye-open" aria-hidden="true"><span class="tituloMision">Visión</span></span><hr>
-					<p><?php echo $vision; ?></p>
+					<div class="mision">
+						<span class="glyphicon lc glyphicon-eye-open" aria-hidden="true"><span class="tituloMision">Visión</span></span><hr>
+						<p><?php echo $vision; ?></p>
+					</div>
 				</div>
 			</div>
 		</div>
