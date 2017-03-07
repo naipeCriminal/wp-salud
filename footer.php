@@ -48,6 +48,7 @@
       <ul>
         <li><a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/informacion-financiera/">Información Financiera</a></li>
         <li><a data-toggle="modal" data-target="#formulario-sale" data-original-title="" title="">¿te llamamos?</a></li>
+        <li><a onclick="myChat()">Chat</a></li>
       </ul>
     </div>   
     </div>
@@ -148,4 +149,11 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
 <script src="<?php echo bloginfo('template_url'); ?>/js/bootstrap.min.js" type="text/javascript"></script>
 <script src="<?php echo bloginfo('template_url'); ?>/js/script.js" type="text/javascript"></script>
-
+<script>
+  function myChat() {
+    var url1 = "htt";
+    var url2 = "p://200.94.70.123/ChatSegBancomer/?nSrvID=2";
+    var url = url1+url2;
+      var myWindow = window.open(url, "", "width=420,height=675");
+  }
+</script>
