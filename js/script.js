@@ -1,15 +1,34 @@
 $(document).on( 'ready' , function() {
+	function clickForm(){
+		console.info('click load');
+		$("#form_iwf5ivsr1488847577288 input[type='radio']").first().trigger('click');			
+	}
+
+	function triggerCheck(){
+		setTimeout(function(){clickForm()},500);		
+	}
+
+	$.getScript( "https://d3l7jhiu2gy1zw.cloudfront.net/lib/bbva-component/core.js" )
+	  .done(function( script, textStatus ) {
+	    triggerCheck();
+	  });
+
+	$("#form_iwf5ivsr1488847577288 input[type=radio]").change(function(){
+		valor = $(this).val();
+		console.info(valor);
+	});
+
 function pantalla(){
   pant = $(window).width();
   //console.info( 'la pantalla mide ' + pant + 'px' );
   if (pant <= 440) {
   	$('.seccionP').css('height','auto');
   	$('.sinBordeIndex p.contenido, .bordeIndex p.contenido').css('height','auto');
-  	$('.tablaGMM').css({'-webkit-box-shadow':'none';'-moz-box-shadow':'none';'box-shadow':'none'})
+  	$('.tablaGMM').css({'-webkit-box-shadow':'none','-moz-box-shadow':'none','box-shadow':'none'});
   }else{
   	$('.sinBordeIndex p.contenido, .bordeIndex p.contenido').css('height','115px');
   	$('.seccionP').css('height','370px');
-  	$('.tablaGMM').css({'-webkit-box-shadow':'0 0 0 2px #0f6bda';'-moz-box-shadow':'0 0 0 2px #0f6bda';'box-shadow':'0 0 0 2px #0f6bda'})
+  	$('.tablaGMM').css({'-webkit-box-shadow':'0 0 0 2px #0f6bda','-moz-box-shadow':'0 0 0 2px #0f6bda','box-shadow':'0 0 0 2px #0f6bda'});
   }
   }	
   pantalla();

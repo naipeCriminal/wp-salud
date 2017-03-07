@@ -53,7 +53,7 @@ get_header(); ?>
 	<a href="<?php echo $seccion1_link; ?>"><button class="boton-azul"><?php echo $seccion1_btn; ?></button></a>
 </div>
 <div class="col-md-6">
-	<a href="<?php echo $seccion1_pdf; ?>"><button class="boton-verde"><img class="icon" src="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/02/icn_pdf.png">Descargar PDF</button></a>
+	<a href="<?php echo $seccion1_pdf; ?>"><button class="boton-verde"><img class="icon" src="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/02/icn_pdf.png"> Mayor Información</button></a>
 </div>
 <div>
 </div>
@@ -67,7 +67,7 @@ get_header(); ?>
 	<a href="<?php echo $seccion2_link; ?>"><button class="boton-azul"><?php echo $seccion2_btn; ?></button></a>
 </div>
 <div class="col-md-6">
-	<a href="<?php echo $seccion2_pdf; ?>"><button class="boton-verde"><img class="icon" src="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/02/icn_pdf.png">Descargar PDF</button>
+	<a href="<?php echo $seccion2_pdf; ?>"><button class="boton-verde"><img class="icon" src="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/02/icn_pdf.png"> Mayor Información</button>
 </div>
 </div>
 </div>
