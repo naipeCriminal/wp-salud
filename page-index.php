@@ -53,7 +53,7 @@ get_header(); ?>
 		
 	</div>	
 
-<div style="background: #f2f2f2;width: 100%;padding-bottom: 15px;">
+<div class="backgris">
 	<div class="container">
 		<div class="row imageIndex">
 	  		<div class="col-md-6">
@@ -70,7 +70,8 @@ get_header(); ?>
 		</div>
   	</div>
 </div>
-<div class="container">
+<div class="backgris">
+	<div class="container">
 	<div class="row">
 		<div class="col-md-12 ">
 			<h1 class="tituloPaginas">Nuestros Productos</h1>
@@ -121,4 +122,5 @@ get_header(); ?>
 		the_content();
 		endwhile;
 		?>
+</div>
 <?php get_footer(); ?>
