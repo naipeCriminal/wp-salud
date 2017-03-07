@@ -1272,7 +1272,7 @@ table.tablecontact{
 	background-repeat: no-repeat;
 }
 .col-centered span.icono.ubicacion{
-	background-image: url('#');
+	background-image: url('http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/03/icn_41.png');
 	background-repeat: no-repeat;
 }
 span.circle{
@@ -1319,6 +1319,7 @@ li.icon-pdf:before{
 	top: 0px;
     width: 18px;
     height: 18px;
+    margin-right: 4px;
 }
 li.icon-pdf2{
 	list-style-image: none;
