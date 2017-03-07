@@ -27,7 +27,7 @@ get_header(); ?>
       <div class="col-md-6 text-left">
         <h1 class="h1izq"><?php the_title(); ?></h1>
         <p><?php the_content(); ?></p>
-        <a href="#benef"><button class="boton-verde">Conóce Beneficios</button></a>
+        <a href="#benef"><button class="boton-verde">Cotizar ahora</button></a>
       </div>
     </div>
   </div>
