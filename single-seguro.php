@@ -61,6 +61,21 @@ get_header(); ?>
     </div>
   <?php } ?>
 
+  <div class="row">
+    <?php
+        if( have_rows('imagen-tabla') ):
+        while ( have_rows('imagen-tabla') ) : the_row(); 
+        ?>
+    <div class="col-md-12 col-xs-12 text-center">
+      <img class="hidden-xs hidden-sm" src="<?php the_sub_field('imagen'); ?>">
+      <img class="img-responsive visible-xs visible-sm" src="<?php the_sub_field('imagen'); ?>">
+    </div>
+    <?php
+    endwhile;
+      endif;
+      ?>
+  </div>
+
 
   </div>
 </div>  
