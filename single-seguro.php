@@ -61,7 +61,7 @@ get_header(); ?>
     </div>
   <?php } ?>
 
-  <div class="row">
+  <div class="row" style="margin-right: 0px; margin-left: 0px;">
     <?php
         if( have_rows('imagen-tabla') ):
         while ( have_rows('imagen-tabla') ) : the_row(); 
