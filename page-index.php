@@ -46,7 +46,7 @@ get_header(); ?>
 	<div class="backgris col-md-12 col-xs-12 text-center" style="background-color: #f2f2f2;background:url('https://www.segurodeautobancomer.com/wp-content/uploads/2016/10/img_bar_index_.png');background-repeat: no-repeat;background-position: center;margin-top:20px;">
 		<div class="row">
 		  
-		    <h1 class="titlebottomslider">Seguro salud Bancomer</h1>
+		    <h1 class="titlebottomslider">Seguro Salud Bancomer</h1>
 		  
 		</div>
 
