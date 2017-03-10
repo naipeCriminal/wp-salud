@@ -44,7 +44,20 @@ get_header(); ?>
           <h1 class="sumasAseguradas">Sumas Aseguradas</h1>
         </div> 
         <?php the_field('descripcion_resumida_de_ayuda'); ?>
-
+        <div class="row" style="margin-right: 0px; margin-left: 0px;">
+          <?php
+              if( have_rows('imagen-tabla') ):
+              while ( have_rows('imagen-tabla') ) : the_row(); 
+              ?>
+          <div class="col-md-12 col-xs-12 text-center">
+            <img class="hidden-xs hidden-sm" src="<?php the_sub_field('imagen'); ?>">
+            <img class="img-responsive visible-xs visible-sm" src="<?php the_sub_field('imagen'); ?>">
+          </div>
+          <?php
+          endwhile;
+            endif;
+            ?>
+        </div>
 
       </div>
     </div>
@@ -61,20 +74,7 @@ get_header(); ?>
     </div>
   <?php } ?>
 
-  <div class="row" style="margin-right: 0px; margin-left: 0px;">
-    <?php
-        if( have_rows('imagen-tabla') ):
-        while ( have_rows('imagen-tabla') ) : the_row(); 
-        ?>
-    <div class="col-md-12 col-xs-12 text-center">
-      <img class="hidden-xs hidden-sm" src="<?php the_sub_field('imagen'); ?>">
-      <img class="img-responsive visible-xs visible-sm" src="<?php the_sub_field('imagen'); ?>">
-    </div>
-    <?php
-    endwhile;
-      endif;
-      ?>
-  </div>
+  
 
 
   </div>
