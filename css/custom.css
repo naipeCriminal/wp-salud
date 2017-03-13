@@ -252,9 +252,9 @@ a{
 	padding-right: 25px;
 	text-shadow: none;
 	font-size: 12px;	
-	-webkit-border-radius: 2px;
-	-moz-border-radius: 2px;
-	border-radius: 2px;
+	border-radius: 2px 2px 2px 2px;
+	-moz-border-radius: 2px 2px 2px 2px;
+	-webkit-border-radius: 2px 2px 2px 2px;
 	font-family: 'bbva-regular' ;
 	margin-bottom: 15px;
 }
@@ -274,9 +274,9 @@ a{
 	padding-right: 25px;
 	text-shadow: none;
 	font-size: 12px;	
-	-webkit-border-radius: 2px;
-	-moz-border-radius: 2px;
-	border-radius: 2px;
+	border-radius: 2px 2px 2px 2px;
+	-moz-border-radius: 2px 2px 2px 2px;
+	-webkit-border-radius: 2px 2px 2px 2px;
 	font-family: 'bbva-regular' ;
 }
 .boton-verde:focus{
@@ -298,9 +298,9 @@ a{
 	color: #ffffff;	
 	font-family: 'bbva-regular';
 	margin-bottom: 15px;
-	-webkit-border-radius: 2px;
-	-moz-border-radius: 2px;
-	border-radius: 2px;		
+	border-radius: 2px 2px 2px 2px;
+	-moz-border-radius: 2px 2px 2px 2px;
+	-webkit-border-radius: 2px 2px 2px 2px;
 }
 .boton-azul:hover{
 	background: #0069b1;
@@ -319,9 +319,9 @@ a{
 	font-size: 12px;
 	color: #ffffff;	
 	font-family: 'bbva-regular';
-	-webkit-border-radius: 2px;
-	-moz-border-radius: 2px;
-	border-radius: 2px;
+	border-radius: 2px 2px 2px 2px;
+	-moz-border-radius: 2px 2px 2px 2px;
+	-webkit-border-radius: 2px 2px 2px 2px;
 }
 .bnt-slider:hover{
 	background: url('https://www.segurodeautobancomer.com/wp-content/uploads/2016/10/bg_btn_green.png');
@@ -334,9 +334,9 @@ a{
 }
 .btn{
 	font-size: 17px !important;
--webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;		
+border-radius: 4px 4px 4px 4px;
+-moz-border-radius: 4px 4px 4px 4px;
+-webkit-border-radius: 4px 4px 4px 4px;
 }
 .steps .text-center{
 	padding: 15px;
@@ -364,9 +364,9 @@ a{
 	padding-right: 15px;
 	color: #094FA4;	
 	font-family: 'bbva-regular';
--webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;		
+	border-radius: 4px 4px 4px 4px;
+	-moz-border-radius: 4px 4px 4px 4px;
+	-webkit-border-radius: 4px 4px 4px 4px;	
 }
 .azulbarra{
 	background: url('https://www.segurodeautobancomer.com/wp-content/uploads/2016/10/img_bar_index-2.png');
