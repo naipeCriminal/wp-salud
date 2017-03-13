@@ -1,22 +1,26 @@
 $(document).on( 'ready' , function() {
 	function clickForm(){
 		console.info('click load');
-		$("#form_iwf5ivsr1488847577288 input[type='radio']").first().trigger('click');			
+		$("#form_iwf5ivsr1488847577288 input[type='radio']").last().trigger('click');
+		$("#form_iwf5ivsr1488847577288 input[type=radio]").change(function(){
+			valor = $(this).val();
+			console.info(valor);
+			if (valor == 'ahora') {
+				$('#form_iwf5ivsr1488847577288 .hr').parent().fadeOut();
+			}else{
+				$('#form_iwf5ivsr1488847577288 .hr').parent().fadeIn();
+			}
+		});		
 	}
 
 	function triggerCheck(){
-		setTimeout(function(){clickForm()},500);		
+		setTimeout(function(){clickForm()},1500);		
 	}
 
 	$.getScript( "https://d3l7jhiu2gy1zw.cloudfront.net/lib/bbva-component/core.js" )
 	  .done(function( script, textStatus ) {
 	    triggerCheck();
 	  });
-
-	$("#form_iwf5ivsr1488847577288 input[type=radio]").change(function(){
-		valor = $(this).val();
-		console.info(valor);
-	});
 
 function pantalla(){
   pant = $(window).width();
