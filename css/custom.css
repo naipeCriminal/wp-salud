@@ -896,13 +896,9 @@ button{
 	padding: 1px 0px 1px 15px;
 }
 ul li{
-	list-style-image: url('http://d3ghvh1f861wyu.cloudfront.net/wp-content/uploads/2016/12/icono_ok.png');
 	text-align: left;
 }
 /*Termina estilos index 2*/
-button{
-	border:none;
-}
 /* mision vision*/
 span.tituloMision{
 	padding-left: 10px;
