@@ -38,25 +38,31 @@ while ( have_posts() ) : the_post();
   </div>
 </div>
 <div class="row separador separadortop"></div>
-<div class="container">
+<div class="container-fluid backgris">
+  <div class="container">
   <div class="row">
     <div class="col-md-12">
-      <h2><?php echo $titulo_central; ?></h2>
+      <h2 class="text-left"><?php echo $titulo_central; ?></h2>
     </div>
     <div class="col-md-12 sinGaSa">
       <p><?php echo $descripcion_central; ?></p>
-<?php echo $contenido_central; ?>
+        <?php echo $contenido_central; ?>
     </div>
-    <div class="col-md-12 text-center sinGaSa">
-      <a href="<?php echo $seccion_link_infografia; ?>"><button class="boton-azul">Ver infografía</button></a>
+    <div class="col-md-6 col-md-offset-3 sinGaSa">
+      <div class="col-md-5">
+        <a href="<?php echo $seccion_link_infografia; ?>"><button class="boton-azul">Ver infografía</button></a>
+      </div>
       <?php if ($seccion_link_pdf != '') { ?>
-        <a href="<?php echo $seccion_link_pdf; ?>"><button class="boton-verde"><img class="icon" src="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/02/icn_pdf.png"> Mayor Información</button></a>
+        <div class="col-md-6">
+          <a href="<?php echo $seccion_link_pdf; ?>"><button class="boton-verde"><img class="icon" src="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/02/icn_pdf.png"> Mayor Información</button></a>
+        </div>
      <?php } ?>
     </div>
   </div>
 </div>
+</div>
 
-<div style="background: #f2f2f2;">
+
 <div class="container">
   <div class="row">
     <div class="col-md-12 text-center">
@@ -102,6 +108,5 @@ endif;
     </div>
   </div>
 </div>  
-</div>
 <?php endwhile ?>
 <?php get_footer(); ?>
