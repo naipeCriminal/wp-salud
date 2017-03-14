@@ -29,13 +29,10 @@
 
 <div class="container">
   <ul class="top-menu">
-     <!-- <li>
+     <li>
        <i class="sprite-iconos-bbva sprite-iconos-bbva-ico-ayuda"></i>
-       <a href="#" class="ico-ayuda">Ayuda Bancomer</a></li> --> 
-      <li>
-        <i class="sprite-iconos-bbva sprite-iconos-bbva-ico-oficinas"></i>
-        <a onclick="myChat()">Chat</a>
-      </li>    
+       <a href="#" class="ico-ayuda">Ayuda Bancomer</a></li>    
+     <li><i class="sprite-iconos-bbva sprite-iconos-bbva-ico-oficinas"></i> <a target="_BLANK" href="https://sucursales.mapdata.com.mx/" rel="lightbox;975;508" class="ico-oficinas" title="" id="lb_0" data-original-title="">Oficinas y Cajeros</a></li>
      <li>
        <i class="sprite-iconos-bbva sprite-iconos-bbva-ico-lineabbva"></i>
           Contáctanos 5998 5000</li>

@@ -29,12 +29,12 @@ function pantalla(){
   	$('.seccionP').css('height','auto');
   	$('.sinBordeIndex p.contenido, .bordeIndex p.contenido').css('height','auto');
   	$('.tablaGMM').css({'-webkit-box-shadow':'none','-moz-box-shadow':'none','box-shadow':'none'});
-  	$('.bor').css('height','auto');
+  	$('.bor').css({'height':'auto','border-right':'none'});
   }else{
   	$('.sinBordeIndex p.contenido, .bordeIndex p.contenido').css('height','115px');
   	$('.seccionP').css('height','370px');
   	$('.tablaGMM').css({'-webkit-box-shadow':'0 0 0 2px #0f6bda','-moz-box-shadow':'0 0 0 2px #0f6bda','box-shadow':'0 0 0 2px #0f6bda'});
-  	$('.bor').css({'height':'290px','border-right':'none'});
+  	$('.bor').css('height','290px');
   }
   }	
   pantalla();
