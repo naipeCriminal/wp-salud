@@ -31,7 +31,7 @@ get_header(); ?>
 	<div class="backSiniEmpresa" style="background-image: url('<?php echo $imgDestacada; ?>');background-size: cover;">
 	  <div class="container">
 	    <div class="row">
-	      <div class="col-md-8">
+	      <div class="col-md-6">
 	      <h1><?php the_title(); ?></h1>
 	      <p><?php the_content(); ?></p>
 	    </div>

@@ -247,7 +247,7 @@ a{
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#59c000', endColorstr='#499900', GradientType=0);
     border: 1px solid #499900;
     color: #fff;
-	padding: 8px;
+	padding: 6px;
 	padding-left: 25px;
 	padding-right: 25px;
 	text-shadow: none;
@@ -269,7 +269,7 @@ a{
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#489d01', endColorstr='#347201', GradientType=0);
     border: 1px solid #245c28;
     color: #fff;
-	padding: 8px;
+	padding: 6px;
 	padding-left: 25px;
 	padding-right: 25px;
 	text-shadow: none;
@@ -291,7 +291,7 @@ a{
     background: linear-gradient(to bottom,#0079c1 0,#00559d 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0079c1', endColorstr='#00559D', GradientType=0);
     border: 1px solid #00559d;
-	padding: 8px;
+	padding: 7px;
 	padding-left: 25px;
 	padding-right: 25px;
 	font-size: 12px;
@@ -313,7 +313,7 @@ a{
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0069b1', endColorstr='#004b8c', GradientType=0);
     border: 1px solid #003c6f;
 	border: 1px solid #00559d;
-	padding: 8px;
+	padding: 7px;
 	padding-left: 25px;
 	padding-right: 25px;
 	font-size: 12px;

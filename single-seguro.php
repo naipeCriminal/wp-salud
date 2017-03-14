@@ -66,7 +66,7 @@ get_header(); ?>
   <?php if(get_field('planes_y_coberturas') ){ ?>
     <div class="col-md-12">
       <div class="col-md-12">
-        <h1>Planes y Coberturas</h1>
+        <h1>Coberturas Opcionales</h1>
       </div>
       <div class="col-md-12 flag">
         <?php the_field('planes_y_coberturas'); ?>
