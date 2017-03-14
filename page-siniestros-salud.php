@@ -75,7 +75,7 @@ while ( have_posts() ) : the_post();
 
 // check if the repeater field has rows of data
 if( have_rows('formatos') ):
-
+    $i=1;
   // loop through the rows of data
     while ( have_rows('formatos') ) : the_row();
  ?>
@@ -84,7 +84,9 @@ if( have_rows('formatos') ):
         <div class="col-md-12 text-center">
           <img src="<?php the_sub_field('img_formato'); ?>">
         </div>
-        <div class="col-md-12 bor">
+        <div class="col-md-12 <?php if ($i != 3): echo "bor"; ?>
+          
+        <?php endif ?>">
           <div class="col-md-12 text-center">
             <h2><?php the_sub_field('titulo_formato'); ?></h2>
           </div>
@@ -95,6 +97,7 @@ if( have_rows('formatos') ):
       </div>
 
 <?php 
+  $i++;
     endwhile;
 
 else :
