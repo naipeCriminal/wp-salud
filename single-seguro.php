@@ -83,15 +83,17 @@ get_header(); ?>
 <div id="benef" class="container-fluid" style="background: rgba(137, 209, 243, 0.1);padding-top: 40px;padding-bottom: 40px;">
 <div class="container">
   <div class="row">
-        <h2 class="h1izq">Beneficios:</h2>
-        <?php if( get_field('beneficios') ): the_field('beneficios'); endif; ?>    
+    <div class="col-md-12">
+      <h2 class="h1izq">Beneficios:</h2>
+        <?php if( get_field('beneficios') ): the_field('beneficios'); endif; ?>
+    </div>    
   </div>  
 </div>
 </div>
 <div class="backgris">
     <div class="container">
       <div class="row">
-    <div class="requeriments">
+    <div class="col-xs-12 requeriments">
       <h1 class="tituloPaginas text-left">Requerimientos y modalidades para contratar:</h1>
     <?php if(get_field('Requerimientos descripcion')){?>
     <p class="text-left"><?php the_field('Requerimientos descripcion'); ?></p>
@@ -108,7 +110,7 @@ get_header(); ?>
     </div>
     <div class="container">
     <div class="row segurocontac row-centered">
-          <?php if(get_field('telefono-zona-metropolitana') or get_field('telefono-interior-republica')){ ?>
+        <?php if(get_field('telefono-zona-metropolitana') or get_field('telefono-interior-republica')){ ?>
             <div class="col-md-3 linearight col-centered">
               <table class="tablecontact">
               <tr>
@@ -165,8 +167,7 @@ get_header(); ?>
               </tr>
               </table>
             </div>
-          <?php  }?>     
-      
+          <?php  }?>  
     </div>
 
     </div>  
