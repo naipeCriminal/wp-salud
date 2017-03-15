@@ -80,7 +80,6 @@ get_header(); ?>
   </div>
 </div>  
 </div>
-<div id="benef" class="container-fluid" style="background: rgba(137, 209, 243, 0.1);padding-top: 40px;padding-bottom: 40px;">
 <div class="container">
   <div class="row">
     <div class="col-md-12">
@@ -89,8 +88,7 @@ get_header(); ?>
     </div>    
   </div>  
 </div>
-</div>
-<div class="backgris">
+<div id="benef" class="container-fluid" style="background: rgba(137, 209, 243, 0.1);padding-top: 40px;padding-bottom: 40px;">
     <div class="container">
       <div class="row">
     <div class="col-xs-12 requeriments">
@@ -99,7 +97,7 @@ get_header(); ?>
     <p class="text-left"><?php the_field('Requerimientos descripcion'); ?></p>
     <?php  }?>
     <?php if(get_field('edad_contratacion')){?>
-    <h3 class="text-left" style="font-size: 14px;color:#0f6bda;"><?php the_field('edad_contratacion'); ?></h3>
+    <h3 class="text-left" style="font-size: 14px;color:#08c;"><?php the_field('edad_contratacion'); ?></h3>
     <?php  }?> 
     <?php if(get_field('edad_descripcion')){?>
     <p class="text-left"><?php the_field('edad_descripcion'); ?></p>

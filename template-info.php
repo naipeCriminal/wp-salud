@@ -48,7 +48,7 @@ get_header(); ?>
 				            </div>
 				        </div>
 						<?php if ($j == 3) {
-							echo '<div class="col-md-12" style="padding-bottom: 20px;"><hr class="lineaGlosa"></div>';
+							echo '<div class="col-md-12" style="padding-bottom: 20px;"><hr></div>';
 						$j = 0;
 						} ?>
 			        <?php
