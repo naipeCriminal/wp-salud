@@ -15,7 +15,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">  
 </head>
-  <link rel="shortcut icon" href="https://www.segurodeautobancomer.com/wp-content/uploads/2016/10/favicon.png">
+  <link rel="shortcut icon" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/03/favicon.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
   <link rel="stylesheet" href="<?php echo bloginfo('template_url'); ?>/css/bootstrap.css">
   <link rel="stylesheet" href="<?php echo bloginfo('template_url'); ?>/css/custom.css">
@@ -35,12 +35,12 @@
      <li><i class="sprite-iconos-bbva sprite-iconos-bbva-ico-oficinas"></i> <a target="_BLANK" href="https://sucursales.mapdata.com.mx/" rel="lightbox;975;508" class="ico-oficinas" title="" id="lb_0" data-original-title="">Oficinas y Cajeros</a></li>
      <li>
        <i class="sprite-iconos-bbva sprite-iconos-bbva-ico-lineabbva"></i>
-          Contáctanos 5998 5000</li>
+          <a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/contacto/">Contáctanos</a></li>
   </ul>
         
   <div class="logo-container">
     <a class="navbar-trigger">&nbsp;</a>  
-    <a href="/" class="logo-cabecera"><img height="90" class="hidden-xs" src="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/01/logo_seguro_salud.png"></a>
+    <a href="/" class="logo-cabecera"><img height="90" class="hidden-xs" src="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/03/logo_seguros_salud.png"></a>
   </div>
   
   <!-- color bar -->
