@@ -8,7 +8,8 @@ get_header(); ?>
 <?php 
 	$subtituloInfo = get_field('h2_subtitulo');
 ?>
-       <div class="container">
+       <div class="backgris">
+       	<div class="container">
 		  <div class="row">
 		    <div class="col-md-12">
 		    	<?php 
@@ -25,6 +26,7 @@ get_header(); ?>
 		    </div>
 		  </div>
 		</div>
+       </div>
 
 <div class="backgris infografia">
 		<div class="container">
@@ -65,7 +67,7 @@ get_header(); ?>
 							while ( have_rows('pdf') ) : the_row(); 
 							?>
 					<div class="col-md-4 col-xs-12 text-center">
-						<a target="_BLANK" style="border: 1px solid #094FA4;" class="btn btn-default" href="<?php  the_sub_field('filepdf'); ?>"><img class="icon" src="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/02/icn_pdf_blue.png"><?php  the_sub_field('nombre'); ?></a>
+						<a target="_BLANK" style="border: 1px solid #006EC1;" class="btn btn-default" href="<?php  the_sub_field('filepdf'); ?>"><img class="icon" src="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/02/icn_pdf_blue.png"><?php  the_sub_field('nombre'); ?></a>
 					</div>
 					<?php
 		    		endwhile;
