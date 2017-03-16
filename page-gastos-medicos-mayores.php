@@ -42,7 +42,8 @@ get_header(); ?>
 	</p>
 </div></div></div></div>
 <div class="row separador separadortop"></div>
-<div class="container">
+<div class="backgris">
+	<div class="container">
 <div class="row">
 <div class="col-md-6">
 <h1><?php echo $seccion1_btn; ?></h1>
@@ -78,6 +79,7 @@ get_header(); ?>
 <div class="row gmmCabecera">
 <div class="col-md-12">
 	<?php echo $textoExtra; ?>
+</div>
 </div>
 </div>
 </div>

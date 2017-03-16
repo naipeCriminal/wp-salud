@@ -683,14 +683,14 @@ ul.dropdown-menu{
     font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
     content: "\e259";    /* adjust as needed, taken from bootstrap.css */
     float: left;        /* adjust as needed */
-    color: grey;         /* adjust as needed */
+    color: #006EC1;         /* adjust as needed */
     position: relative;
     padding-right: 15px;
 }
 .panel-heading .accordion-toggle:after{
     font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
     float: left;        /* adjust as needed */
-    color: grey;         /* adjust as needed */
+    color: #006EC1;         /* adjust as needed */
 	content: "\e260";    /* adjust as needed, taken from bootstrap.css */
     position: relative;
     padding-right: 15px;	
@@ -700,7 +700,7 @@ ul.dropdown-menu{
     font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
     content: "\e259";    /* adjust as needed, taken from bootstrap.css */
     float: inherit;        /* adjust as needed */
-    color: grey;        /* adjust as needed */
+    color: #006EC1;        /* adjust as needed */
     margin-left: 12px;
     position: absolute;
     font-size: 16px;
@@ -708,7 +708,7 @@ ul.dropdown-menu{
 .flag .panel-heading .accordion-toggle:after{
     font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
     float: inherit;        /* adjust as needed */
-    color: grey;         /* adjust as needed */
+    color: #006EC1;         /* adjust as needed */
 	content: "\e260";    /* adjust as needed, taken from bootstrap.css */
     position: absolute;
     margin-left: 12px;
