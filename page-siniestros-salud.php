@@ -80,7 +80,7 @@ if( have_rows('formatos') ):
     while ( have_rows('formatos') ) : the_row();
  ?>
 
-      <div class="col-md-4">
+      <div class="col-md-4 alSinSalud">
         <div class="col-md-12 text-center">
           <img src="<?php the_sub_field('img_formato'); ?>">
         </div>
