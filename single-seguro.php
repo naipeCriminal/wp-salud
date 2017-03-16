@@ -33,7 +33,7 @@ get_header(); ?>
     </div>
   </div>
 </div>
-
+<div class="row separador separadortop"></div>
 <div class="backgris">
   <div class="container" style="padding-top:30px;padding-bottom:30px;">
     <div class="row">

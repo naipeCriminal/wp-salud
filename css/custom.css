@@ -684,7 +684,7 @@ ul.dropdown-menu{
     content: "\e259";    /* adjust as needed, taken from bootstrap.css */
     float: left;        /* adjust as needed */
     color: grey;         /* adjust as needed */
-    position: absolute;
+    position: relative;
     padding-right: 15px;
 }
 .panel-heading .accordion-toggle:after{
@@ -692,7 +692,7 @@ ul.dropdown-menu{
     float: left;        /* adjust as needed */
     color: grey;         /* adjust as needed */
 	content: "\e260";    /* adjust as needed, taken from bootstrap.css */
-    position: absolute;
+    position: relative;
     padding-right: 15px;	
 }
 .flag .panel-heading .accordion-toggle.collapsed:after {
@@ -1210,6 +1210,10 @@ table.tablaContacto tbody tr td{
 }
 .secSinGa .bor{
 	border-right: 1px solid #ccc;
+	margin-right: -15px;
+    margin-left: 0px;
+    padding-left: 10px;
+    padding-right: 30px;
 }
 .secSinGa .borLeft{
 	border-left: 1px solid #ccc;

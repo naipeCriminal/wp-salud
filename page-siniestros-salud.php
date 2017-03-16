@@ -84,13 +84,13 @@ if( have_rows('formatos') ):
         <div class="col-md-12 text-center">
           <img src="<?php the_sub_field('img_formato'); ?>">
         </div>
-        <div class="col-md-12 <?php if ($i != 3): echo "bor"; ?>
-          
-        <?php endif ?>">
+        <div class="col-md-12">
           <div class="col-md-12 text-center">
             <h2><?php the_sub_field('titulo_formato'); ?></h2>
           </div>
-          <div class="col-md-12 text-justify">
+          <div class="col-md-12 text-justify <?php if ($i != 3): echo "bor"; ?>
+          
+        <?php endif ?>">
             <p><?php the_sub_field('contenido_formato'); ?></p>
           </div>
         </div>
