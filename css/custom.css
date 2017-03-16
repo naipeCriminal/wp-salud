@@ -684,14 +684,16 @@ ul.dropdown-menu{
     content: "\e259";    /* adjust as needed, taken from bootstrap.css */
     float: left;        /* adjust as needed */
     color: grey;         /* adjust as needed */
-
+    position: absolute;
+    padding-right: 15px;
 }
 .panel-heading .accordion-toggle:after{
     font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
     float: left;        /* adjust as needed */
     color: grey;         /* adjust as needed */
 	content: "\e260";    /* adjust as needed, taken from bootstrap.css */
-    position: relative;	
+    position: absolute;
+    padding-right: 15px;	
 }
 .flag .panel-heading .accordion-toggle.collapsed:after {
     /* symbol for "opening" panels */
@@ -1400,7 +1402,7 @@ h2.h1izq:before , .descripcionFiltro h2:before{
 }
 .infop{
 	text-align: justify;
-	line-height: 20px;
+	line-height: 25px;
 	padding: 10px;
     background: #f2f2f2;
 }
