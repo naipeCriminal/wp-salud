@@ -1,4 +1,5 @@
 $(document).on( 'ready' , function() {
+	$('.mp #accordion .panel').last().css('borderBottom','none');
 	function clickForm(){
 		console.info('click load');
 		$("#form_iwf5ivsr1488847577288 input[type='radio']").last().trigger('click');

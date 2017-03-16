@@ -333,10 +333,10 @@ a{
 	background: url('https://www.segurodeautobancomer.com/wp-content/uploads/2016/10/bg_btn_green.png');
 }
 .btn{
-	font-size: 17px !important;
-border-radius: 4px 4px 4px 4px;
--moz-border-radius: 4px 4px 4px 4px;
--webkit-border-radius: 4px 4px 4px 4px;
+	font-size: 14px !important;
+	border-radius: 4px 4px 4px 4px;
+	-moz-border-radius: 4px 4px 4px 4px;
+	-webkit-border-radius: 4px 4px 4px 4px;
 }
 .steps .text-center{
 	padding: 15px;
@@ -717,6 +717,8 @@ ul.dropdown-menu{
 }
 .panel{
 	border-bottom: solid 1px #ddd;
+	-webkit-box-shadow: none;
+    box-shadow: none;
 }
 .panel-default > .panel-heading{
 	background-color: #fff;
@@ -763,7 +765,7 @@ p{
 	text-decoration: none;
 }
 span{
-	color: #094fa4;
+	color: #08c;
 	font-size: 17px;
 }
 .paqueteIndex{
@@ -1043,6 +1045,7 @@ span.spanSubraya{
 /*background para encabezado de siniestro*/
 .backSiniEmpresa{
 	padding: 25px 0px 63px 0px;
+	height: 360px;
 }
 /*termina background para encabezado de siniestro*/
 /*Comienza estilos de pagina reembolso*/
@@ -1169,7 +1172,7 @@ table.tablaGMM td:nth-child(even) {
 }
 span.resaltar-correo{
 	font-size: 9px !important;
-	color:#094fa4 !important;
+	color: #08c !important;
 }
 .tablaContacto{
 	margin-top: 30px;
