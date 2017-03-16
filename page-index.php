@@ -100,11 +100,11 @@ get_header(); ?>
 	</div>
 	<div class="row" style="padding: 25px;">
 		<div class="col-md-12 text-center visible-xs">
-			<a style="border: 1px solid #094FA4;" class="btn btn-default" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/medicina-preventiva" role="button">Medicina Preventiva: <br /> Previene y Asesórate
+			<a style="border: 1px solid #006EC1;" class="btn btn-default" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/medicina-preventiva" role="button">Medicina Preventiva: <br /> Previene y Asesórate
 			</a>
 		</div>
 		<div class="col-md-12 text-center hidden-xs">
-			<a style="border: 1px solid #094FA4;" class="btn btn-default" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/medicina-preventiva" role="button">Medicina Preventiva: Previene y Asesórate</a>
+			<a style="border: 1px solid #006EC1;" class="btn btn-default" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/medicina-preventiva" role="button">Medicina Preventiva: Previene y Asesórate</a>
 		</div>		
 	</div>
 	<div class="row">
