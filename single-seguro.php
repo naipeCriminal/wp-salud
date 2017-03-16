@@ -97,7 +97,7 @@ get_header(); ?>
     <p class="text-left"><?php the_field('Requerimientos descripcion'); ?></p>
     <?php  }?>
     <?php if(get_field('edad_contratacion')){?>
-    <h3 class="text-left" style="font-size: 14px;color:#08c;"><?php the_field('edad_contratacion'); ?></h3>
+    <h3 class="text-left" style="font-size: 14px;color:#006EC1;"><?php the_field('edad_contratacion'); ?></h3>
     <?php  }?> 
     <?php if(get_field('edad_descripcion')){?>
     <p class="text-left"><?php the_field('edad_descripcion'); ?></p>
