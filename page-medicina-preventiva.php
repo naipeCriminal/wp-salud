@@ -82,7 +82,7 @@ get_header(); ?>
 
             <div id="collapse<?php echo $i?>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading<?php echo $i?>">
               <div class="panel-body">
-                   <h1><?php echo the_sub_field('titulo-articulo'); ?></h1>
+                   <h1 class="text-center"><?php echo the_sub_field('titulo-articulo'); ?></h1>
                    <?php echo the_sub_field('colla-descripcion'); ?>
                 <div class="col-md-12 rowMargin text-center">
                   <a target="_BLANK" href="<?php echo the_sub_field('colla-pdf') ?>"><button class="boton-verde"><img class="icon" src="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/02/icn_pdf.png">Descargar PDF</button></a>
@@ -92,7 +92,7 @@ get_header(); ?>
             <div id="collapse<?php echo $i-1;?>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading<?php echo $i-1;?>">
               <div class="panel-body">
               <?php ?>
-                <h1><?php echo $tituloArticulo; ?></h1>
+                <h1 class="text-center"><?php echo $tituloArticulo; ?></h1>
                 <?php echo $collaDescripcion; ?>
                 <div class="col-md-12 rowMargin text-center">
                   <a target="_BLANK" href="<?php echo $collaPdf; ?>"><button class="boton-verde"><img class="icon" src="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/02/icn_pdf.png">Descargar PDF</button></a>
