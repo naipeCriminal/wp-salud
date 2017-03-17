@@ -7,6 +7,7 @@ Template Name: template infografia
 get_header(); ?>
 <?php 
 	$subtituloInfo = get_field('h2_subtitulo');
+	$url = get_field('url-anterior');
 ?>
        <div class="backgris">
        	<div class="container">
@@ -15,8 +16,10 @@ get_header(); ?>
 		    	<?php 
 					while ( have_posts() ) : the_post();
 		    	 ?>
-
-		    	<h1 class="text-left"><?php the_title(); ?></h1>
+		    	   	
+		    	<h1 class="text-left"><a href="<?php echo $url; ?>"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style="font-size: 16px;"></span></a>
+           <?php the_title(); ?>
+          </h1>
 		      <h2 class="text-left"><?php echo $subtituloInfo; ?></h2>
 		      <?php
 				// Start the loop.
