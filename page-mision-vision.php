@@ -17,18 +17,29 @@ get_header(); ?>
 	$subtituloMi = get_field('h2-titulo');
 	$mision = get_field('mision');
 	$vision = get_field('vision');
+
+
+
 ?>
 
+
+<?php 
+	// Start the loop.
+	while ( have_posts() ) : the_post();
+    // Ruta de la imagen destacada (tamaño completo)
+    global $post;
+    $thumbID = get_post_thumbnail_id( $post->ID );
+    $imgDestacada = wp_get_attachment_url( $thumbID );    	
+?>
 	
-	<div class="backmision">
+	<div class="backmision" style="background:url('<?php echo $imgDestacada; ?>'); background-size: cover;">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
 					<h1 class="tituloPaginas text-left"><?php echo $tituloMi; ?></h1>
 					<h3 class="text-left subtituliPaginas"><?php echo $subtituloMi; ?></h3>
 					<?php
-					// Start the loop.
-					while ( have_posts() ) : the_post();
+
 					the_content();
 					endwhile;
 					?>

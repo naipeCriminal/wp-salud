@@ -13,7 +13,7 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<?php
 		// Post thumbnail.
-		twentyfifteen_post_thumbnail();
+		#twentyfifteen_post_thumbnail();
 	?>
 
 

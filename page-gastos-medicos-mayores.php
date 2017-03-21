@@ -25,19 +25,24 @@ get_header(); ?>
 	$seccion2_contenido = get_field('seccion2_contenido');
 	$seccion2_link = get_field('seccion2_link');
 	$textoExtra = get_field('texto-adicional');
+    $thumbID = get_post_thumbnail_id( $post->ID );
+    $imgDestacada = wp_get_attachment_url( $thumbID );  	
 
 ?>
-<div class="backmision">
+<?php 
+	// Start the loop.
+	while ( have_posts() ) : the_post();
+
+ ?>
+<div class="backmision" style="background:url('<?php echo $imgDestacada; ?>'); background-size: cover;">
 <div class="container">
 <div class="row">
 <div class="col-md-6">
 <h1 class="tituloPaginas text-left"><?php echo $h1_titulo; ?></h1>
 <h3 class="text-left subtituliPaginas"><?php echo $h2_titulo; ?></h3>
 <p><?php
-		// Start the loop.
-		while ( have_posts() ) : the_post();
+
 		the_content();
-		endwhile;
 		?>
 	</p>
 </div></div></div></div>
@@ -103,4 +108,5 @@ get_header(); ?>
 		</div>
 	</div>
 </div>	
+<?php endwhile; ?>
 <?php get_footer(); ?>
