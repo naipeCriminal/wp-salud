@@ -5,12 +5,14 @@ Template Name: filtro seguro
 ?>
 <?php
 get_header(); ?>
-		<div class="container">		
-			<div class="row">		
-				<div class="col-md-12 filtro">
-					<h2><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><?php the_title(); ?><span> ¡Cónoce los beneficios, uno a uno!</span></h2>		
+		<div class="backgris">
+			<div class="container">		
+				<div class="row">		
+					<div class="col-md-12 filtro">
+						<h2><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><?php the_title(); ?><span> ¡Cónoce los beneficios, uno a uno!</span></h2>		
+					</div>		
 				</div>		
-			</div>		
+			</div>
 		</div>
 		<div class="row separador separadortop" style="margin-bottom:0px;"></div>
 		<?php the_sub_field('imagen_info'); ?>
