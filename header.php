@@ -86,7 +86,7 @@
               </a>
             </li>
             <li class="">
-              <a target="_BLANK" href="http://www.bbvasegurossalud.com.mx/DirectorioMedico/index.asp">
+              <a href="http://www.bbvasegurossalud.com.mx/DirectorioMedico/indexdm.asp">
                 Directorio Médico
               </a>
             </li>
@@ -187,7 +187,7 @@
       <ul class="nav navbar-nav col-md-11">
         <li class="col-md-1 text-center sp"><a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/"><img src="https://www.segurodeautobancomer.com/wp-content/uploads/2016/10/icon_home.png"> </a></li>
         <li class="col-md-3 text-center sp"><a href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/mision-vision/">Misión - Visión</a></li>
-        <li class="col-md-3 text-center sp"><a target="_BLANK" href="http://www.bbvasegurossalud.com.mx/DirectorioMedico/index.asp">Directorio Médico</a></li>
+        <li class="col-md-3 text-center sp"><a href="http://www.bbvasegurossalud.com.mx/DirectorioMedico/indexdm.asp">Directorio Médico</a></li>
         <li class="col-md-3 text-center dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Seguro para personas<span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a class="text-center" href="http://ec2-52-213-166-151.eu-west-1.compute.amazonaws.com/seguro/cirugiasegura-bancomer/">CirugíaSegura Bancomer</a>
