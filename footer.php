@@ -70,7 +70,6 @@
 <div data-component-bbva="form" data-formid="iwf5ivsr1488847577288"></div>
 <!--           <form class="forsales" action="https://na24.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
             <input type="hidden" name="oid" value="00D1a000000IM0D"> <input type="hidden" name="retURL" value="https://www.segurodeautobancomer.com/">
-
  -->
 
             <!--  ----------------------------------------------------------------------  -->

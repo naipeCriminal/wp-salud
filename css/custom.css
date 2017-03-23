@@ -465,7 +465,7 @@ ul.listcobertura li{
 	font-size: 12px;
 	color: #363636;
 	text-transform: uppercase;
-	font-family: 'bbva-regular';
+	font-family: 'arial';
 }
 .footer li span{
 	font-size: 9px;
@@ -474,7 +474,7 @@ ul.listcobertura li{
 .footer li a{
 	color: #666666;
 	font-size: 12px;
-	font-family: 'bbva-regular';
+	font-family: 'arial';
 }
 
 /*Comienza estilo ultimo row de footer*/
