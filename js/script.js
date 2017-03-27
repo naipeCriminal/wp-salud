@@ -31,6 +31,7 @@ function pantalla(){
   	$('.sinBordeIndex p.contenido, .bordeIndex p.contenido').css('height','auto');
   	$('.tablaGMM').css({'-webkit-box-shadow':'none','-moz-box-shadow':'none','box-shadow':'none'});
   	$('.bor').css('border-right','none');
+  	$('.navbar-default .navbar-nav>li>a').css('background','none')
   }else{
   	$('.sinBordeIndex p.contenido, .bordeIndex p.contenido').css('height','115px');
   	$('.seccionP').css('height','370px');
