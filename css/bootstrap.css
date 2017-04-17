@@ -3466,6 +3466,7 @@ tbody.collapse.in {
   border-top: 4px solid \9;
   border-right: 4px solid transparent;
   border-left: 4px solid transparent;
+  color: #FFF;
 }
 .dropup,
 .dropdown {
@@ -4298,6 +4299,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     border: 0;
     -webkit-box-shadow: none;
             box-shadow: none;
+    font-size: 12px;
+    margin-left: 13px;
+    padding: 0px;
   }
   .navbar-nav .open .dropdown-menu > li > a,
   .navbar-nav .open .dropdown-menu .dropdown-header {
